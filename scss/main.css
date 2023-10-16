@@ -37,13 +37,22 @@ body {
 #topbar .topbar_container_slot--img {
   margin: 0 12px;
 }
-#topbar .topbar_container_slot--text p,
+#topbar .topbar_container_slot--text p {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #FFFFFF;
+}
 #topbar .topbar_container_slot--text a {
   font-size: 18px;
   line-height: 18px;
   font-weight: 400;
   text-decoration: none;
   color: #FFFFFF;
+}
+#topbar .topbar_container_slot--text a:hover {
+  color: #333333;
 }
 #topbar .topbar_container_line {
   display: block;
@@ -53,6 +62,11 @@ body {
   margin: 0 0 0 12px;
 }
 
+@media (max-width: 1280px) {
+  #topbar {
+    display: none;
+  }
+}
 header {
   position: relative;
   top: 0;
@@ -751,6 +765,11 @@ footer .footer-container .footer-bottom p {
   text-align: center;
 }
 
+@media (max-width: 1280px) {
+  footer .footer-container {
+    width: 100%;
+  }
+}
 body {
   font-family: "Poppins", sans-serif;
 }

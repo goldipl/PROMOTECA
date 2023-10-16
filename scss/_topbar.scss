@@ -22,13 +22,22 @@
                 margin: 0 12px;
             }
             &--text {
-                p,
+                p {
+                    font-size: 18px;
+                    line-height: 18px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
                 a {
                     font-size: 18px;
                     line-height: 18px;
                     font-weight: 400;
                     text-decoration: none;
                     color: #FFFFFF;
+                    &:hover {
+                        color: #333333;
+                    }
                 }
             }
         }
@@ -39,5 +48,11 @@
             background-color: #FFFFFF;
             margin: 0 0 0 12px;
         }
+    }
+}
+
+@media (max-width: 1280px) {
+    #topbar {
+        display: none;
     }
 }
