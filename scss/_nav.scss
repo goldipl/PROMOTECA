@@ -439,14 +439,16 @@ header {
         }
         .top-nav {
             width: 90vw !important;
+            height: 52px !important;
             &::after {
                 left: -5vw !important;
             }
         }
     }
     header #nav .top-nav .logo img {
-        width: 124px !important;
+        width: 140px !important;
         height: auto !important;
+        margin-top: 8px !important;
     }
     header #nav .bottom-nav .right-container ul li {
         margin-left: 20px !important;
@@ -459,7 +461,7 @@ header {
     header #nav .top-nav .search-bar-wrapper #searchQueryInput {
         display: none !important;
         position: absolute;
-        top: 92px;
+        top: 52px;
         left: 0;
         padding-left: 16px;
         font-size: 14px;
@@ -495,13 +497,13 @@ header {
             outline: none;
             background: #29A8DA !important;
             height: 45px;
-            top: 92px;
+            top: 52px;
         }
     }
     header #nav .top-nav .search-bar-wrapper .mobile_search-btn {
         display: flex !important;
         position: absolute;
-        top: 22px;
+        top: 8px;
         right: 88px;
         svg {
             height: 32px !important;
@@ -639,5 +641,8 @@ header {
         width: 31px;
         height: 31px;
         top: 8px !important;
+    }
+    header #nav .top-nav .hamburger .hamburger-line {
+        margin-right: 12px !important;
     }
 }
