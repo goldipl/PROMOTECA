@@ -24,7 +24,7 @@ header {
             display: flex;
             flex-direction: row;
             align-items: center;
-            width: 80vw;
+            width: 1576px;
             height: 96px;
             margin: 0 auto;
             box-sizing: border-box;
@@ -166,7 +166,7 @@ header {
             flex-direction: row;
             justify-content: flex-start;
             align-items: center;
-            width: 80vw;
+            width: 1576px;
             height: 40px;
             margin: 0 auto;
             box-sizing: border-box;
@@ -178,7 +178,7 @@ header {
                 height: 1px;
                 background-color: #29A8DA;
                 top: 50px;
-                left: -10vw;
+                left: calc(((100vw - 1576px)/2)*(-1));
             }
             .left-container {
                 display: flex;
