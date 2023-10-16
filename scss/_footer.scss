@@ -42,3 +42,29 @@ footer {
         }
     }
 }
+
+@media (max-width: 1280px) {
+    footer {
+        .footer-container {
+            width: 100%;
+            .footer-top {
+                .footer-left-container {
+                    .footer-col {
+    
+                    }
+                }
+                .footer-right-container {
+                    .footer-col {
+    
+                    }
+                }
+            }
+            .footer-bottom {
+
+                p {
+
+                }
+            }
+        }
+    }
+}
