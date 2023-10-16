@@ -26,6 +26,7 @@ footer {
             }
         }
         .footer-bottom {
+            position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -33,11 +34,24 @@ footer {
             color: #FFFFFF;
             height: 54px;
             p {
+                position: relative;
+                z-index: 1;
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 19px;
                 color: #FFFFFF;
                 text-align: center;
+            }
+            &::after {
+                position: absolute;
+                content: "";
+                display: block;
+                width: 100vw;
+                height: 54px;
+                background-color: #333333;
+                top: 0;
+                left: calc(((100vw - 1576px)/2)*(-1));
+                z-index: 0;
             }
         }
     }
@@ -63,6 +77,9 @@ footer {
 
                 p {
 
+                }
+                &::after {
+                    display: none;
                 }
             }
         }
