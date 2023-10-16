@@ -53,6 +53,31 @@
 
 @media (max-width: 1280px) {
     #topbar {
-        display: none;
+        .topbar_container {
+            justify-content: center;
+            width: 100%;
+            &_slot {
+                &--img {
+                    margin: 0 6px;
+                }
+                &--text {
+                    p {
+                        font-size: 10px;
+                        line-height: 10px;
+                    }
+                    a {
+                        font-size: 10px;
+                        line-height: 10px;
+                    }
+                }
+            }
+            &_line {
+                display: block;
+                width: 1px;
+                height: 12px;
+                background-color: #FFFFFF;
+                margin: 0 0 0 12px;
+            }
+        }
     }
 }
