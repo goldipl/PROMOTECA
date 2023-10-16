@@ -758,6 +758,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 }
 
 @media (max-width: 960px) {
+  #swiper .swiper {
+    height: auto;
+  }
   #swiper .swiper.desktop {
     display: none;
   }

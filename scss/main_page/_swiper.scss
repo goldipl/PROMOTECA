@@ -35,6 +35,7 @@
 @media (max-width: 960px) {
     #swiper {
         .swiper {
+            height: auto;
             &.desktop {
                 display: none;
             }
