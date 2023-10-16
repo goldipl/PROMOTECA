@@ -10,6 +10,7 @@
     </head>
     <body class="main">
         <header> 
+            <?php include "./components/topbar.php"; ?> 
             <?php include "./components/nav.php"; ?> 
         </header>
         <div id="main-wrapper">

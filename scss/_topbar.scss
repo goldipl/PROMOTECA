@@ -1,0 +1,43 @@
+#topbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #29A8DA;
+    .topbar_container {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 80vw;
+        height: 45px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        &_slot {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            &--img {
+                margin: 0 12px;
+            }
+            &--text {
+                p,
+                a {
+                    font-size: 18px;
+                    line-height: 18px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        &_line {
+            display: block;
+            width: 1px;
+            height: 12px;
+            background-color: #FFFFFF;
+            margin: 0 0 0 12px;
+        }
+    }
+}
