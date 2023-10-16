@@ -521,9 +521,19 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     top: 92px;
     left: 0;
     padding-left: 16px;
+    font-size: 14px;
+    line-height: 21px;
   }
   header #nav .top-nav .search-bar-wrapper #searchQueryInput.active {
     display: flex !important;
+  }
+  header #nav .top-nav .search-bar-wrapper #searchQueryInput::-moz-placeholder {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  header #nav .top-nav .search-bar-wrapper #searchQueryInput::placeholder {
+    font-size: 14px;
+    line-height: 21px;
   }
   header #nav .top-nav .search-bar-wrapper #searchQuerySubmit {
     display: none !important;
