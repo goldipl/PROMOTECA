@@ -14,10 +14,10 @@
         </header>
         <div id="main-wrapper">
             <?php include "./components/main_page/swiper.php"; ?> 
-            <footer> 
-                <?php include "./components/footer.php"; ?> 
-            </footer>
         </div>
+        <footer> 
+            <?php include "./components/footer.php"; ?> 
+        </footer>
         <script src="./js/mobile_searchbar.js"></script>
         <script src="./js/swiper-bundle.js"></script>
         <script src="./js/swiper.js"></script>
