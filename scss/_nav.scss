@@ -275,14 +275,14 @@ header {
                                     }
                                     &::after {
                                         position: absolute;
-                                        top: 50%;
+                                        top: 10px;
                                         right: 0;
-                                        transform: translateY(-50%);
-                                        background: url("./../assets/icons/breadcrumb-chevron-right.svg") no-repeat;
+                                        transform: rotate(-90deg);
+                                        background: url("./../assets/icons/breadcrumb-chevron-down.svg") no-repeat;
                                         background-position: center;
                                         background-size: contain;
-                                        width: 15px;
-                                        height: 15px;
+                                        width: 12px;
+                                        height: 12px;
                                         margin-right: 16px;
                                     }
                                     &:hover .bottom-nav-sub-sublist {
@@ -295,8 +295,8 @@ header {
                                     }
                                     &:hover::after {
                                         transition: 0.6s;
-                                        transform: rotate(180deg) translateY(50%);
-                                        background: url("./../assets/icons/breadcrumb-chevron-green.svg") no-repeat;
+                                        transform: rotate(90deg);
+                                        background: url("./../assets/icons/breadcrumb-chevron-down.svg") no-repeat;
                                         background-position: center;
                                         background-size: contain;
                                     }
@@ -554,6 +554,7 @@ header {
                         li {
                             padding: 0;
                             padding-left: 16px;
+                            border-bottom: 1px solid #29A8DA;
                             &:last-child {
                                 border-radius: 0;
                             }
