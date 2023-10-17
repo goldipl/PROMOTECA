@@ -50,6 +50,9 @@ p {
 
 section {
     margin: 40px auto 67px auto;
+    &:last-of-type {
+        margin-bottom: 7px;
+    }
 }
 
 h1.mainpage-title {
