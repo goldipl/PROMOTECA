@@ -3,6 +3,7 @@
     position: relative;
     background-color: $grey_background;
     margin-bottom: 0;
+    overflow: hidden;
     .mainpage-title--btn {
         position: absolute;
         top: 72px;
@@ -173,9 +174,11 @@
 }
 
 @media (max-width: 1280px) {
-
-}
-
-@media (max-width: 960px) {
-
+    #recommend {
+        .products_container {
+            overflow-x: scroll;
+            overflow-y: hidden;
+            justify-content: flex-start;
+        }
+    }
 }
