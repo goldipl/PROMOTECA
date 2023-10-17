@@ -63,6 +63,7 @@ header {
                     border: 1px solid #8A8A8A;
                     padding: 0;
                     padding-left: 22px;
+                    padding-right: 56px;
                     &::placeholder {
                         font-family: 'Poppins', sans-serif;
                         color: #484848;
@@ -440,6 +441,7 @@ header {
         .top-nav {
             width: 90vw !important;
             height: 52px !important;
+            margin-left: 16px;
             &::after {
                 left: -5vw !important;
             }
@@ -569,6 +571,7 @@ header {
                             }
                             &.active {
                                 flex-direction: column;
+                                padding-left: 0;
                             }
                         }
                     }
