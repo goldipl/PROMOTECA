@@ -106,7 +106,7 @@ header {
                             font-weight: 400;
                             font-size: 14px;
                             line-height: 122.5%;
-                            color: #333333;
+                            color: $light_black;
                             text-decoration: none;
                             &:hover {
                                 color: $blue_color;
@@ -119,7 +119,7 @@ header {
                             font-weight: 700;
                             font-size: 16px;
                             line-height: 19px;
-                            color: #333333;
+                            color: $light_black;
                             text-decoration: none;
                             &:hover {
                                 color: $blue_color;
@@ -161,7 +161,7 @@ header {
                         font-weight: 700;
                         font-size: 20px;
                         line-height: 24px;
-                        color: #333333;
+                        color: $light_black;
                     }
                 }
                 }
@@ -201,7 +201,7 @@ header {
                         position: relative;
                         list-style: none;
                         text-transform: uppercase;
-                        color: #333333;
+                        color: $light_black;
                         text-shadow: none;
                         font-size: 18px;
                         line-height: 22px;
@@ -263,7 +263,7 @@ header {
                                         font-size: 14px;
                                         line-height: 21px;
                                         text-decoration: none;
-                                        color: #333333;
+                                        color: $light_black;
                                         text-align: left;
                                         &:hover {
                                             text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
@@ -358,7 +358,7 @@ header {
                         list-style: none;
                         margin-left: 40px;
                         text-transform: uppercase;
-                        color: #333333;
+                        color: $light_black;
                         font-weight: 400;
                         font-size: 18px;
                         line-height: 22px;

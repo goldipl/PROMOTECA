@@ -30,7 +30,7 @@ footer {
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #333333;
+            background-color: $light_black;
             color: $white;
             height: 54px;
             p {
@@ -48,7 +48,7 @@ footer {
                 display: block;
                 width: 100vw;
                 height: 54px;
-                background-color: #333333;
+                background-color: $light_black;
                 top: 0;
                 left: calc(((100vw - 1576px)/2)*(-1));
                 z-index: 0;
