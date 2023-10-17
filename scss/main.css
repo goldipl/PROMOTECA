@@ -1153,6 +1153,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     height: auto;
   }
 }
+#blog {
+  position: relative;
+}
+
 footer {
   background-color: #F5F5F5;
   border-top: 1px solid #29A8DA;
