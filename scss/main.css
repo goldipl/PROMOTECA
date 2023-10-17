@@ -812,7 +812,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     display: block;
   }
   #swiper .swiper.mobile .swiper-pagination {
-    bottom: 4px;
+    bottom: 8px;
   }
   #swiper .swiper.mobile .swiper-pagination .swiper-pagination-bullet {
     width: 10px;
