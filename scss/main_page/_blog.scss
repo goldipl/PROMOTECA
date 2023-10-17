@@ -51,8 +51,9 @@
                 border: 1px solid $light_black;
                 margin: 33px auto 27px 0;
                 a {
+                    position: relative;
                     display: flex;
-                    justify-content: center;
+                    justify-content: flex-start;
                     align-items: center;
                     width: 100%;
                     height: 100%;
@@ -60,6 +61,19 @@
                     font-weight: 300;
                     line-height: normal;
                     color: $light_black;
+                    padding-left: 24px;
+                    &::after {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        top: 8px;
+                        right: 16px;
+                        background: url("./../assets/icons/products_block/more_plus.svg");
+                        height: 18px;
+                        width: 18px;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
                 }
                 &:hover {
                     background-color: $blue_color; 
@@ -67,6 +81,18 @@
                     a {
                         color: $white;
                         text-decoration: none;
+                        &::after {
+                            position: absolute;
+                            display: block;
+                            content: "";
+                            top: 8px;
+                            right: 16px;
+                            background: url("./../assets/icons/products_block/more_plus_white.svg");
+                            height: 18px;
+                            width: 18px;
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                        }
                     }
                 }
             }

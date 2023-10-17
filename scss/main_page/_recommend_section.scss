@@ -18,7 +18,7 @@
         position: absolute;
         top: 72px;
         right: 0;
-        width: 133px;
+        width: 164px;
         height: 44px;
         display: flex;
         justify-content: center;
@@ -26,20 +26,43 @@
         border: 1px solid $light_black;    
         background-color: $white;  
         box-sizing: border-box;
-        &:hover {
-            background-color: $blue_color; 
-            border: 1px solid $blue_color;
-            a {
-                text-decoration: none;
-                color: $white;
-            }
-        }          
         a {
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            height: 100%;
             font-size: 14px;
             font-weight: 300;
             line-height: normal;
             color: $light_black;
-        }      
+            padding-left: 24px;
+            margin-left: -8px;
+            &::after {
+                position: absolute;
+                display: block;
+                content: "";
+                top: 10px;
+                right: 12px;
+                background: url("./../assets/icons/show-all-btn-right-arrow.svg");
+                height: 20px;
+                width: 20px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: $blue_color;
+                border: 4px solid $blue_color;
+                box-sizing: border-box;
+            }
+        }
+        &:hover {
+            background-color: $blue_color; 
+            border: 1px solid $blue_color;
+            a {
+                color: $white;
+                text-decoration: none;
+            }
+        }    
     }
     .products_container {
         position: relative;
@@ -160,8 +183,9 @@
                     border: 1px solid $light_black;
                     margin: 33px auto 27px auto;
                     a {
+                        position: relative;
                         display: flex;
-                        justify-content: center;
+                        justify-content: flex-start;
                         align-items: center;
                         width: 100%;
                         height: 100%;
@@ -169,6 +193,19 @@
                         font-weight: 300;
                         line-height: normal;
                         color: $light_black;
+                        padding-left: 24px;
+                        &::after {
+                            position: absolute;
+                            display: block;
+                            content: "";
+                            top: 8px;
+                            right: 16px;
+                            background: url("./../assets/icons/products_block/more_plus.svg");
+                            height: 18px;
+                            width: 18px;
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                        }
                     }
                     &:hover {
                         background-color: $blue_color; 
@@ -176,6 +213,18 @@
                         a {
                             color: $white;
                             text-decoration: none;
+                            &::after {
+                                position: absolute;
+                                display: block;
+                                content: "";
+                                top: 8px;
+                                right: 16px;
+                                background: url("./../assets/icons/products_block/more_plus_white.svg");
+                                height: 18px;
+                                width: 18px;
+                                background-size: cover;
+                                background-repeat: no-repeat;
+                            }
                         }
                     }
                 }

@@ -913,7 +913,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   position: absolute;
   top: 72px;
   right: 0;
-  width: 133px;
+  width: 164px;
   height: 44px;
   display: flex;
   justify-content: center;
@@ -922,19 +922,42 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background-color: #FFFFFF;
   box-sizing: border-box;
 }
+#recommend .mainpage-title--btn a {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: normal;
+  color: #333333;
+  padding-left: 24px;
+  margin-left: -8px;
+}
+#recommend .mainpage-title--btn a::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 10px;
+  right: 12px;
+  background: url("./../assets/icons/show-all-btn-right-arrow.svg");
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #29A8DA;
+  border: 4px solid #29A8DA;
+  box-sizing: border-box;
+}
 #recommend .mainpage-title--btn:hover {
   background-color: #29A8DA;
   border: 1px solid #29A8DA;
 }
 #recommend .mainpage-title--btn:hover a {
-  text-decoration: none;
   color: #FFFFFF;
-}
-#recommend .mainpage-title--btn a {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: normal;
-  color: #333333;
+  text-decoration: none;
 }
 #recommend .products_container {
   position: relative;
@@ -1060,8 +1083,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   margin: 33px auto 27px auto;
 }
 #recommend .products_container--slot .products_wrapper--btn a {
+  position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   height: 100%;
@@ -1069,6 +1093,19 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   font-weight: 300;
   line-height: normal;
   color: #333333;
+  padding-left: 24px;
+}
+#recommend .products_container--slot .products_wrapper--btn a::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 8px;
+  right: 16px;
+  background: url("./../assets/icons/products_block/more_plus.svg");
+  height: 18px;
+  width: 18px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #recommend .products_container--slot .products_wrapper--btn:hover {
   background-color: #29A8DA;
@@ -1077,6 +1114,18 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 #recommend .products_container--slot .products_wrapper--btn:hover a {
   color: #FFFFFF;
   text-decoration: none;
+}
+#recommend .products_container--slot .products_wrapper--btn:hover a::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 8px;
+  right: 16px;
+  background: url("./../assets/icons/products_block/more_plus_white.svg");
+  height: 18px;
+  width: 18px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 1280px) {
@@ -1280,8 +1329,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   margin: 33px auto 27px 0;
 }
 #blog .blog_container .article_slot--button a {
+  position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   height: 100%;
@@ -1289,6 +1339,19 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   font-weight: 300;
   line-height: normal;
   color: #333333;
+  padding-left: 24px;
+}
+#blog .blog_container .article_slot--button a::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 8px;
+  right: 16px;
+  background: url("./../assets/icons/products_block/more_plus.svg");
+  height: 18px;
+  width: 18px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #blog .blog_container .article_slot--button:hover {
   background-color: #29A8DA;
@@ -1297,6 +1360,18 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 #blog .blog_container .article_slot--button:hover a {
   color: #FFFFFF;
   text-decoration: none;
+}
+#blog .blog_container .article_slot--button:hover a::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 8px;
+  right: 16px;
+  background: url("./../assets/icons/products_block/more_plus_white.svg");
+  height: 18px;
+  width: 18px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 1280px) {
