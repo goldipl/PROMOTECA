@@ -155,6 +155,7 @@ header #nav .top-nav .search-bar-wrapper #searchQueryInput {
   border: 1px solid #8A8A8A;
   padding: 0;
   padding-left: 22px;
+  padding-right: 56px;
 }
 header #nav .top-nav .search-bar-wrapper #searchQueryInput::-moz-placeholder {
   font-family: "Poppins", sans-serif;
@@ -521,6 +522,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   header #nav .top-nav {
     width: 90vw !important;
     height: 52px !important;
+    margin-left: 16px;
   }
   header #nav .top-nav::after {
     left: -5vw !important;
@@ -656,6 +658,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   }
   header #nav .bottom-nav.active .left-container ul .bottom-nav-sublist ul li.active {
     flex-direction: column;
+    padding-left: 0;
   }
   header #nav .bottom-nav.active .right-container {
     display: flex;
@@ -729,7 +732,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 }
 #swiper .swiper {
   width: 100%;
-  height: 563px;
+  height: 498px;
   z-index: 0;
 }
 #swiper .swiper.mobile {
@@ -749,15 +752,19 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 }
 #swiper .swiper .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-  width: 18px;
-  height: 18px;
-  background: #a09f9f;
+  width: 16px;
+  height: 16px;
+  background-color: #808080;
 }
 #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #29A8DA;
+  border: 2px solid #29A8DA;
+  background-color: rgba(202, 201, 201, 0.7450980392);
 }
 
 @media (max-width: 960px) {
+  #swiper {
+    margin-top: 0;
+  }
   #swiper .swiper {
     height: auto;
   }
@@ -766,10 +773,13 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   }
   #swiper .swiper.mobile {
     display: block;
-    padding-bottom: 16px;
   }
   #swiper .swiper.mobile .swiper-pagination {
-    bottom: 0;
+    bottom: 4px;
+  }
+  #swiper .swiper.mobile .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
   }
 }
 footer {

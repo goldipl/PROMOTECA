@@ -3,7 +3,7 @@
     margin: 10px auto 40px;
     .swiper {
         width: 100%;
-        height: 563px;
+        height: 498px;
         z-index: 0;
         &.mobile {
             display: none;
@@ -22,18 +22,20 @@
         }
         .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, 
         .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-            width: 18px;
-            height: 18px;
-            background: #a09f9f;
+            width: 16px;
+            height: 16px;
+            background-color: #808080;
         }
         .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
-            background: #29A8DA;
+            border: 2px solid #29A8DA;
+            background-color: #cac9c9be;
         }
     }
 }
 
 @media (max-width: 960px) {
     #swiper {
+        margin-top: 0;
         .swiper {
             height: auto;
             &.desktop {
@@ -41,9 +43,12 @@
             }
             &.mobile {
                 display: block;
-                padding-bottom: 16px;
                 .swiper-pagination {
-                    bottom: 0;
+                    bottom: 4px;
+                    .swiper-pagination-bullet {
+                        width: 10px;
+                        height: 10px;
+                    }
                 }
             }
         }
