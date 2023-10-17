@@ -611,6 +611,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   }
 }
 @media (max-width: 760px) {
+  header #nav {
+    margin-left: 0;
+    margin-right: 0;
+  }
   header #nav.show-mobile-search-bar {
     margin-bottom: 56px;
   }

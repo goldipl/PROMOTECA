@@ -442,6 +442,8 @@ header {
 
 @media (max-width: 760px) {
     header #nav {
+        margin-left: 0;
+        margin-right: 0;
         &.show-mobile-search-bar {
             margin-bottom: 56px;
         }
