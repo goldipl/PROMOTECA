@@ -2,6 +2,33 @@
     padding: 43px 0;
     position: relative;
     background-color: $grey_background;
+    .mainpage-title--btn {
+        position: absolute;
+        top: 72px;
+        right: 0;
+        width: 133px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $light_black;    
+        background-color: $white;  
+        box-sizing: border-box;
+        &:hover {
+            background-color: $blue_color; 
+            border: 1px solid $blue_color;
+            a {
+                text-decoration: none;
+                color: $white;
+            }
+        }          
+        a {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: normal;
+            color: $light_black;
+        }      
+    }
     .products_container {
         position: relative;
         display: flex;
