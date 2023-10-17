@@ -876,6 +876,12 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     height: 10px;
   }
 }
+@media (max-width: 960px) {
+  #welcome .text_container p {
+    font-size: 14px;
+    line-height: 160%;
+  }
+}
 #recommend {
   padding: 43px 0;
   position: relative;
@@ -1133,6 +1139,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   }
   #our_offert .vertical_listings-slot:last-of-type {
     margin-right: 0;
+  }
+  #our_offert .vertical_listings-slot .slot--links .link {
+    font-size: 14px;
+    line-height: 160%;
   }
 }
 @media (max-width: 640px) {
