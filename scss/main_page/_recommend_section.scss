@@ -2,6 +2,146 @@
     padding: 43px 0;
     position: relative;
     background-color: $grey_background;
+    .products_container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &--slot {
+            position: relative;
+            width: 16%;
+            min-width: 240px;
+            background-color: $white;
+            border: 1px solid $white;
+            margin-right: 20px;
+            min-height: 392px;
+            max-height: 392px;
+            &:last-of-type {
+                margin-right: 0;
+            }
+            &:hover {
+                border: 1px solid $blue_color;
+            }
+            &.new .products_wrapper::after {
+                position: absolute;
+                top: 13px;
+                left: 13px;
+                content: '';
+                background: url('./../../assets/labels/label_new.svg');
+                width: 80px;
+                height: 19px;
+                background-size: contain;
+                background-repeat: no-repeat;
+                z-index: 1;
+            }
+            &.promotion::after {
+                position: absolute;
+                top: 13px;
+                left: 13px;
+                content: '';
+                background: url('./../../assets/labels/label_promotion.svg');
+                width: 80px;
+                height: 19px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            &.recommended::after {
+                position: absolute;
+                top: 13px;
+                left: 13px;
+                content: '';
+                background: url('./../../assets/labels/label_recommended.svg');
+                width: 80px;
+                height: 19px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            .products_wrapper {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+                &--img {
+                    width: 180px;
+                    height: 180px;
+                    text-align: center;
+                    img {
+                        object-fit: contain;
+                        max-height: 180px;
+                        max-width: 180px;
+                    }
+                }
+                &--title {
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    color: $light_black;
+                    text-align: center;
+                    height: 80px;
+                }
+                &--colors {
+                    display: inline-flex;
+                    .color_square {
+                        width: 15px;
+                        height: 15px;
+                        border: 1px solid #D3D3D3;
+                        box-sizing: border-box;
+                        margin-right: 3px;
+                        &.white {
+                            background-color: $white;
+                        }
+                        &.darkblue {
+                            border: 1px solid #020054;
+                            background-color: #020054;
+                        }
+                        &.red {
+                            border: 1px solid #FF0000;
+                            background-color: #FF0000;
+                        }
+                        &.yellow {
+                            border: 1px solid #FFC700;
+                            background-color: #FFC700;
+                        }
+                    }
+                }
+                &--btn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 121px;
+                    height: 35px;
+                    box-sizing: border-box;
+                    border: 1px solid $light_black;
+                    margin: 33px auto 27px auto;
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: normal;
+                        color: $light_black;
+                    }
+                    &:hover {
+                        background-color: $blue_color; 
+                        border: 1px solid $blue_color;
+                        a {
+                            color: $white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 1280px) {
