@@ -16,6 +16,7 @@
         <div id="main-wrapper">
             <?php include "./components/main_page/swiper.php"; ?> 
             <?php include "./components/main_page/welcome_section.php"; ?> 
+            <?php include "./components/main_page/recommend_section.php"; ?> 
         </div>
         <footer> 
             <?php include "./components/footer.php"; ?> 
