@@ -113,6 +113,7 @@ header {
                             }
                             p {
                                 margin: 0;
+                                line-height: 1;
                             }
                         }
                         .create-account {
@@ -162,6 +163,9 @@ header {
                         font-size: 20px;
                         line-height: 24px;
                         color: $light_black;
+                        p {
+                            font-weight: 600;
+                        }
                     }
                 }
                 }

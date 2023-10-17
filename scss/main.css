@@ -291,6 +291,7 @@ header #nav .top-nav .account-cart-container .account-container .account-text-co
 }
 header #nav .top-nav .account-cart-container .account-container .account-text-container .login p {
   margin: 0;
+  line-height: 1;
 }
 header #nav .top-nav .account-cart-container .account-container .account-text-container .create-account {
   font-weight: 700;
@@ -339,6 +340,9 @@ header #nav .top-nav .account-cart-container .cart-container .cart-link .cart-to
   font-size: 20px;
   line-height: 24px;
   color: #333333;
+}
+header #nav .top-nav .account-cart-container .cart-container .cart-link .cart-total-price p {
+  font-weight: 600;
 }
 header #nav .bottom-nav {
   position: relative;
