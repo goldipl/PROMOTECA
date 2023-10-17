@@ -13,6 +13,7 @@ body {
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -194,6 +195,8 @@ header #nav {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 header #nav .top-nav {
   position: relative;
