@@ -32,10 +32,6 @@
                     <p>Bambusowy notatnik ok. A6 V2967-16</p>
                 </div>
                 <div class="products_wrapper--colors">
-                    <div class="color_square white"></div>
-                    <div class="color_square darkblue"></div>
-                    <div class="color_square red"></div>
-                    <div class="color_square yellow"></div>
                 </div>
                 <div class="products_wrapper--btn">
                     <a href="#">Więcej</a>
@@ -70,10 +66,6 @@
                     <p>Długopis El Primero Solid EP-SOLID-09</p>
                 </div>
                 <div class="products_wrapper--colors">
-                    <div class="color_square white"></div>
-                    <div class="color_square darkblue"></div>
-                    <div class="color_square red"></div>
-                    <div class="color_square yellow"></div>
                 </div>
                 <div class="products_wrapper--btn">
                     <a href="#">Więcej</a>
@@ -89,10 +81,6 @@
                     <p>Długopis AP1001-09</p>
                 </div>
                 <div class="products_wrapper--colors">
-                    <div class="color_square white"></div>
-                    <div class="color_square darkblue"></div>
-                    <div class="color_square red"></div>
-                    <div class="color_square yellow"></div>
                 </div>
                 <div class="products_wrapper--btn">
                     <a href="#">Więcej</a>
@@ -108,10 +96,6 @@
                     <p>Długopis AP4515W-09</p>
                 </div>
                 <div class="products_wrapper--colors">
-                    <div class="color_square white"></div>
-                    <div class="color_square darkblue"></div>
-                    <div class="color_square red"></div>
-                    <div class="color_square yellow"></div>
                 </div>
                 <div class="products_wrapper--btn">
                     <a href="#">Więcej</a>
