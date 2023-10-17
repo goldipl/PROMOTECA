@@ -1325,6 +1325,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   #why_us .why_us_container .big_img_text_slot {
     width: 100%;
     margin-right: 0;
+    border: 0;
   }
   #why_us .why_us_container .big_img_text_slot--img {
     width: calc(100% + 32px);
