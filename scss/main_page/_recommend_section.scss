@@ -3,7 +3,17 @@
     position: relative;
     background-color: $grey_background;
     margin-bottom: 0;
-    overflow: hidden;
+    &::after {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 100vw;
+        height: 100%;
+        background-color: #F2F2F2;
+        top: 0;
+        left: calc((100vw - 1576px) / 2 * -1);
+        z-index: -1;
+    }
     .mainpage-title--btn {
         position: absolute;
         top: 72px;
@@ -36,6 +46,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
         &--slot {
             position: relative;
             width: 16%;
@@ -179,6 +190,17 @@
             overflow-x: scroll;
             overflow-y: hidden;
             justify-content: flex-start;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    #recommend {
+        margin-left: -16px;
+        margin-right: -16px;
+        padding: 43px 16px;
+        .mainpage-title--btn {
+            right: 16px;
         }
     }
 }

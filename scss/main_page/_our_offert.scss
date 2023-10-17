@@ -3,6 +3,17 @@
     position: relative;
     background-color: $grey_background;
     margin-top: 0;
+    &::after {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 100vw;
+        height: 100%;
+        background-color: #F2F2F2;
+        top: 0;
+        left: calc((100vw - 1576px) / 2 * -1);
+        z-index: -1;
+    }
     .vertical_listings {
         display: flex;
         flex-wrap: wrap;
@@ -91,25 +102,27 @@
 
 @media (max-width: 960px) {
     #our_offert {
+        margin-left: -16px;
+        margin-right: -16px;
+        padding: 43px 16px;
         .vertical_listings {
             &-slot {
-                width: 100%;
+                width: 50%;
                 margin-right: 0;
                 align-items: center;
                 &:last-of-type {
                     margin-right: 0;
                 }
                 .slot--image {
+                    width: 50%;
+                    height: auto;
                     img {
-
-                    }
-                }
-                .slot--title {
-                    p {
-
+                        width: 100%;
+                        height: auto;
                     }
                 }
                 .slot--links {
+                    width: 50%;
                     .link {
                         font-size: 14px;
                         line-height: 160%;
@@ -140,15 +153,8 @@
                         height: auto;
                     }
                 }
-                .slot--title {
-                    p {
-
-                    }
-                }
                 .slot--links {
-                    .link {
-                        
-                    }
+                    width: 100%;
                 }
             }
         }
