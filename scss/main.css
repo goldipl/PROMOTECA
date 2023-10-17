@@ -1145,7 +1145,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     margin-right: 0;
   }
   #our_offert .vertical_listings-slot .slot--image {
-    width: 80%;
+    width: calc(100% + 32px);
+    margin-left: -16px;
+    margin-right: -16px;
     height: auto;
   }
   #our_offert .vertical_listings-slot .slot--image img {

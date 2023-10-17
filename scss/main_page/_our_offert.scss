@@ -130,7 +130,9 @@
                     margin-right: 0;
                 }
                 .slot--image {
-                    width: 80%;
+                    width: calc(100% + 32px);
+                    margin-left: -16px;
+                    margin-right: -16px;
                     height: auto;
                     img {
                         width: 100%;
