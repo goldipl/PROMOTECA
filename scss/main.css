@@ -38,6 +38,16 @@ body.main #main-wrapper {
   background-color: #FFFFFF;
 }
 
+a {
+  color: #29A8DA;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 180%;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 #topbar {
   display: flex;
   flex-direction: column;
@@ -118,7 +128,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   width: 100vw;
   z-index: 1;
 }
@@ -178,7 +188,7 @@ header #nav .top-nav .search-bar-wrapper #searchQueryInput {
   box-sizing: border-box;
   width: 100%;
   height: 45px;
-  background: #ffffff;
+  background: #FFFFFF;
   border: 1px solid #8A8A8A;
   padding: 0;
   padding-left: 22px;
@@ -276,7 +286,7 @@ header #nav .top-nav .account-cart-container .cart-container .cart-link .cart-lo
   font-weight: 500;
   font-size: 11px;
   line-height: 14px;
-  color: #ffffff;
+  color: #FFFFFF;
   background: #29A8DA;
   width: 16px;
   height: 16px;
@@ -382,7 +392,7 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background: #ffffff;
+  background: #FFFFFF;
   min-height: 37px;
   padding-right: 40px;
   padding-left: 16px;
@@ -456,7 +466,7 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background: #ffffff;
+  background: #FFFFFF;
   border-radius: 0;
   min-height: 37px;
   padding-left: 16px;
@@ -601,7 +611,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     width: 30px !important;
   }
   header #nav .top-nav .search-bar-wrapper #searchQuerySubmit svg path {
-    fill: #ffffff !important;
+    fill: #FFFFFF !important;
   }
   header #nav .top-nav .search-bar-wrapper #searchQuerySubmit.active {
     display: flex !important;
