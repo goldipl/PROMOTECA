@@ -1073,6 +1073,22 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   border: 1px solid #FFC700;
   background-color: #FFC700;
 }
+#recommend .products_container--slot .products_wrapper--colors .color_square.green {
+  border: 1px solid #64C14D;
+  background-color: #64C14D;
+}
+#recommend .products_container--slot .products_wrapper--colors .color_square.purple {
+  border: 1px solid #5945A9;
+  background-color: #5945A9;
+}
+#recommend .products_container--slot .products_wrapper--colors .color_square.brown {
+  border: 1px solid #674C4C;
+  background-color: #674C4C;
+}
+#recommend .products_container--slot .products_wrapper--colors .color_square.yellow2 {
+  border: 1px solid #FFDA58;
+  background-color: #FFDA58;
+}
 #recommend .products_container--slot .products_wrapper--btn {
   display: flex;
   justify-content: center;

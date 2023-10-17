@@ -51,6 +51,10 @@
                     <div class="color_square darkblue"></div>
                     <div class="color_square red"></div>
                     <div class="color_square yellow"></div>
+                    <div class="color_square green"></div>
+                    <div class="color_square purple"></div>
+                    <div class="color_square brown"></div>
+                    <div class="color_square yellow2"></div>
                 </div>
                 <div class="products_wrapper--btn">
                     <a href="#">Więcej</a>
