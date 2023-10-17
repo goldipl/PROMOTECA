@@ -413,6 +413,7 @@ header {
     }
     .top-nav {
         height: 80px !important;
+        width: 100%  !important;
         &::after {
             top: 80px !important;
         }
