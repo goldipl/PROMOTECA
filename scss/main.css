@@ -1349,40 +1349,85 @@ footer {
   border-top: 1px solid #29A8DA;
 }
 footer .footer-container {
+  display: flex;
+  flex-direction: column;
   width: 1576px;
   margin: 0 auto;
-  margin-top: 62px;
+  margin-top: 47px;
   background-color: #F5F5F5;
 }
 footer .footer-container .footer-top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 72px;
+  padding-bottom: 52px;
 }
 footer .footer-container .footer-top .footer-left-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: -moz-max-content;
   height: max-content;
+}
+footer .footer-container .footer-top .footer-left-container .footer-col {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-container .footer-top .footer-left-container .footer-col-slot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .footer-container .footer-top .footer-left-container .footer-col-slot:first-of-type img {
+  margin-bottom: 12px;
+}
+footer .footer-container .footer-top .footer-left-container .footer-col-slot--text p,
+footer .footer-container .footer-top .footer-left-container .footer-col-slot--text a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 6px 0 6px 16px;
+  color: #333333;
+}
+footer .footer-container .footer-top .footer-right-container {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer-container .footer-top .footer-right-container .footer-col {
+  display: flex;
+  flex-direction: column;
+  margin-right: 87px;
+}
+footer .footer-container .footer-top .footer-right-container .footer-col:last-of-type {
+  margin-right: 0;
+}
+footer .footer-container .footer-top .footer-right-container .footer-col--title p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 38px;
+}
+footer .footer-container .footer-top .footer-right-container .footer-col--link {
+  margin-bottom: 16px;
+}
+footer .footer-container .footer-top .footer-right-container .footer-col--link a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
 }
 footer .footer-container .footer-bottom {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
   background-color: #333333;
   color: #FFFFFF;
   height: 54px;
-}
-footer .footer-container .footer-bottom p {
-  position: relative;
-  z-index: 1;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-  text-align: center;
 }
 footer .footer-container .footer-bottom::after {
   position: absolute;
@@ -1395,12 +1440,49 @@ footer .footer-container .footer-bottom::after {
   left: calc((100vw - 1576px) / 2 * -1);
   z-index: 0;
 }
-
-@media (max-width: 1280px) {
-  footer .footer-container {
-    width: 100%;
-  }
-  footer .footer-container .footer-bottom::after {
-    display: none;
-  }
+footer .footer-container .footer-bottom .footer-three-cols {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+}
+footer .footer-container .footer-bottom .footer-three-cols .footer-col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .footer-container .footer-bottom .footer-three-cols .footer-col p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #F0F5F9;
+  margin: 0;
+}
+footer .footer-container .footer-bottom .footer-three-cols .footer-col_line {
+  display: block;
+  width: 1px;
+  height: 12px;
+  background-color: #F0F5F9;
+}
+footer .footer-container .footer-bottom .footer-three-cols .footer-col_slot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .footer-container .footer-bottom .footer-three-cols .footer-col_slot--img img {
+  width: auto;
+  height: 15px;
+}
+footer .footer-container .footer-bottom .footer-three-cols .footer-col_slot--text {
+  margin: 0 16px;
+}
+footer .footer-container .footer-bottom .footer-three-cols .footer-col_slot--text p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #F0F5F9;
 }/*# sourceMappingURL=main.css.map */
