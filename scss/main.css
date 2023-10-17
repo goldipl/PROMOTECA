@@ -881,6 +881,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   position: relative;
   background-color: #F2F2F2;
   margin-bottom: 0;
+  overflow: hidden;
 }
 #recommend .mainpage-title--btn {
   position: absolute;
@@ -1051,13 +1052,107 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   text-decoration: none;
 }
 
+@media (max-width: 1280px) {
+  #recommend .products_container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    justify-content: flex-start;
+  }
+}
 #our_offert {
   padding: 43px 0;
   position: relative;
   background-color: #F2F2F2;
   margin-top: 0;
 }
+#our_offert .vertical_listings {
+  display: flex;
+  flex-wrap: wrap;
+}
+#our_offert .vertical_listings-slot {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 230px;
+  min-width: 230px;
+  margin-right: calc((100% - 1380px) / 6);
+  margin-bottom: 51px;
+}
+#our_offert .vertical_listings-slot:last-of-type {
+  margin-right: 0;
+}
+#our_offert .vertical_listings-slot .slot--image img {
+  width: 230px;
+  height: 125px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#our_offert .vertical_listings-slot .slot--title p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  min-height: 50px;
+  margin: 0 0 20px 0;
+}
+#our_offert .vertical_listings-slot .slot--links .link {
+  display: inline-flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #333333;
+  text-decoration: none;
+  margin-bottom: 8px;
+  width: 100%;
+}
+#our_offert .vertical_listings-slot .slot--links .link:hover {
+  color: #29A8DA;
+}
 
+@media (max-width: 1280px) {
+  #our_offert .vertical_listings-slot {
+    width: 30%;
+    margin-right: 3%;
+    align-items: center;
+  }
+  #our_offert .vertical_listings-slot:last-of-type {
+    margin-right: 0;
+  }
+}
+@media (max-width: 960px) {
+  #our_offert .vertical_listings-slot {
+    width: 100%;
+    margin-right: 0;
+    align-items: center;
+  }
+  #our_offert .vertical_listings-slot:last-of-type {
+    margin-right: 0;
+  }
+}
+@media (max-width: 640px) {
+  #our_offert .vertical_listings-slot {
+    width: 100%;
+    margin-right: 0;
+    align-items: center;
+  }
+  #our_offert .vertical_listings-slot:last-of-type {
+    margin-right: 0;
+  }
+  #our_offert .vertical_listings-slot .slot--image {
+    width: 80%;
+    height: auto;
+  }
+  #our_offert .vertical_listings-slot .slot--image img {
+    width: 100%;
+    height: auto;
+  }
+}
 footer {
   background-color: #F5F5F5;
   border-top: 1px solid #29A8DA;
