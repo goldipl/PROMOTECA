@@ -19,6 +19,7 @@
             <?php include "./components/main_page/recommend_section.php"; ?> 
             <?php include "./components/main_page/our_offert.php"; ?> 
             <?php include "./components/main_page/blog.php"; ?> 
+            <?php include "./components/main_page/why_us.php"; ?> 
         </div>
         <footer> 
             <?php include "./components/footer.php"; ?> 

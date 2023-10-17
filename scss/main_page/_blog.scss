@@ -81,6 +81,9 @@
             flex-wrap: wrap;
             .article_slot {
                 margin-right: 0;
+                &--title {
+                    width: 90%;
+                }
             }
         }
     }
