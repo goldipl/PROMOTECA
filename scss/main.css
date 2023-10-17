@@ -1049,6 +1049,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 }
 #recommend .products_container--slot .products_wrapper--colors {
   display: inline-flex;
+  height: 15px;
 }
 #recommend .products_container--slot .products_wrapper--colors .color_square {
   width: 15px;
