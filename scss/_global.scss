@@ -31,6 +31,12 @@ a {
     }
 }
 
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 180%;
+}
+
 #main-wrapper {
     width: 1576px;
     margin: 0 auto;
@@ -38,8 +44,36 @@ a {
     top: 0
 }
 
+section {
+    margin: 40px auto 67px auto;
+}
+
+h1.mainpage-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    margin: 35px 0;
+    padding-left: 40px;
+    span {
+        color: $blue_color;
+    }
+    &::before {
+        position: absolute;
+        top: calc(50% - 9px);
+        left: 0;
+        content: '';
+        width: 14px;
+        height: 18px;
+        display: block;
+        background-color: $blue_color;
+    }
+}
+
 @media (max-width: 1280px) {
     #main-wrapper {
-        width: 100%;
+        width: calc(100% - 32px);
+        padding: 0 16px;
     }
 }
