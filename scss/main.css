@@ -880,6 +880,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   padding: 43px 0;
   position: relative;
   background-color: #F2F2F2;
+  margin-bottom: 0;
 }
 #recommend .mainpage-title--btn {
   position: absolute;
@@ -1048,6 +1049,13 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 #recommend .products_container--slot .products_wrapper--btn:hover a {
   color: #FFFFFF;
   text-decoration: none;
+}
+
+#our_offert {
+  padding: 43px 0;
+  position: relative;
+  background-color: #F2F2F2;
+  margin-top: 0;
 }
 
 footer {

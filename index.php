@@ -17,6 +17,7 @@
             <?php include "./components/main_page/swiper.php"; ?> 
             <?php include "./components/main_page/welcome_section.php"; ?> 
             <?php include "./components/main_page/recommend_section.php"; ?> 
+            <?php include "./components/main_page/our_offert.php"; ?> 
         </div>
         <footer> 
             <?php include "./components/footer.php"; ?> 
