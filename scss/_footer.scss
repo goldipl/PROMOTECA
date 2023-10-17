@@ -4,7 +4,8 @@ footer {
     .footer-container {
         display: flex;
         flex-direction: column;
-        width: 1576px;
+        width: 100%;
+        max-width: 1576px;
         margin: 0 auto;
         margin-top: 47px;
         background-color: #F5F5F5;
@@ -147,5 +148,132 @@ footer {
 }
 
 @media (max-width: 1280px) {
+    footer {
+        .footer-container {
+            margin-top: 30px;
+            .footer-top {
+                flex-direction: column;
+                padding-bottom: 0;
+                .footer-left-container {
+                    justify-content: center;
+                    align-items: center;
+                    .footer-col {
+                        align-items: center;
+                        &-slot {
+                            &--text {
+                                p,
+                                a {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .footer-right-container {
+                    flex-direction: row;
+                    justify-content: center;
+                    .footer-col {
+                        display: flex;
+                        flex-direction: column;
+                        margin-right: 16px;
+                        &--title {
+                            p {
+                                font-size: 14px;
+                                margin-bottom: 24px;
+                            }
+                            a {
+                                font-size: 14px;
+                            }
+                        }
+                        &--link {
+                            a {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-bottom {
+                .footer-three-cols {
+                    justify-content: center;
+                    .footer-col {
+                        margin: 0 16px;
+                        p {
+                            font-size: 14px;
+                        }
+                        &_line {
+                            display: block;
+                            width: 1px;
+                            height: 12px;
+                            background-color: #F0F5F9;
+                        }
+                        &_slot {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            &--text {
+                                p {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
+@media (max-width: 960px) {
+    footer {
+        .footer-container {
+            margin-top: 20px;
+            .footer-top {
+                .footer-right-container {
+                    flex-direction: column;
+                    .footer-col {
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 0;
+                        &--link {
+                            margin-bottom: 0;
+                        }
+                        &--title {
+                            p {
+                                margin-bottom: 0;
+                            }
+                        }
+                        &:last-of-type {
+                            margin-bottom: 12px;
+                        }
+                    }
+                }
+            }
+            .footer-bottom {
+                height: auto;
+                flex-direction: column;
+                padding: 12px 0;
+                &::after {
+                    display: none;
+                }
+                .footer-three-cols {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .footer-col {
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0 16px;
+                        p {
+                            font-size: 14px;
+                        }
+                        &_line {
+                            transform: rotate(90deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
