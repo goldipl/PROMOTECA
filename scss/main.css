@@ -676,7 +676,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   header #nav .top-nav .search-bar-wrapper .mobile_search-btn {
     display: flex !important;
     position: absolute;
-    top: 8px;
+    top: 6px;
     right: 88px;
   }
   header #nav .top-nav .search-bar-wrapper .mobile_search-btn svg {
