@@ -22,60 +22,12 @@ body.open-modal {
         background-color: #505050b7;
         z-index: 10;
     }
-    #account-section {
-        margin-left: 10vw;
-        margin-right: 10vw;
-    }
 }
 
 
 #main-wrapper {
     position: relative;
     top: 0
-}
-
-.row-container {
-    display: flex;
-    flex-direction: row;
-    .col-8-container {
-        display: flex;
-        flex-direction: column;
-        width: 66%;
-    }
-    .col-4-container {
-        display: flex;
-        flex-direction: column;
-        width: 34%;
-    }
-}
-
-@media (max-width: 1280px) {
-    .row-container {
-        flex-direction: column !important;
-        .col-8-container {
-            width: 100%;
-            .category-title {
-                font-size: 20px;
-                line-height: 24px;
-                span {
-                    font-size: 14px;
-                    line-height: 21px;
-                }
-            }
-        }
-        .col-4-container {
-            width: 100%;
-        }
-        .col-2-container {
-            width: calc(100% - 10vw);
-            min-height: unset;
-            margin-bottom: 24px;
-        }
-        .col-10-container {
-            width: 100%;
-            margin-bottom: 24px;
-        }
-    }
 }
 
 body.main #main-wrapper {

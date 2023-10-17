@@ -860,59 +860,12 @@ body.open-modal::before {
   background-color: rgba(80, 80, 80, 0.7176470588);
   z-index: 10;
 }
-body.open-modal #account-section {
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
 
 #main-wrapper {
   position: relative;
   top: 0;
 }
 
-.row-container {
-  display: flex;
-  flex-direction: row;
-}
-.row-container .col-8-container {
-  display: flex;
-  flex-direction: column;
-  width: 66%;
-}
-.row-container .col-4-container {
-  display: flex;
-  flex-direction: column;
-  width: 34%;
-}
-
-@media (max-width: 1280px) {
-  .row-container {
-    flex-direction: column !important;
-  }
-  .row-container .col-8-container {
-    width: 100%;
-  }
-  .row-container .col-8-container .category-title {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .row-container .col-8-container .category-title span {
-    font-size: 14px;
-    line-height: 21px;
-  }
-  .row-container .col-4-container {
-    width: 100%;
-  }
-  .row-container .col-2-container {
-    width: calc(100% - 10vw);
-    min-height: unset;
-    margin-bottom: 24px;
-  }
-  .row-container .col-10-container {
-    width: 100%;
-    margin-bottom: 24px;
-  }
-}
 body.main #main-wrapper {
   background-color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
