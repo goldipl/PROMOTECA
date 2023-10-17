@@ -401,6 +401,7 @@ header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li {
 header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul li a {
   font-size: 14px;
   line-height: 21px;
+  font-weight: 400;
   text-decoration: none;
   color: #333333;
   text-align: left;
