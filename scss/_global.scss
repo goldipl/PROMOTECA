@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    &.open-modal {
+        position: fixed;
+        &::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            content: '';
+            width: 100vw;
+            height: 100vh;
+            background-color: #505050b7;
+            z-index: 10;
+        }
+    }
+}
+
+#main-wrapper {
+    position: relative;
+    top: 0
+}
+
+body.main #main-wrapper {
+    background-color: #FFFFFF;
+}
+
+a {
+    color: $blue_color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 180%;
+    &:hover {
+        text-decoration: underline;
+    }
+}

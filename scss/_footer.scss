@@ -1,6 +1,6 @@
 footer {
     background-color: #F5F5F5;
-    border-top: 1px solid #29A8DA;
+    border-top: 1px solid $blue_color;
     .footer-container {
         width: 1576px;
         margin: 0 auto;
@@ -31,7 +31,7 @@ footer {
             justify-content: center;
             align-items: center;
             background-color: #333333;
-            color: #FFFFFF;
+            color: $white;
             height: 54px;
             p {
                 position: relative;
@@ -39,7 +39,7 @@ footer {
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 19px;
-                color: #FFFFFF;
+                color: $white;
                 text-align: center;
             }
             &::after {

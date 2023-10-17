@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    background-color: #29A8DA;
+    background-color: $blue_color;
     .topbar_container {
         position: relative;
         display: flex;
@@ -27,14 +27,14 @@
                     line-height: 18px;
                     font-weight: 400;
                     text-decoration: none;
-                    color: #FFFFFF;
+                    color: $white;
                 }
                 a {
                     font-size: 18px;
                     line-height: 18px;
                     font-weight: 400;
                     text-decoration: none;
-                    color: #FFFFFF;
+                    color: $white;
                     &:hover {
                         color: #333333;
                     }
@@ -45,7 +45,7 @@
             display: block;
             width: 1px;
             height: 12px;
-            background-color: #FFFFFF;
+            background-color: $white;
             margin: 0 0 0 12px;
         }
     }
@@ -75,7 +75,7 @@
                 display: block;
                 width: 1px;
                 height: 12px;
-                background-color: #FFFFFF;
+                background-color: $white;
                 margin: 0 0 0 12px;
             }
         }

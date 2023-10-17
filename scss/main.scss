@@ -1,35 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 @import 'reset';
+@import 'global';
 @import 'topbar';
 @import 'nav';
 @import './main_page/swiper';
 @import 'footer';
-
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-body.open-modal {
-    position: fixed;
-    &::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: block;
-        content: '';
-        width: 100vw;
-        height: 100vh;
-        background-color: #505050b7;
-        z-index: 10;
-    }
-}
-
-
-#main-wrapper {
-    position: relative;
-    top: 0
-}
-
-body.main #main-wrapper {
-    background-color: #FFFFFF;
-}

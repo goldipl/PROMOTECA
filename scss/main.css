@@ -11,6 +11,33 @@ body {
     overflow-x: hidden;
   }
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
+body.open-modal {
+  position: fixed;
+}
+body.open-modal::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(80, 80, 80, 0.7176470588);
+  z-index: 10;
+}
+
+#main-wrapper {
+  position: relative;
+  top: 0;
+}
+
+body.main #main-wrapper {
+  background-color: #FFFFFF;
+}
+
 #topbar {
   display: flex;
   flex-direction: column;
@@ -841,31 +868,4 @@ footer .footer-container .footer-bottom::after {
   footer .footer-container .footer-bottom::after {
     display: none;
   }
-}
-body {
-  font-family: "Poppins", sans-serif;
-}
-
-body.open-modal {
-  position: fixed;
-}
-body.open-modal::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  content: "";
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(80, 80, 80, 0.7176470588);
-  z-index: 10;
-}
-
-#main-wrapper {
-  position: relative;
-  top: 0;
-}
-
-body.main #main-wrapper {
-  background-color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

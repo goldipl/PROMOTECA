@@ -3,7 +3,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #ffffff;
+    background-color: $white;
     width: 100vw;
     z-index: 1;
     &.menu-open {
@@ -35,7 +35,7 @@ header {
                 .hamburger-line {
                     display: block;
                     height: 2px;
-                    background-color: #29A8DA;
+                    background-color: $blue_color;
                     width: 32px;
                     margin: 8px 32px 8px 0px;
                 }
@@ -59,7 +59,7 @@ header {
                     box-sizing: border-box;
                     width: 100%;
                     height: 45px;
-                    background: #ffffff;
+                    background: $white;
                     border: 1px solid #8A8A8A;
                     padding: 0;
                     padding-left: 22px;
@@ -73,7 +73,7 @@ header {
                     }
                     &:hover,
                     &:focus {
-                        outline: 1px solid #29A8DA;
+                        outline: 1px solid $blue_color;
                     }
                 }
                 #searchQuerySubmit {
@@ -109,7 +109,7 @@ header {
                             color: #333333;
                             text-decoration: none;
                             &:hover {
-                                color: #29A8DA;
+                                color: $blue_color;
                             }
                             p {
                                 margin: 0;
@@ -122,7 +122,7 @@ header {
                             color: #333333;
                             text-decoration: none;
                             &:hover {
-                                color: #29A8DA;
+                                color: $blue_color;
                             }
                         }
                     }
@@ -150,8 +150,8 @@ header {
                             font-weight: 500;
                             font-size: 11px;
                             line-height: 14px;
-                            color: #ffffff;
-                            background: #29A8DA;
+                            color: $white;
+                            background: $blue_color;
                             width: 16px;
                             height: 16px;
                             border-radius: 50%;
@@ -183,7 +183,7 @@ header {
                 display: block;
                 width: 100vw;
                 height: 1px;
-                background-color: #29A8DA;
+                background-color: $blue_color;
                 top: 50px;
                 left: calc(((100vw - 1576px)/2)*(-1));
             }
@@ -228,7 +228,7 @@ header {
                             display: flex;
                         }
                         &:hover {
-                            color: #29A8DA;
+                            color: $blue_color;
                         }
                         .bottom-nav-sublist {
                             position: relative;
@@ -245,8 +245,8 @@ header {
                                 left: 0;
                                 padding-top: 0;
                                 z-index: 9999;
-                                background: #FFFFFF;
-                                border: 1px solid #29A8DA;
+                                background: $white;
+                                border: 1px solid $blue_color;
                                 border-top: 0;
                                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                                 li {
@@ -254,7 +254,7 @@ header {
                                     display: flex;
                                     justify-content: flex-start;
                                     align-items: center;
-                                    background: #ffffff;
+                                    background: $white;
                                     min-height: 37px;
                                     padding-right: 40px;
                                     padding-left: 16px;
@@ -267,7 +267,7 @@ header {
                                         text-align: left;
                                         &:hover {
                                             text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
-                                            color: #29A8DA;
+                                            color: $blue_color;
                                         }
                                     }
                                     &:last-child {
@@ -292,7 +292,7 @@ header {
                                     &:hover a,
                                     &:hover {
                                         text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
-                                        color: #29A8DA;
+                                        color: $blue_color;
                                     }
                                     &:hover::after {
                                         transition: 0.6s;
@@ -316,8 +316,8 @@ header {
                                         top: 0;
                                         left: 0;
                                         z-index: 9999;
-                                        background: #FFFFFF;
-                                        border: 1px solid #29A8DA;
+                                        background: $white;
+                                        border: 1px solid $blue_color;
                                         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
                                         a {
                                             text-decoration: none;
@@ -325,7 +325,7 @@ header {
                                                 display: flex;
                                                 justify-content: flex-start;
                                                 align-items: center;
-                                                background: #ffffff;
+                                                background: $white;
                                                 border-radius: 0;
                                                 min-height: 37px;
                                                 padding-left: 16px;
@@ -490,14 +490,14 @@ header {
             height: 30px !important;
             width: 30px !important;
             path {
-                fill: #ffffff !important;
+                fill: $white !important;
             }
         }
         &.active {
             display: flex !important;
             width: 48px !important;
             outline: none;
-            background: #29A8DA !important;
+            background: $blue_color !important;
             height: 45px;
             top: 52px;
         }
@@ -558,7 +558,7 @@ header {
                         li {
                             padding: 0;
                             padding-left: 16px;
-                            border-bottom: 1px solid #29A8DA;
+                            border-bottom: 1px solid $blue_color;
                             &:last-child {
                                 border-radius: 0;
                             }
