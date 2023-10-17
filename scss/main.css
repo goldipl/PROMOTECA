@@ -569,7 +569,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     top: 0 !important;
   }
   header #nav .top-nav .search-bar-wrapper {
-    width: 60%;
+    width: 50%;
   }
   header #nav .top-nav .account-cart-container {
     width: 20%;
