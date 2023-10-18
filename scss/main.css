@@ -105,10 +105,13 @@ h1.mainpage-title::before {
 .row__container aside {
   display: flex;
   flex-direction: column;
+  width: 314px;
+  margin-right: 20px;
 }
 .row__container .col_10__container {
   display: flex;
   flex-direction: column;
+  width: 1240px;
 }
 
 #topbar {
