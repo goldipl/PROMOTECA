@@ -46,6 +46,7 @@
                     line-height: normal;
                     background: #ffffff;
                     cursor: pointer;
+                    user-select: none;
             
                     &:hover {
                         color: $blue_color;
