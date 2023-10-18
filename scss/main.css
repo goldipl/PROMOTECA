@@ -1907,6 +1907,72 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background-repeat: no-repeat;
 }
 
+.category_filters h1.title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.category_filters-slot--list {
+  padding-left: 0;
+}
+.category_filters-slot--list.producer {
+  height: 48px;
+  overflow: hidden;
+}
+.category_filters-slot--list.producer.active {
+  height: auto;
+  overflow: initial;
+}
+.category_filters-slot--list.color {
+  height: 96px;
+  overflow: hidden;
+}
+.category_filters-slot--list.color.active {
+  height: auto;
+  overflow: initial;
+}
+.category_filters-slot--list li {
+  list-style: none;
+}
+.category_filters-slot--list li label {
+  display: inline;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.category_filters-slot--list li label p,
+.category_filters-slot--list li label span {
+  display: inline;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #8A8A8A;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.category_filters-slot .filters-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.category_filters-slot .filters-btns .expand-filters-btn p,
+.category_filters-slot .filters-btns .set-changes-filters-btn p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin: 0;
+}
+
 .category_main h1.title {
   font-size: 18px;
   font-weight: 700;
