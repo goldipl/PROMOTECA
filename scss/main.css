@@ -397,6 +397,9 @@ header #nav .bottom-nav .left-container ul li {
   line-height: 22px;
   z-index: 99;
 }
+header #nav .bottom-nav .left-container ul li.no-arrow::after {
+  display: none;
+}
 header #nav .bottom-nav .left-container ul li.bottom-nav-links {
   padding: 28px 0;
 }

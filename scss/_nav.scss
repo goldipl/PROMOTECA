@@ -212,6 +212,11 @@ header {
                         font-size: 18px;
                         line-height: 22px;
                         z-index: 99;
+                        &.no-arrow {
+                            &::after {
+                                display: none;
+                            }
+                        }
                         &.bottom-nav-links {
                             padding: 28px 0;
                         }
