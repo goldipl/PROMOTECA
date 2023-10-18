@@ -883,7 +883,8 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   text-decoration: none;
 }
 .breadcrumbs ul li.breadcrumb-item a:hover {
-  text-decoration: underline;
+  color: #29A8DA;
+  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
 }
 
 @media (max-width: 1280px) {
@@ -1774,6 +1775,10 @@ footer .footer-container .footer-top .footer-right-container .footer-col--link a
   font-weight: 400;
   line-height: normal;
   color: #333333;
+}
+footer .footer-container .footer-top .footer-right-container .footer-col--link a:hover {
+  color: #29A8DA;
+  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
 }
 footer .footer-container .footer-bottom {
   position: relative;

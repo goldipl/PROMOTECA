@@ -32,7 +32,8 @@
                 color: #8A8A8A;
                 text-decoration: none;
                 &:hover {
-                    text-decoration: underline;
+                    color: $blue_color;
+                    text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
                 }
             }
         }
