@@ -85,6 +85,9 @@
                 color: $light_black;
                 text-align: center;
                 height: 80px;
+                p {
+                    margin-top: 0;
+                }
             }
             &--colors {
                 display: inline-flex;
@@ -129,6 +132,21 @@
                     }
                 }
             }
+            &--price {
+                height: 28px;
+                p.price {
+                    margin: 16px 0 0 0;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: normal;
+                    color: $light_black;
+                    span {
+                        font-weight: 700;
+                        font-size: 22px;
+                        color: $blue_color;
+                    }
+                }
+            }
             &--btn {
                 display: flex;
                 justify-content: center;
@@ -154,7 +172,7 @@
                         position: absolute;
                         display: block;
                         content: "";
-                        top: 8px;
+                        top: 7px;
                         right: 16px;
                         background: url("./../assets/icons/products_block/more_plus.svg");
                         height: 18px;
@@ -173,7 +191,7 @@
                             position: absolute;
                             display: block;
                             content: "";
-                            top: 8px;
+                            top: 7px;
                             right: 16px;
                             background: url("./../assets/icons/products_block/more_plus_white.svg");
                             height: 18px;

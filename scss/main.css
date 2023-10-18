@@ -1804,6 +1804,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   text-align: center;
   height: 80px;
 }
+.products_blocks_wrapper__slot .products_block_wrapper__slot--title p {
+  margin-top: 0;
+}
 .products_blocks_wrapper__slot .products_block_wrapper__slot--colors {
   display: inline-flex;
   height: 15px;
@@ -1847,6 +1850,21 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   border: 1px solid #FFDA58;
   background-color: #FFDA58;
 }
+.products_blocks_wrapper__slot .products_block_wrapper__slot--price {
+  height: 28px;
+}
+.products_blocks_wrapper__slot .products_block_wrapper__slot--price p.price {
+  margin: 16px 0 0 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+}
+.products_blocks_wrapper__slot .products_block_wrapper__slot--price p.price span {
+  font-weight: 700;
+  font-size: 22px;
+  color: #29A8DA;
+}
 .products_blocks_wrapper__slot .products_block_wrapper__slot--btn {
   display: flex;
   justify-content: center;
@@ -1874,7 +1892,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   position: absolute;
   display: block;
   content: "";
-  top: 8px;
+  top: 7px;
   right: 16px;
   background: url("./../assets/icons/products_block/more_plus.svg");
   height: 18px;
@@ -1894,7 +1912,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   position: absolute;
   display: block;
   content: "";
-  top: 8px;
+  top: 7px;
   right: 16px;
   background: url("./../assets/icons/products_block/more_plus_white.svg");
   height: 18px;
@@ -1911,6 +1929,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   width: 100%;
   height: 45px;
   border: 1px solid #E2E2E2;
+  margin-bottom: 41px;
 }
 .category_top_options__left--icons {
   display: flex;
