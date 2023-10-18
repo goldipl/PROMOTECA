@@ -29,9 +29,9 @@
             </div>
             <div class="row__container">
                 <aside>
-                    <?php include "./components/category/category_menu.php"; ?> 
+                    <?php include "./components/common/aside_menu.php"; ?> 
                     <?php include "./components/category/category_filters.php"; ?> 
-                    <?php include "./components/category/category_boxes.php"; ?> 
+                    <?php include "./components/common/aside_boxes.php"; ?> 
                 </aside>
                 <div class="col_10__container">
                     <?php include "./components/category/category_main.php"; ?> 

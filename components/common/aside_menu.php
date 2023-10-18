@@ -1,4 +1,4 @@
-<div class="category_menu">
+<div class="aside_menu">
     <h1 class="accordion-title">Menu</h1>
     <div class="accordion">
         <div class="accordion-tabs">

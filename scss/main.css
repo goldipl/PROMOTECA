@@ -1606,40 +1606,40 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     margin: 25px 0;
   }
 }
-.category_menu .accordion-title {
+.aside_menu .accordion-title {
   font-size: 18px;
   font-weight: 700;
   line-height: normal;
   color: #010B32;
   text-transform: uppercase;
 }
-.category_menu .accordion {
+.aside_menu .accordion {
   position: relative;
   z-index: 0;
   flex: 1;
   margin-bottom: 120px;
 }
-.category_menu .accordion-tabs {
+.aside_menu .accordion-tabs {
   overflow: hidden;
 }
-.category_menu .accordion-tabs .accordion-tab {
+.aside_menu .accordion-tabs .accordion-tab {
   width: 99%;
   color: #ffffff;
   overflow: hidden;
 }
-.category_menu .accordion-tabs .accordion-tab .accordion-input {
+.aside_menu .accordion-tabs .accordion-tab .accordion-input {
   position: absolute;
   opacity: 0;
   z-index: -1;
 }
-.category_menu .accordion-tabs .accordion-tab .accordion-input:checked + .accordion-tab-label::after {
+.aside_menu .accordion-tabs .accordion-tab .accordion-input:checked + .accordion-tab-label::after {
   content: "-";
 }
-.category_menu .accordion-tabs .accordion-tab .accordion-input:checked ~ .accordion-tab-content {
+.aside_menu .accordion-tabs .accordion-tab .accordion-input:checked ~ .accordion-tab-content {
   max-height: 100vh;
   padding: 8px 0;
 }
-.category_menu .accordion-tabs .accordion-tab-label {
+.aside_menu .accordion-tabs .accordion-tab-label {
   display: flex;
   justify-content: space-between;
   padding: 8px 0;
@@ -1650,11 +1650,11 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background: #ffffff;
   cursor: pointer;
 }
-.category_menu .accordion-tabs .accordion-tab-label:hover {
+.aside_menu .accordion-tabs .accordion-tab-label:hover {
   color: #29A8DA;
   text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
 }
-.category_menu .accordion-tabs .accordion-tab-label::after {
+.aside_menu .accordion-tabs .accordion-tab-label::after {
   content: "+";
   font-size: 24px;
   width: 1em;
@@ -1664,7 +1664,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #8A8A8A;
   margin-top: -6px;
 }
-.category_menu .accordion-tabs .accordion-tab-content {
+.aside_menu .accordion-tabs .accordion-tab-content {
   max-height: 0;
   padding: 0 1em;
   font-size: 14px;
@@ -1675,7 +1675,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   margin-left: 24px;
   width: 100%;
 }
-.category_menu .accordion-tabs .accordion-tab-content--link {
+.aside_menu .accordion-tabs .accordion-tab-content--link {
   display: inline-flex;
   font-size: 14px;
   font-weight: 400;
@@ -1683,12 +1683,12 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   width: 100%;
   margin-bottom: 4px;
 }
-.category_menu .accordion-tabs .accordion-tab-content--link:hover {
+.aside_menu .accordion-tabs .accordion-tab-content--link:hover {
   text-decoration: none;
   color: #29A8DA;
   text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
 }
-.category_menu .accordion-tabs .accordion-tab-close {
+.aside_menu .accordion-tabs .accordion-tab-close {
   display: flex;
   justify-content: flex-end;
   padding: 1em;
@@ -1696,7 +1696,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background: #ffffff;
   cursor: pointer;
 }
-.category_menu .accordion-tabs .accordion-tab-close:hover {
+.aside_menu .accordion-tabs .accordion-tab-close:hover {
   background: #e6e6e6;
 }
 
