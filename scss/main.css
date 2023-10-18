@@ -98,6 +98,19 @@ h1.mainpage-title::before {
     padding: 0 16px;
   }
 }
+.row__container {
+  display: flex;
+  flex-direction: row;
+}
+.row__container aside {
+  display: flex;
+  flex-direction: column;
+}
+.row__container .col_10__container {
+  display: flex;
+  flex-direction: column;
+}
+
 #topbar {
   display: flex;
   flex-direction: column;

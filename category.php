@@ -14,15 +14,28 @@
             <?php include "./components/nav.php"; ?> 
         </header>
         <div id="main-wrapper">
-        <div class="breadcrumbs">
+            <div class="breadcrumbs">
                 <ul>
                     <li class="breadcrumb-item">
-                        <a href="#">Strona główna</a>
+                        <a href="#">Home</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="#">Kubki reklamowe</a>
+                        <a href="#">Gadżety biurowe</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#">Akcesoria biurowe</a>
                     </li>
                 </ul>
+            </div>
+            <div class="row__container">
+                <aside>
+                    <?php include "./componenets/category/category_menu.php"; ?> 
+                    <?php include "./componenets/category/category_filters.php"; ?> 
+                    <?php include "./componenets/category/category_boxes.php"; ?> 
+                </aside>
+                <div class="col_10__container">
+                <?php include "./componenets/category/category_main.php"; ?> 
+                </div>
             </div>
         </div>
         <footer> 
