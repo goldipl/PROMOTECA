@@ -1144,6 +1144,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   border: 1px solid #D3D3D3;
   box-sizing: border-box;
   margin-right: 3px;
+  cursor: pointer;
 }
 #recommend .products_container--slot .products_wrapper--colors .color_square.white {
   background-color: #FFFFFF;
