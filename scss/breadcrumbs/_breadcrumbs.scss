@@ -56,7 +56,9 @@
 
 @media (max-width: 760px) {
     .breadcrumbs {
+        margin-top: 0;
         ul {
+            margin: 0;
             li.breadcrumb-item {
                 margin-right: 16px;
                 &::after {

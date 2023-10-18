@@ -115,6 +115,18 @@ h1.mainpage-title::before {
   width: 1240px;
 }
 
+@media (max-width: 760px) {
+  .row__container {
+    flex-direction: column;
+  }
+  .row__container aside {
+    width: 100%;
+    margin-right: 0;
+  }
+  .row__container .col_10__container {
+    width: 100%;
+  }
+}
 #topbar {
   display: flex;
   flex-direction: column;
@@ -897,6 +909,12 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   }
 }
 @media (max-width: 760px) {
+  .breadcrumbs {
+    margin-top: 0;
+  }
+  .breadcrumbs ul {
+    margin: 0;
+  }
   .breadcrumbs ul li.breadcrumb-item {
     margin-right: 16px;
   }
@@ -956,7 +974,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     width: calc(100% + 32px);
   }
 }
-@media (max-width: 960px) {
+@media (max-width: 760px) {
   #swiper .swiper {
     height: auto;
   }
@@ -974,7 +992,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     height: 10px;
   }
 }
-@media (max-width: 960px) {
+@media (max-width: 760px) {
   #welcome .text_container p {
     font-size: 14px;
     line-height: 160%;
@@ -1241,7 +1259,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     justify-content: flex-start;
   }
 }
-@media (max-width: 960px) {
+@media (max-width: 760px) {
   #recommend {
     margin-left: -16px;
     margin-right: -16px;
@@ -1328,7 +1346,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     margin-right: 0;
   }
 }
-@media (max-width: 960px) {
+@media (max-width: 760px) {
   #our_offert {
     margin-left: -16px;
     margin-right: -16px;
@@ -1505,7 +1523,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     width: 90%;
   }
 }
-@media (max-width: 960px) {
+@media (max-width: 760px) {
   #blog .blog_container .article_slot {
     width: 100%;
     margin-right: 0;
@@ -1577,7 +1595,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   margin: 0 0 30px 0;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 760px) {
   #why_us .why_us_container .big_img_text_slot {
     width: 100%;
     margin-right: 0;
@@ -2320,7 +2338,7 @@ footer .footer-container .footer-bottom .footer-three-cols .footer-col_slot--tex
     font-size: 14px;
   }
 }
-@media (max-width: 960px) {
+@media (max-width: 760px) {
   footer .footer-container {
     margin-top: 20px;
   }

@@ -13,3 +13,17 @@
         width: 1240px;
     }
 }
+
+
+@media (max-width: 760px) {
+    .row__container {
+        flex-direction: column;
+        aside {
+            width: 100%;
+            margin-right: 0;
+        }
+        .col_10__container {
+            width: 100%;
+        }
+    }
+}
