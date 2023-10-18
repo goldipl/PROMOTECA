@@ -2150,6 +2150,11 @@ footer .footer-container .footer-top .footer-left-container .footer-col-slot--te
   margin: 6px 0 6px 16px;
   color: #333333;
 }
+footer .footer-container .footer-top .footer-left-container .footer-col-slot--text a:hover {
+  text-decoration: none;
+  color: #29A8DA;
+  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+}
 footer .footer-container .footer-top .footer-right-container {
   display: flex;
   flex-direction: row;

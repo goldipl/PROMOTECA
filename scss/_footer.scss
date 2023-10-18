@@ -38,6 +38,11 @@ footer {
                                 margin: 6px 0 6px 16px;
                                 color: $light_black;
                             }
+                            a:hover {
+                                text-decoration: none;
+                                color: $blue_color;
+                                text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+                            }
                         }
                     }
                 }
