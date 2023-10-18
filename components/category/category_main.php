@@ -2,7 +2,7 @@
     <h1 class="title">Akcesoria biurowe reklamowe</h1>
     <p class="description">Menadżer ds. reklamy? Specjalista ds. Marketingu? Właściciel małej firmy? To nie ma znaczenia! Promoteca.pl ma do zaproponowania akcesoria biurowe reklamowe dopasowane do różnych potrzeb.</p>
 
-    <div class="top_options"></div>
+    <?php include "./components/category/category_top_options.php"; ?> 
 
     <div class="products_blocks_wrapper">
         <div class="products_blocks_wrapper__slot">
