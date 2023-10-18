@@ -223,7 +223,7 @@ header {
                         &::after {
                             position: absolute;
                             content: "";
-                            background: url("./../assets/icons/breadcrumb-chevron-down.svg") no-repeat;
+                            background: url("./../assets/icons/chevron-down.svg") no-repeat;
                             background-position: center;
                             background-size: contain;
                             width: 15px;
@@ -291,7 +291,7 @@ header {
                                         top: 10px;
                                         right: 0;
                                         transform: rotate(-90deg);
-                                        background: url("./../assets/icons/breadcrumb-chevron-down.svg") no-repeat;
+                                        background: url("./../assets/icons/chevron-down.svg") no-repeat;
                                         background-position: center;
                                         background-size: contain;
                                         width: 12px;
@@ -309,7 +309,7 @@ header {
                                     &:hover::after {
                                         transition: 0.6s;
                                         transform: rotate(90deg);
-                                        background: url("./../assets/icons/breadcrumb-chevron-down.svg") no-repeat;
+                                        background: url("./../assets/icons/chevron-down.svg") no-repeat;
                                         background-position: center;
                                         background-size: contain;
                                     }
