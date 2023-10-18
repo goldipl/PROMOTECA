@@ -43,5 +43,6 @@
         </footer>
         <script src="./js/mobile_searchbar.js"></script>
         <script src="./js/script.js"></script>
+        <script src="./js/category_filters.js"></script>
     </body>
 </html>
