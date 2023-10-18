@@ -51,9 +51,56 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+            margin-left: 24px;
             cursor: pointer;
             .expand-filters-btn,
             .set-changes-filters-btn {
+                p {
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-decoration-line: underline;
+                    margin: 0;
+                }
+            }
+        }
+        .price_filters_box {
+            .price_filter_container {
+                display: inline-block;
+                &--from,
+                &--to {
+                    display: inline-block;
+                    width: 122px;
+                    height: 35px;
+                    input {
+                        font-family: 'Poppins', sans-serif;
+                        width: 122px;
+                        height: 35px;
+                        border: 1px solid $grey_middle;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: normal;
+                        color: $light_black;
+                        padding: 0 12px;
+                        box-sizing: border-box;
+                    }
+                }
+                &--separator {
+                    display: inline-block;
+                    text-align: center;
+                    width: 36px;
+                    height: 35px;
+                    p {
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: normal;
+                        color: $light_black;
+                    }
+                }
+            }
+            .set-prices {
+                margin-top: 10px;
+                cursor: pointer;
                 p {
                     font-size: 12px;
                     font-weight: 400;

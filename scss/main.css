@@ -1962,10 +1962,54 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-left: 24px;
   cursor: pointer;
 }
 .category_filters-slot .filters-btns .expand-filters-btn p,
 .category_filters-slot .filters-btns .set-changes-filters-btn p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin: 0;
+}
+.category_filters-slot .price_filters_box .price_filter_container {
+  display: inline-block;
+}
+.category_filters-slot .price_filters_box .price_filter_container--from, .category_filters-slot .price_filters_box .price_filter_container--to {
+  display: inline-block;
+  width: 122px;
+  height: 35px;
+}
+.category_filters-slot .price_filters_box .price_filter_container--from input, .category_filters-slot .price_filters_box .price_filter_container--to input {
+  font-family: "Poppins", sans-serif;
+  width: 122px;
+  height: 35px;
+  border: 1px solid #8A8A8A;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: normal;
+  color: #333333;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+.category_filters-slot .price_filters_box .price_filter_container--separator {
+  display: inline-block;
+  text-align: center;
+  width: 36px;
+  height: 35px;
+}
+.category_filters-slot .price_filters_box .price_filter_container--separator p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: normal;
+  color: #333333;
+}
+.category_filters-slot .price_filters_box .set-prices {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.category_filters-slot .price_filters_box .set-prices p {
   font-size: 12px;
   font-weight: 400;
   line-height: normal;
