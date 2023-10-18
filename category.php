@@ -34,7 +34,7 @@
                     <?php include "./components/category/category_boxes.php"; ?> 
                 </aside>
                 <div class="col_10__container">
-                <?php include "./components/category/category_main.php"; ?> 
+                    <?php include "./components/category/category_main.php"; ?> 
                 </div>
             </div>
         </div>
