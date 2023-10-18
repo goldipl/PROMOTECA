@@ -14,7 +14,16 @@
             <?php include "./components/nav.php"; ?> 
         </header>
         <div id="main-wrapper">
-
+        <div class="breadcrumbs">
+                <ul>
+                    <li class="breadcrumb-item">
+                        <a href="#">Strona główna</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#">Kubki reklamowe</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <footer> 
             <?php include "./components/footer.php"; ?> 
