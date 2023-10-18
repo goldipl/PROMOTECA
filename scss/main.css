@@ -18,6 +18,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  accent-color: #29A8DA;
 }
 body.open-modal {
   position: fixed;
@@ -1603,6 +1604,100 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     margin: 25px 0;
   }
 }
+.category_menu .accordion-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  color: #010B32;
+  text-transform: uppercase;
+}
+.category_menu .accordion {
+  position: relative;
+  z-index: 0;
+  flex: 1;
+  margin-bottom: 120px;
+}
+.category_menu .accordion-tabs {
+  overflow: hidden;
+}
+.category_menu .accordion-tabs .accordion-tab {
+  width: 99%;
+  color: #ffffff;
+  overflow: hidden;
+}
+.category_menu .accordion-tabs .accordion-tab .accordion-input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.category_menu .accordion-tabs .accordion-tab .accordion-input:checked + .accordion-tab-label::after {
+  content: "-";
+}
+.category_menu .accordion-tabs .accordion-tab .accordion-input:checked ~ .accordion-tab-content {
+  max-height: 100vh;
+  padding: 8px 0;
+}
+.category_menu .accordion-tabs .accordion-tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  line-height: normal;
+  background: #ffffff;
+  cursor: pointer;
+}
+.category_menu .accordion-tabs .accordion-tab-label:hover {
+  color: #29A8DA;
+  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+}
+.category_menu .accordion-tabs .accordion-tab-label::after {
+  content: "+";
+  font-size: 24px;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+  color: #8A8A8A;
+  margin-top: -6px;
+}
+.category_menu .accordion-tabs .accordion-tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  line-height: normal;
+  transition: all 0.35s;
+  margin-left: 24px;
+  width: 100%;
+}
+.category_menu .accordion-tabs .accordion-tab-content--link {
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  width: 100%;
+  margin-bottom: 4px;
+}
+.category_menu .accordion-tabs .accordion-tab-content--link:hover {
+  text-decoration: none;
+  color: #29A8DA;
+  text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
+}
+.category_menu .accordion-tabs .accordion-tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #ffffff;
+  cursor: pointer;
+}
+.category_menu .accordion-tabs .accordion-tab-close:hover {
+  background: #e6e6e6;
+}
+
 footer {
   background-color: #F5F5F5;
   border-top: 1px solid #29A8DA;
