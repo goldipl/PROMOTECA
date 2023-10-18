@@ -1667,6 +1667,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   line-height: normal;
   background: #ffffff;
   cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .aside_menu .accordion-tabs .accordion-tab-label:hover {
   color: #29A8DA;
