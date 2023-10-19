@@ -15,13 +15,15 @@
             border: 1px solid #EEE;
             background-color: $white;
             margin-right: 13px;
+            cursor: pointer;
             p {
                 font-size: 16px;
                 font-weight: 400;
                 line-height: normal;
                 color: $title_black;
             }
-            &.active {
+            &.active,
+            &:hover {
                 background-color: $blue_color;
                 border-color: $blue_color;
                 p {

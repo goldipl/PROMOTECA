@@ -2008,6 +2008,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   border: 1px solid #EEE;
   background-color: #FFFFFF;
   margin-right: 13px;
+  cursor: pointer;
 }
 .pagination_container .element p {
   font-size: 16px;
@@ -2015,11 +2016,11 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   line-height: normal;
   color: #010B32;
 }
-.pagination_container .element.active {
+.pagination_container .element.active, .pagination_container .element:hover {
   background-color: #29A8DA;
   border-color: #29A8DA;
 }
-.pagination_container .element.active p {
+.pagination_container .element.active p, .pagination_container .element:hover p {
   color: #FFFFFF;
 }
 
