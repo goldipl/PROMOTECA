@@ -2046,6 +2046,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 .category_filters-slot .filters-btns .expand-filters-btn {
   margin-left: 8px;
 }
+.category_filters-slot .filters-btns .expand-filters-btn.hide {
+  visibility: hidden;
+}
 .category_filters-slot .filters-btns .expand-filters-btn::before {
   position: absolute;
   display: block;

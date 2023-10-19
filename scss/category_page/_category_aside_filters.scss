@@ -111,6 +111,9 @@
             }
             .expand-filters-btn {
                 margin-left: 8px;
+                &.hide {
+                    visibility: hidden;
+                }
                 &::before {
                     position: absolute;
                     display: block;
