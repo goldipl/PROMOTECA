@@ -26,22 +26,67 @@
             }
             li {
                 list-style: none;
+                display: inline-flex;
+                width: 100%;
                 label {
-                        display: inline;
+                        display: inline-flex;
+                        align-items: center;
                         font-size: 14px;
                         font-weight: 400;
                         line-height: normal;
                         color: $light_black;
                         cursor: pointer;
                         user-select: none;
+                        margin-left: 12px;
                     p,
                     span {
-                        display: inline;
+                        display: inline-flex;
                         font-size: 14px;
                         font-weight: 400;
                         line-height: normal;
                         color: $grey_middle;
                         user-select: none;
+                        margin: 0;
+                    }
+                    .color_square {
+                        display: inline-flex;
+                        width: 15px;
+                        height: 15px;
+                        border: 1px solid #D3D3D3;
+                        box-sizing: border-box;
+                        margin-right: 8px;
+                        cursor: pointer;
+                        &.white {
+                            background-color: $white;
+                        }
+                        &.darkblue {
+                            border: 1px solid #020054;
+                            background-color: #020054;
+                        }
+                        &.red {
+                            border: 1px solid #FF0000;
+                            background-color: #FF0000;
+                        }
+                        &.yellow {
+                            border: 1px solid #FFC700;
+                            background-color: #FFC700;
+                        }
+                        &.green {
+                            border: 1px solid #64C14D;
+                            background-color: #64C14D;
+                        }
+                        &.purple {
+                            border: 1px solid #5945A9;
+                            background-color: #5945A9;
+                        }
+                        &.brown {
+                            border: 1px solid #674C4C;
+                            background-color: #674C4C;
+                        }
+                        &.yellow2 {
+                            border: 1px solid #FFDA58;
+                            background-color: #FFDA58;
+                        }
                     }
                 }
             }
@@ -55,12 +100,28 @@
             cursor: pointer;
             .expand-filters-btn,
             .set-changes-filters-btn {
+                position: relative;
                 p {
                     font-size: 12px;
                     font-weight: 400;
                     line-height: normal;
                     text-decoration-line: underline;
                     margin: 0;
+                }
+            }
+            .expand-filters-btn {
+                margin-left: 8px;
+                &::before {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    top: 2px;
+                    left: -28px;
+                    background: url("./../assets/icons/products_block/more_plus.svg");
+                    height: 14px;
+                    width: 14px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
                 }
             }
         }
