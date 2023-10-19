@@ -1686,6 +1686,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   line-height: normal;
   color: #010B32;
   text-transform: uppercase;
+  margin-top: 0;
   margin-bottom: 0;
   -webkit-user-select: none;
      -moz-user-select: none;
