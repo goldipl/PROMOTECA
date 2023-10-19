@@ -1687,6 +1687,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #010B32;
   text-transform: uppercase;
   margin-bottom: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .aside_menu .accordion_box_title--img img {
   margin-right: 10px;
@@ -2063,6 +2066,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #010B32;
   text-transform: uppercase;
   margin-bottom: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .category_filters .accordion_box_title--img img {
   margin-right: 10px;

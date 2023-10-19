@@ -11,6 +11,7 @@
             color: $title_black;
             text-transform: uppercase;
             margin-bottom: 0;
+            user-select: none;
         }
         &--img {
             img {
