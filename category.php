@@ -35,6 +35,7 @@
                 </aside>
                 <div class="col_10__container">
                     <?php include "./components/category/category_main.php"; ?> 
+                    <?php include "./components/category/seo_text.php"; ?> 
                 </div>
             </div>
         </div>

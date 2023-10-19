@@ -1624,6 +1624,55 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     margin: 25px 0;
   }
 }
+.aside_boxes {
+  margin-top: 29px;
+  margin-bottom: 47px;
+}
+.aside_boxes_slot {
+  padding: 15px 35px 35px 35px;
+  border: 1px solid #EEE;
+  margin-bottom: 19px;
+}
+.aside_boxes_slot .title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  justify-content: flex-start;
+}
+.aside_boxes_slot a .aside_img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.aside_boxes_slot a .aside_img img {
+  padding: 12px;
+}
+.aside_boxes_slot a .desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  color: #333333;
+  text-decoration: none;
+}
+.aside_boxes_slot a:hover {
+  text-decoration: none;
+}
+.aside_boxes_slot--list {
+  padding-left: 24px;
+}
+.aside_boxes_slot--list li a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-decoration: none;
+}
+.aside_boxes_slot--list li a:hover {
+  color: #29A8DA;
+}
+
 .aside_menu .accordion-title {
   font-size: 18px;
   font-weight: 700;
@@ -2219,6 +2268,50 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   .category_top_options__left--icons .category_top--icon-grid {
     cursor: pointer;
     margin-left: 16px;
+  }
+}
+.seo_text_container {
+  margin-left: 9px;
+}
+.seo_text_container .seo_title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #010B32;
+}
+.seo_text_container .seo_title span {
+  color: #29A8DA;
+}
+.seo_text_container .seo_desc {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #8A8A8A;
+}
+.seo_text_container .seo_desc a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%;
+  color: #8A8A8A;
+  text-decoration: underline;
+}
+.seo_text_container .seo_desc a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 760px) {
+  .seo_text_container {
+    margin-left: 0;
+    margin-bottom: 24px;
+  }
+  .seo_text_container .seo_title {
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .seo_text_container .seo_desc {
+    font-size: 12px;
+    line-height: 140%;
   }
 }
 footer {

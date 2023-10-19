@@ -1,0 +1,44 @@
+.seo_text_container {
+    margin-left: 9px;
+    .seo_title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        color: $title_black;
+        span {
+            color: $blue_color;
+        }
+    }
+    .seo_desc {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 160%;
+        color: $grey_middle;
+        a {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 160%;
+            color: $grey_middle;
+            text-decoration: underline;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .seo_text_container {
+        margin-left: 0;
+        margin-bottom: 24px;
+        .seo_title {
+            font-size: 16px;
+            line-height: 130%;
+        }
+        .seo_desc {
+            font-size: 12px;
+            line-height: 140%;
+        }
+    }
+}
