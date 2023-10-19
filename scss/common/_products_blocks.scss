@@ -205,3 +205,11 @@
         }
     }
 }
+
+@media (max-width: 760px) {
+    .products_blocks_wrapper {
+        justify-content: center;
+        max-height: unset;
+        margin-bottom: 24px;
+    }
+}

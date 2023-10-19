@@ -75,3 +75,20 @@
         }
     }
 }
+
+@media (max-width: 760px) {
+    .category_top_options {
+        margin-bottom: 24px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: 54px;
+        &__left {
+            &--icons {
+                .category_top--icon-grid {
+                    cursor: pointer;
+                    margin-left: 16px;
+                }
+            }
+        }
+    }
+}
