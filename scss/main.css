@@ -1686,6 +1686,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   line-height: normal;
   color: #010B32;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 .aside_menu .accordion_box_title--img img {
   margin-right: 10px;
