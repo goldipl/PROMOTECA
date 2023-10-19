@@ -1,10 +1,31 @@
 .aside_menu {
-    .accordion-title {
-        font-size: 18px;
-        font-weight: 700;
-        line-height: normal;
-        color: $title_black;
-        text-transform: uppercase;
+    .accordion_box_title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        &--title {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: normal;
+            color: $title_black;
+            text-transform: uppercase;
+        }
+        &--img {
+            img {
+                margin-right: 10px;
+                margin-top: 5px;
+                transition: 0.6s;
+                transform: rotate(180deg);
+            }
+        }
+        &.active {
+            &--img {
+                img {
+                    transform: rotate(0);
+                }
+            }
+        }
     }
     .accordion {
         position: relative;

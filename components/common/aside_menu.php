@@ -1,5 +1,10 @@
 <div class="aside_menu">
-    <h1 class="accordion-title">Menu</h1>
+    <div class="accordion_box_title">
+        <h1 class="accordion_box_title--title">Menu</h1>
+        <div class="accordion_box_title--img">
+            <img src="./assets/icons/chevron-down-grey.svg" alt="chevron-down-grey" width="12" height="12">
+        </div>
+    </div>
     <div class="accordion">
         <div class="accordion-tabs">
             <div class="accordion-tab">

@@ -1,5 +1,10 @@
 <div class="category_filters">
-    <h1 class="title producer accordion">Producent</h1>
+    <div class="accordion_box_title">
+        <h1 class="title producer accordion">Producent</h1>
+        <div class="accordion_box_title--img">
+            <img src="./assets/icons/chevron-down-grey.svg" alt="chevron-down-grey" width="12" height="12">
+        </div>
+    </div>
     <div class="category_filters-slot" style="display: block;">
         <ul class="category_filters-slot--list producer">
             <li>
@@ -33,7 +38,12 @@
         </div>
     </div>
 
-    <h1 class="title color accordion">Kolor</h1>
+    <div class="accordion_box_title">
+        <h1 class="title color accordion">Kolor</h1>
+        <div class="accordion_box_title--img">
+            <img src="./assets/icons/chevron-down-grey.svg" alt="chevron-down-grey" width="12" height="12">
+        </div>
+    </div>
     <div class="category_filters-slot" style="display: block;">
         <ul class="category_filters-slot--list color">
             <li>
@@ -64,7 +74,12 @@
         </div>
     </div>
 
-    <h1 class="title price accordion">Cena</h1>
+    <div class="accordion_box_title">
+        <h1 class="title price accordion">Cena</h1>
+        <div class="accordion_box_title--img">
+            <img src="./assets/icons/chevron-down-grey.svg" alt="chevron-down-grey" width="12" height="12">
+        </div>
+    </div>
     <div class="category_filters-slot" style="display: block;">
         <div class="price_filters_box">
             <div class="price_filter_container">
