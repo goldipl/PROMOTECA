@@ -46,5 +46,6 @@
         <script src="./js/mobile_searchbar.js"></script>
         <script src="./js/script.js"></script>
         <script src="./js/category_filters.js"></script>
+        <script src="./js/accordion_title.js"></script>
     </body>
 </html>

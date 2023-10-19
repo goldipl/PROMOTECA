@@ -21,14 +21,16 @@
             }
         }
         &.active {
-            &--img {
-                img {
-                    transform: rotate(0);
-                }
+            img {
+                transform: rotate(0);
             }
         }
     }
     &-slot {
+        display: block;
+        &.hide {
+            display: none;
+        }
         &--list {
             padding-left: 0;
             &.producer {

@@ -4,6 +4,7 @@
         justify-content: space-between;
         align-items: center;
         cursor: pointer;
+        height: 42px;
         &--title {
             font-size: 18px;
             font-weight: 700;
@@ -20,18 +21,20 @@
             }
         }
         &.active {
-            &--img {
-                img {
-                    transform: rotate(0);
-                }
-            }
+            img {
+                transform: rotate(0);
+            }  
         }
     }
     .accordion {
+        display: block;
         position: relative;
         z-index: 0;
         flex: 1;
         margin-bottom: 120px;
+        &.hide {
+            display: none;
+        }
         &-tabs {
             overflow: hidden;
             .accordion-tab {

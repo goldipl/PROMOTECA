@@ -5,7 +5,7 @@
             <img src="./assets/icons/chevron-down-grey.svg" alt="chevron-down-grey" width="12" height="12">
         </div>
     </div>
-    <div class="category_filters-slot" style="display: block;">
+    <div class="category_filters-slot">
         <ul class="category_filters-slot--list producer">
             <li>
                 <input type="checkbox" id="tag01" name="tag01" value="Tag 01">
@@ -44,7 +44,7 @@
             <img src="./assets/icons/chevron-down-grey.svg" alt="chevron-down-grey" width="12" height="12">
         </div>
     </div>
-    <div class="category_filters-slot" style="display: block;">
+    <div class="category_filters-slot">
         <ul class="category_filters-slot--list color">
             <li>
                 <input type="checkbox" id="color01" name="color01" value="color 01">
@@ -80,7 +80,7 @@
             <img src="./assets/icons/chevron-down-grey.svg" alt="chevron-down-grey" width="12" height="12">
         </div>
     </div>
-    <div class="category_filters-slot" style="display: block;">
+    <div class="category_filters-slot">
         <div class="price_filters_box">
             <div class="price_filter_container">
                 <div class="price_filter_container--from">
