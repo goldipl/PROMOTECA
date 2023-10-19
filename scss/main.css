@@ -2354,6 +2354,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     font-size: 12px;
     line-height: 140%;
   }
+  .seo_text_container .seo_desc a {
+    font-size: 12px;
+    line-height: 140%;
+  }
 }
 footer {
   background-color: #F5F5F5;
