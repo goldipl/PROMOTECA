@@ -69,13 +69,13 @@
         <div class="price_filters_box">
             <div class="price_filter_container">
                 <div class="price_filter_container--from">
-                    <input type="number" name="" id="" placeholder="od">
+                    <input type="number" name="" id="" placeholder="od" min="0">
                 </div>
                 <div class="price_filter_container--separator">
                     <p>-</p>
                 </div>
                 <div class="price_filter_container--to">
-                    <input type="number" name="" id="" placeholder="do">
+                    <input type="number" name="" id="" placeholder="do" min="0">
                 </div>
             </div>
             <div class="set-prices">
