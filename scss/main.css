@@ -2642,6 +2642,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   line-height: normal;
   text-transform: uppercase;
   color: #010B32;
+  margin-top: 0;
 }
 
 footer {
