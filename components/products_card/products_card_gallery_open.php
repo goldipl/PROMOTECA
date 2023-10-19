@@ -23,6 +23,14 @@
         </div>
     </div>
     <div class="products_card_gallery_open--details">
+        <h1 class="title">Klip do dokumentów V2794-08</h1>
+        <div class="details_desc_container">
+            <div class="details_desc_container-column">
 
+            </div>
+            <div class="details_desc_container-column">
+                
+            </div>
+        </div>
     </div>
 </div>

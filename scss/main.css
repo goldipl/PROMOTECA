@@ -2428,8 +2428,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background-color: #FFFFFF;
   margin: 0 auto;
   padding: 10px;
-  width: 480px;
+  width: 572px;
+  height: auto;
   box-sizing: border-box;
+  margin-right: 38px;
 }
 .gallery-container-small {
   display: flex;
@@ -2437,18 +2439,24 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   width: auto;
 }
 .gallery-container-small .gallery-item {
+  border: 1px solid #E2E2E2;
   margin-bottom: 6px;
-  opacity: 0.85;
   cursor: pointer;
+  width: 81px;
+  height: 67px;
+  margin-right: 9px;
+  box-sizing: border-box;
 }
 .gallery-container-small .gallery-item img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  padding: 5px;
+  box-sizing: border-box;
 }
 .gallery-container-small .gallery-item img:hover {
   filter: opacity(0.8);
@@ -2457,22 +2465,26 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  width: 380px;
 }
 .gallery-container-big .gallery-item {
+  border: 1px solid #E2E2E2;
   position: relative;
-  margin-bottom: 6px;
-  opacity: 0.85;
+  margin-bottom: 9px;
   cursor: pointer;
+  width: 572px;
+  height: 390px;
+  box-sizing: border-box;
 }
 .gallery-container-big .gallery-item img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  padding: 25px;
+  box-sizing: border-box;
 }
 .gallery-container-big .gallery-item img:hover {
   filter: opacity(0.8);
@@ -2574,8 +2586,8 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   padding: 12px;
   cursor: pointer;
   font-size: 0 !important;
-  width: 20px;
-  height: 20px;
+  width: 8px;
+  height: 8px;
   background: url("./../assets/icons/gallery/close_discount_modal.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -2592,9 +2604,6 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   }
 }
 @media (max-width: 960px) {
-  .gallery-container .gallery-container-small {
-    display: none;
-  }
   .gallery-container-big .big {
     position: relative;
   }
@@ -2622,6 +2631,18 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   }
 }
 /* /==== LIGHTBOX ==== */
+.products_card_gallery_open {
+  display: flex;
+  flex-direction: row;
+}
+.products_card_gallery_open--details .title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #010B32;
+}
+
 footer {
   background-color: #F5F5F5;
   border-top: 1px solid #29A8DA;

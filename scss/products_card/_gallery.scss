@@ -6,21 +6,29 @@
     background-color: $white;
     margin: 0 auto;
     padding: 10px;
-    width: 480px;
+    width: 572px;
+    height: auto;
     box-sizing: border-box;
+    margin-right: 38px;
     &-small {
         display: flex;
         flex-direction: row;
         width: auto;
         .gallery-item {
+            border: 1px solid $grey_light;
             margin-bottom: 6px;
-            opacity: .85;
             cursor: pointer;
+            width: 81px;
+            height: 67px;
+            margin-right: 9px;
+            box-sizing: border-box;
             img {
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
+                object-fit: contain;
                 user-select: none;
+                padding: 5px;
+                box-sizing: border-box;
                 &:hover {
                     filter: opacity(0.8)
                 }
@@ -31,17 +39,21 @@
         display: flex;
         justify-content: flex-start;
         flex-direction: row;
-        width: 380px;
         .gallery-item {
+            border: 1px solid $grey_light;
             position: relative;
-            margin-bottom: 6px;
-            opacity: .85;
+            margin-bottom: 9px;
             cursor: pointer;
+            width: 572px;
+            height: 390px;
+            box-sizing: border-box;
             img {
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
+                object-fit: contain;
                 user-select: none;
+                padding: 25px;
+                box-sizing: border-box;
                 &:hover {
                     filter: opacity(0.8)
                 }
@@ -137,8 +149,8 @@
     padding: 12px;
     cursor: pointer;
     font-size: 0 !important;
-    width: 20px;
-    height: 20px;
+    width: 8px;
+    height: 8px;
     background: url('./../assets/icons/gallery/close_discount_modal.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -156,9 +168,6 @@
 }
 
 @media (max-width: 960px) {
-    .gallery-container .gallery-container-small {
-        display: none;
-    }
     .gallery-container-big {
         .big {
             position: relative;

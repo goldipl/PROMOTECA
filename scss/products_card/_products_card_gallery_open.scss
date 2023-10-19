@@ -1,8 +1,13 @@
 .products_card_gallery_open {
-    &--gallery {
-
-    }
+    display: flex;
+    flex-direction: row;
     &--details {
-        
+        .title {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;
+            color: $title_black;
+        }
     }
 }
