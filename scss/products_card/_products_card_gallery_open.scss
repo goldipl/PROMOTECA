@@ -266,3 +266,49 @@
         }
     }
 }
+
+@media (max-width: 760px) {
+    .products_card_gallery_open {
+        flex-direction: column;
+        &--details {
+            .title {
+                margin-top: 10px;
+                font-size: 20px;
+            }
+            .details_desc_container {
+                flex-direction: column;
+                &-column {
+                    .available {
+                        margin-top: 0;
+                    }
+                }
+            }
+            .price_cart_btn__container {
+                flex-wrap: wrap;
+                &--price {
+                    width: 75%;
+                }
+                &--input {
+                    width: 25%;
+                    input {
+                        text-align: center;
+                        margin: 0;
+                        width: 100%;
+                    }
+                }
+                &--btn {
+                    width: 100%;
+                    margin-top: 15px;
+                }
+            }
+            .colors_container {
+                align-items: center;
+                margin-bottom: 15px;
+                .actual_color {
+                    justify-content: center;
+                    margin: 15px 0;
+                }
+            }
+        }
+    }
+}
