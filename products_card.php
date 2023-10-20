@@ -37,6 +37,8 @@
                 </aside>
                 <div class="col_10__container">
                     <?php include "./components/products_card/products_card_gallery_open.php"; ?>
+                    <?php include "./components/products_card/products_card_description_client.php"; ?>
+                    <?php include "./components/products_card/products_card_recommended.php"; ?>
                 </div>
             </div>
         </div>

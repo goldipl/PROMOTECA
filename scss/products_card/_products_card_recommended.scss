@@ -1,0 +1,11 @@
+.products_card_recommended {
+    .desc_title_box {
+        &--title {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;
+            color: $light_black;
+        }
+    }
+}
