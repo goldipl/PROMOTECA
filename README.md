@@ -6,7 +6,7 @@
 * [Screenshots](#screenshots)
 
 ## General info
-PROMOTECA.pl website ➡️ E-commerce static website written using PHP, SCSS, Vanilla JavaScript, HTML5 with SwiperJS. Website contains products page, cart page, login, register, offerts & account profiles/settings pages.
+PROMOTECA.pl website ➡️ E-commerce dynamic website written using PHP, SCSS, Vanilla JavaScript, HTML5 with SwiperJS. Website contains products page, cart page, login, register, offerts & account profiles/settings pages.
 
 ## Technologies   
 Used technologies:
