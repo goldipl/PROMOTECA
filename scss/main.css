@@ -2437,7 +2437,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   justify-content: flex-start;
   background-color: #FFFFFF;
   margin: 0 auto;
-  padding: 10px;
+  padding: 10px 10px 10px 0;
   width: 572px;
   height: auto;
   box-sizing: border-box;
@@ -3487,6 +3487,72 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     margin-bottom: 20px;
   }
 }
+.products_card_description_trader {
+  margin-left: 46px;
+  margin-right: 52px;
+}
+.products_card_description_trader .desc_container {
+  margin-bottom: 40px;
+  padding-left: 32px;
+}
+.products_card_description_trader .desc_container .desc_title_box {
+  width: 100%;
+  border-bottom: 1px solid #29A8DA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F6F6F6;
+  margin-left: -32px;
+  padding-left: 32px;
+}
+.products_card_description_trader .desc_container .desc_title_box--title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #333333;
+}
+.products_card_description_trader .desc_container .desc_title_box--title span {
+  color: #8A8A8A;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+.products_card_description_trader .desc_container .desc_title_box--expand {
+  position: relative;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  color: #333333;
+  cursor: pointer;
+  margin: 0 13px 0 0;
+}
+.products_card_description_trader .desc_container .desc_title_box--expand::before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 2px;
+  left: -28px;
+  background: url("./../assets/icons/products_block/more_plus.svg");
+  height: 14px;
+  width: 14px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.products_card_description_trader .desc_container .desc_title_box_content {
+  margin-left: -32px;
+  padding-left: 32px;
+  border: 1px solid #E2E2E2;
+}
+.products_card_description_trader .desc_container .desc_title_box_content p .bold_green {
+  font-weight: 700;
+  color: #00AA25;
+}
+.products_card_description_trader .desc_container .desc_title_box_content p.high_mb {
+  margin-bottom: 40px;
+}
+
 .products_card_recommended .desc_title_box--title {
   font-size: 20px;
   font-weight: 600;

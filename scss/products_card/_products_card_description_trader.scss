@@ -1,0 +1,71 @@
+.products_card_description_trader {
+    margin-left: 46px;
+    margin-right: 52px;
+    .desc_container {
+        margin-bottom: 40px;
+        padding-left: 32px;
+        .desc_title_box {
+            width: 100%;
+            border-bottom: 1px solid $blue_color;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: $grey_light3;
+            margin-left: -32px;
+            padding-left: 32px;
+            &--title {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: uppercase;
+                color: $light_black;
+                span {
+                    color: $grey_middle;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-transform: lowercase;
+                }
+            }
+            &--expand {
+                position: relative;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration-line: underline;
+                color: $light_black;
+                cursor: pointer;
+                margin: 0 13px 0 0;
+                &::before {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    top: 2px;
+                    left: -28px;
+                    background: url("./../assets/icons/products_block/more_plus.svg");
+                    height: 14px;
+                    width: 14px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+        .desc_title_box_content {
+            margin-left: -32px;
+            padding-left: 32px;
+            border: 1px solid $grey_light;
+            p {
+                .bold_green {
+                    font-weight: 700;
+                    color: $green;
+                }
+                &.high_mb {
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+
+}
