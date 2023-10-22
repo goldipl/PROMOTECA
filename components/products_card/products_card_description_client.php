@@ -112,6 +112,48 @@
                 <h2 class="desc_title_box--title">Opinie <span>(1 opinia)</span></h2>
                 <p class="desc_title_box--expand">Zwiń</p>
             </div>
+            <div class="opinions_container_box">
+                <div class="opinions_container_box--slot">
+                    <div class="opinions_slot_author">
+                        <div class="opinions_slot_author--name">
+                            <p>Karol</p>
+                        </div>
+                        <div class="opinions_slot_author--stars">
+                            <img src="./assets/icons/products_card/stars4.svg" alt="stars">
+                        </div>
+                        <div class="opinions_slot_author--data">
+                            <p>25.06.2023</p>
+                        </div>
+                    </div>
+                    <div class="opinions_slot_content">
+                        <p>OK! Polecam</p>
+                    </div>
+                </div>
+                <div class="opinions_container_box--slot_new_opinion">
+                    <div class="opinions_slot_title">
+                        <p>Napisz ocenę</p>
+                    <div class="opinions_slot_stars">
+                        <p>Ocena:</p>
+                        <img class="stars" src="./assets/icons/products_card/stars0.svg" alt="stars">
+                    </div>
+                    <div class="opinions_slot_name">
+                        <label for="opinion_name">Imię:</label>
+                        <input type="text" name="opinion_name" id="opinion_name">
+                    </div>
+                    <div class="opinions_slot_opinion">
+                        <label for="opinion_content">Twoja opinia:</label>
+                        <textarea name="opinion_content" id="opinion_content"></textarea>
+                    </div>
+                    <div class="opinions_slot_send_btn_captcha_container">
+                        <div class="captcha_send">
+                            <img src="./assets/img/products_card/captcha.jpg" alt="captcha">
+                        </div>
+                        <div class="send_btn">
+                            <a href="">Wyślij</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

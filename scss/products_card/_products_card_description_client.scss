@@ -337,6 +337,132 @@
                 }
             }
         }
+        .opinions_container {
+            &_box {
+                &--slot {
+                    padding: 33px 22px;
+                    border-bottom: 1px solid $grey_light;
+                    .opinions_slot_author {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+                        &--name {
+                            p {
+                                margin-right: 40px;
+                                font-size: 16px;
+                                font-weight: 700;
+                            }
+                        }
+                        &--stars {
+                            img {
+                                margin-right: 32px;
+                            }
+                        }
+                        &--data {
+                            p {
+                                font-size: 16px;
+                                font-weight: 400;
+                                color: $grey_middle;
+                            }
+                        }
+                    }
+                    .opinions_slot_content {
+                        p {
+                            margin: 0;
+                        }
+                    }
+                }
+                &--slot_new_opinion {
+                    padding: 15px 22px;
+                    .opinions_slot_title {
+                        p {
+                            font-size: 16px;
+                            font-weight: 700;
+                        }
+                    }
+                    .opinions_slot_stars {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+                        p {
+                            font-weight: 400;
+                            margin: 0;
+                        }
+                        .stars {
+                            margin-left: 10px;
+                            cursor: pointer;
+                        }
+                    }
+                    .opinions_slot_name,
+                    .opinions_slot_opinion {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        label {
+                            margin-top: 16px;
+                            margin-bottom: 8px;
+                        }
+                        textarea,
+                        input {
+                            font-family: 'Poppins', sans-serif;
+                            border: 1px solid $grey_light;
+                            width: 100%;
+                            height: 48px;
+                            font-size: 14px;
+                            &:focus,
+                            &:hover {
+                                outline: 1px solid $blue_color;
+                            }
+                        }
+                        textarea {
+                            height: 113px;
+                            margin-bottom: 22px;
+                        }
+                    }
+                    .opinions_slot_send_btn_captcha_container {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-end;
+                        align-items: flex-start;
+                        margin-bottom: 180px;
+                        .captcha_send {
+                            margin-right: 21px;
+                        }
+                        .send_btn {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 101px;
+                            height: 44px;
+                            box-sizing: border-box;
+                            border: 1px solid $light_black;
+                            a {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: normal;
+                                color: $light_black;
+                                text-decoration: none;
+                                width: 100%;
+                                height: 100%;
+                            }
+                            &:hover {
+                                background-color: $blue_color;
+                                border: 1px solid $blue_color;
+                                a {
+                                    color: $white
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -356,18 +482,66 @@
                 }
             }
             .desc_text_inputs_boxes {
-                flex-direction: column;
                 &__slot {
-                    flex-direction: row;
+                    flex-direction: column;
                     width: 100%;
                     margin-right: 0;
+                    height: auto;
+                    &.empty {
+                        display: none;
+                    }
                     &--text {
-                        width: 70vw;
+                        width: 100%;
                     }
                     &--input {
-                        width: 30vw;
+                        width: 100%;
                         input {
                             width: 100%;
+                            border-left: 0;
+                            border-right: 0;
+                            border-bottom: 0;
+                        }
+                    }
+                    &--select {
+                        width: 100%;
+                        select {
+                            width: 100%;
+                            border-left: 0;
+                            border-right: 0;
+                            border-bottom: 0;
+                        }
+                    }
+                }
+            }
+            .desc_cart_prices_text {
+                &--slot {
+                    &.two-slots {
+                        flex-direction: column;
+                        align-items: flex-end;
+                    }
+                    .slot-one {
+                        .download_button {
+                            margin-bottom: 15px;
+                        }
+                    }
+                }
+            }
+            .opinions_container {
+                &_box {
+                    &--slot,
+                    &--slot_new_opinion {
+                        padding: 20px 0;
+                    }
+                    &--slot_new_opinion { 
+                        .opinions_slot_title {
+                            width: 100%;
+                            input, 
+                            textarea {
+                                width: 98%;
+                            }
+                        }
+                        .opinions_slot_send_btn_captcha_container {
+                            margin-bottom: 20px;
                         }
                     }
                 }
