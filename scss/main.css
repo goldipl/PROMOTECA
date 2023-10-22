@@ -2966,6 +2966,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 .products_card_description_client .desc_container .desc_title_box {
   width: 100%;
   border-bottom: 1px solid #29A8DA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .products_card_description_client .desc_container .desc_title_box--title {
   font-size: 18px;
@@ -2973,6 +2976,34 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   line-height: normal;
   text-transform: uppercase;
   color: #333333;
+}
+.products_card_description_client .desc_container .desc_title_box--title span {
+  color: #8A8A8A;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+.products_card_description_client .desc_container .desc_title_box--expand {
+  position: relative;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  color: #333333;
+  cursor: pointer;
+  margin: 0;
+}
+.products_card_description_client .desc_container .desc_title_box--expand::before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 2px;
+  left: -28px;
+  background: url("./../assets/icons/products_block/more_plus.svg");
+  height: 14px;
+  width: 14px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .products_card_description_client .desc_container p .bold_green {
   font-weight: 700;
@@ -3126,6 +3157,133 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot.two-slots {
+  justify-content: space-between;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot.two-slots.margin {
+  margin: 8px 0;
+  padding-top: 18px;
+  border-top: 1px solid #E2E2E2;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot.two-slots .slot-one p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot.two-slots .slot-one p span {
+  font-weight: 700;
+  color: #29A8DA;
+  font-size: 16px;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot.two-slots .slot-one .download_button {
+  padding: 2px 20px;
+  border: 1px solid #29A8DA;
+  cursor: pointer;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot.two-slots .slot-one .download_button a {
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #29A8DA;
+  text-decoration: none;
+  margin: 0;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot.two-slots .slot-one .download_button a::after {
+  display: inline-block;
+  content: "";
+  width: 15px;
+  height: 11px;
+  background: url("./../assets/icons/products_card/download.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 10px;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot.two-slots .slot-one .download_button:hover {
+  background-color: #29A8DA;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot.two-slots .slot-one .download_button:hover a {
+  color: #FFFFFF;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot.two-slots .slot-one .download_button:hover a::after {
+  background: url("./../assets/icons/products_card/download_white.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot.two-slots .slot-two.summary p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot.two-slots .slot-two.summary p span {
+  font-size: 22px;
+  font-weight: 700;
+  color: #29A8DA;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot p.text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  margin: 0;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot .add_to_cart_button {
+  display: flex;
+  align-items: flex-end;
+  width: 172px;
+  height: 44px;
+  box-sizing: border-box;
+  background-color: #29A8DA;
+  border: 1px solid #29A8DA;
+  margin: 10px 0 80px auto;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot .add_to_cart_button a {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  color: #FFFFFF;
+  padding-left: 24px;
+  text-decoration: none;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot .add_to_cart_button a::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 12px;
+  right: 16px;
+  background: url("./../assets/icons/products_block/more_plus_white.svg");
+  height: 18px;
+  width: 18px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot .add_to_cart_button:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #333333;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot .add_to_cart_button:hover a {
+  color: #333333;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text--slot .add_to_cart_button:hover a::after {
+  background: url("./../assets/icons/products_block/more_plus.svg");
+  height: 18px;
+  width: 18px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 960px) {
