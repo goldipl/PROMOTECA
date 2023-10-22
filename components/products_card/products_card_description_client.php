@@ -7,7 +7,7 @@
         <p>na zamówienie w ciągu 7-10 dni</p>
     </div>
     <div class="desc_container">
-    <div class="desc_title_box">
+        <div class="desc_title_box">
             <h2 class="desc_title_box--title">Opis</h2>
         </div>
         <p class="high_mb">Klip do dokumentów.</p>
