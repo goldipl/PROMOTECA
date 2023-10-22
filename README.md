@@ -24,10 +24,10 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 * live link
 
 ## Screenshots
-* Desktop version :desktop_computer:   
+* Desktop & mobile version :desktop_computer: :iphone:       
 
-![Screenshot](./screenshots/Screenshot01.jpg)  
+![Screenshot](./screenshots/promoteca01.jpg)  
 
-* mobile version :iphone:  
+![Screenshot](./screenshots/promoteca02.jpg)  
 
-![Screenshot](./screenshots/Screenshot02.jpg)  
+![Screenshot](./screenshots/promoteca03.jpg)  
