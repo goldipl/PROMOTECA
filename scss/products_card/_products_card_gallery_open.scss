@@ -1,6 +1,7 @@
 .products_card_gallery_open {
     display: flex;
     flex-direction: row;
+    margin-left: 46px;
     &--details {
         .title {
             font-size: 24px;
@@ -269,6 +270,7 @@
 
 @media (max-width: 760px) {
     .products_card_gallery_open {
+        margin-left: 0;
         flex-direction: column;
         &--details {
             .title {

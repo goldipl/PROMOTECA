@@ -1,4 +1,5 @@
 .products_card_description_client {
+    margin-left: 46px;
     .desc_container {
         margin-bottom: 40px;
         .desc_title_box {
@@ -468,6 +469,7 @@
 
 @media (max-width: 960px) {
     .products_card_description_client {
+        margin-left: 0;
         .desc_container {
             p {
                 font-size: 16px;
