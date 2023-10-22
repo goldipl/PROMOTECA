@@ -73,5 +73,45 @@
                 </div>
             </div>
         </div>
+        <div class="desc_cart_prices_text">
+            <div class="desc_cart_prices_text--slot">
+                <p class="text">Cena za sztukę: 0,95 zł</p>
+            </div>
+            <div class="desc_cart_prices_text--slot">
+                <p class="text">Znakowanie: 47,00 zł</p>
+            </div>
+            <div class="desc_cart_prices_text--slot two-slots">
+                <div class="slot-one">
+                    <p class="text">Przewidywiany czas realizacji: <span>do 7 dni</span></p>
+                </div>
+                <div class="slot-two">
+                    <p class="text">Dostawa: 20,00 zł</p>
+                </div>
+            </div>
+            <div class="desc_cart_prices_text--slot two-slots margin">
+                <div class="slot-one">
+                    <div class="download_button">
+                        <a href="">Pobierz ofertę pdf</a>
+                    </div>
+                </div>
+                <div class="slot-two summary">
+                    <p class="text">Całkowita cena netto: <span>200.90</span> zł</p>
+                </div>
+            </div>
+            <div class="desc_cart_prices_text--slot">
+                <p class="text">brutto: 220,00 zł</p>
+            </div>
+            <div class="desc_cart_prices_text--slot btn">
+                <div class="add_to_cart_button">
+                    <a href="">Do koszyka</a>
+                </div>
+            </div>
+        </div>
+        <div class="opinions_container">
+            <div class="desc_title_box">
+                <h2 class="desc_title_box--title">Opinie <span>(1 opinia)</span></h2>
+                <p class="desc_title_box--expand">Zwiń</p>
+            </div>
+        </div>
     </div>
 </div>
