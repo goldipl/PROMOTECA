@@ -2996,7 +2996,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   text-decoration-line: underline;
   color: #333333;
   cursor: pointer;
-  margin: 0;
+  margin: 0 13px 0 0;
 }
 .products_card_description_client .desc_container .desc_title_box--expand::before {
   position: absolute;
@@ -3023,7 +3023,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   align-items: center;
   padding: 8px 40px;
   border: 1px solid #E2E2E2;
-  margin: 37px 0 21px 0;
+  margin: 37px 13px 21px 0;
 }
 .products_card_description_client .desc_container .desc_container__products_box--img {
   padding: 8px;
@@ -3046,7 +3046,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
+  width: calc(100% - 13px);
 }
 .products_card_description_client .desc_container .desc_text_inputs_boxes__slot {
   display: flex;
@@ -3162,6 +3162,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+.products_card_description_client .desc_container .desc_cart_prices_text {
+  width: calc(100% - 13px);
 }
 .products_card_description_client .desc_container .desc_cart_prices_text--slot {
   display: flex;
@@ -3416,13 +3419,22 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   .products_card_description_client {
     margin-left: 0;
   }
+  .products_card_description_client .desc_container--expand {
+    margin: 0;
+  }
   .products_card_description_client .desc_container p {
     font-size: 16px;
     line-height: 160%;
   }
+  .products_card_description_client .desc_container .desc_container__products_box {
+    margin-right: 0;
+  }
   .products_card_description_client .desc_container .desc_container__products_box--text p {
     font-size: 16px;
     line-height: 160%;
+  }
+  .products_card_description_client .desc_container .desc_text_inputs_boxes {
+    width: 100%;
   }
   .products_card_description_client .desc_container .desc_text_inputs_boxes__slot {
     flex-direction: column;
