@@ -149,10 +149,11 @@
                             content: '';
                             width: 15px;
                             height: 11px;
-                            background: url('./assets/icons/products_card/download.svg');
+                            background: url('./../assets/icons/products_card/download.svg');
                             background-position: center;
                             background-repeat: no-repeat;
                             background-size: contain;
+                            margin-left: 10px;
                         }
                     }
                     &:hover {
@@ -160,11 +161,7 @@
                         a {
                             color: $white;
                             &::after {
-                                display: inline-block;
-                                content: '';
-                                width: 15px;
-                                height: 11px;
-                                background: url('./assets/icons/products_card/download_white.svg');
+                                background: url('./../assets/icons/products_card/download_white.svg');
                                 background-position: center;
                                 background-repeat: no-repeat;
                                 background-size: contain;
