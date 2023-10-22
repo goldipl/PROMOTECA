@@ -8,4 +8,15 @@
             color: $light_black;
         }
     }
+    .products_blocks_wrapper {
+        margin-left: -46px;
+    }
+}
+
+@media (max-width: 760px) {
+    .products_card_recommended {
+        .products_blocks_wrapper {
+            margin-left: 0;
+        }
+    }
 }
