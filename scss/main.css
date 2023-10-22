@@ -3028,6 +3028,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 .products_card_description_client .desc_container .desc_text_inputs_boxes__slot:nth-of-type(2n) {
   margin-right: 0;
 }
+.products_card_description_client .desc_container .desc_text_inputs_boxes__slot.empty {
+  background-color: unset;
+  border: 0;
+}
 .products_card_description_client .desc_container .desc_text_inputs_boxes__slot--text {
   width: 70%;
 }
@@ -3084,6 +3088,47 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 }
 .products_card_description_client .desc_container .desc_text_inputs_boxes__slot--select select:hover, .products_card_description_client .desc_container .desc_text_inputs_boxes__slot--select select:focus {
   outline: 0;
+}
+.products_card_description_client .desc_container .desc_text_inputs_boxes__slot .download_button {
+  padding: 2px 20px;
+  border: 1px solid #29A8DA;
+  cursor: pointer;
+}
+.products_card_description_client .desc_container .desc_text_inputs_boxes__slot .download_button a {
+  position: relative;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #29A8DA;
+  text-decoration: none;
+  margin: 0;
+}
+.products_card_description_client .desc_container .desc_text_inputs_boxes__slot .download_button a::after {
+  display: inline-block;
+  content: "";
+  width: 15px;
+  height: 11px;
+  background: url("./assets/icons/products_card/download.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.products_card_description_client .desc_container .desc_text_inputs_boxes__slot .download_button:hover {
+  background-color: #29A8DA;
+}
+.products_card_description_client .desc_container .desc_text_inputs_boxes__slot .download_button:hover a {
+  color: #FFFFFF;
+}
+.products_card_description_client .desc_container .desc_text_inputs_boxes__slot .download_button:hover a::after {
+  display: inline-block;
+  content: "";
+  width: 15px;
+  height: 11px;
+  background: url("./assets/icons/products_card/download_white.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @media (max-width: 960px) {

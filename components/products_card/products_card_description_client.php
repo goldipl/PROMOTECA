@@ -66,6 +66,12 @@
                     </select>
                 </div>
             </div>
+            <div class="desc_text_inputs_boxes__slot empty"></div>
+            <div class="desc_text_inputs_boxes__slot empty">
+                <div class="download_button">
+                    <a href="">Miejsce znakowania produktu</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>

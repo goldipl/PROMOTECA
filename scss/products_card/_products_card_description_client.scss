@@ -66,6 +66,10 @@
                 &:nth-of-type(2n) {
                     margin-right: 0;
                 }
+                &.empty {
+                    background-color: unset;
+                    border: 0;
+                }
                 &--text {
                     width: 70%;
                     p {
@@ -124,6 +128,47 @@
                         &:hover,
                         &:focus {
                             outline: 0;
+                        }
+                    }
+                }
+                .download_button {
+                    padding: 2px 20px;
+                    border: 1px solid $blue_color;
+                    cursor: pointer;
+                    a {
+                        position: relative;
+                        font-size: 12px;
+                        font-weight: 600;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        color: $blue_color;
+                        text-decoration: none;
+                        margin: 0;
+                        &::after {
+                            display: inline-block;
+                            content: '';
+                            width: 15px;
+                            height: 11px;
+                            background: url('./assets/icons/products_card/download.svg');
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                        }
+                    }
+                    &:hover {
+                        background-color: $blue_color;
+                        a {
+                            color: $white;
+                            &::after {
+                                display: inline-block;
+                                content: '';
+                                width: 15px;
+                                height: 11px;
+                                background: url('./assets/icons/products_card/download_white.svg');
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                            }
                         }
                     }
                 }
