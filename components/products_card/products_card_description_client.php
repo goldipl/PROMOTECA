@@ -3,7 +3,9 @@
         <div class="desc_title_box">
             <h2 class="desc_title_box--title">Stany magazynowe</h2>
         </div>
-        <p><span class="bold_green">Dostępny: </span>8500 sztuk</p>
+        <p>
+            <span class="bold_green">Dostępny: </span>8500 sztuk
+        </p>
         <p>na zamówienie w ciągu 7-10 dni</p>
     </div>
     <div class="desc_container">
@@ -11,9 +13,15 @@
             <h2 class="desc_title_box--title">Opis</h2>
         </div>
         <p class="high_mb">Klip do dokumentów.</p>
-        <p><strong>Materiał:</strong> plastik, metal</p>
-        <p><strong>Waga:</strong> 8,5 g</p>
-        <p><strong>Wymiary:</strong> 3,5 x 5,6 x 1,2 cm</p>
+        <p>
+            <strong>Materiał:</strong> plastik, metal
+        </p>
+        <p>
+            <strong>Waga:</strong> 8,5 g
+        </p>
+        <p>
+            <strong>Wymiary:</strong> 3,5 x 5,6 x 1,2 cm
+        </p>
     </div>
     <div class="desc_container">
         <div class="desc_title_box">
@@ -82,7 +90,8 @@
             </div>
             <div class="desc_cart_prices_text--slot two-slots">
                 <div class="slot-one">
-                    <p class="text">Przewidywiany czas realizacji: <span>do 7 dni</span></p>
+                    <p class="text">Przewidywiany czas realizacji: <span>do 7 dni</span>
+                    </p>
                 </div>
                 <div class="slot-two">
                     <p class="text">Dostawa: 20,00 zł</p>
@@ -95,7 +104,7 @@
                     </div>
                 </div>
                 <div class="slot-two summary">
-                    <p class="text">Całkowita cena netto: <span>200.90</span> zł</p>
+                    <p class="text">Całkowita cena netto: <span>200.90</span> zł </p>
                 </div>
             </div>
             <div class="desc_cart_prices_text--slot">
@@ -109,7 +118,8 @@
         </div>
         <div class="opinions_container">
             <div class="desc_title_box">
-                <h2 class="desc_title_box--title">Opinie <span>(1 opinia)</span></h2>
+                <h2 class="desc_title_box--title">Opinie <span>(1 opinia)</span>
+                </h2>
                 <p class="desc_title_box--expand">Zwiń</p>
             </div>
             <div class="opinions_container_box">
@@ -132,24 +142,25 @@
                 <div class="opinions_container_box--slot_new_opinion">
                     <div class="opinions_slot_title">
                         <p>Napisz ocenę</p>
-                    <div class="opinions_slot_stars">
-                        <p>Ocena:</p>
-                        <img class="stars" src="./assets/icons/products_card/stars0.svg" alt="stars">
-                    </div>
-                    <div class="opinions_slot_name">
-                        <label for="opinion_name">Imię:</label>
-                        <input type="text" name="opinion_name" id="opinion_name">
-                    </div>
-                    <div class="opinions_slot_opinion">
-                        <label for="opinion_content">Twoja opinia:</label>
-                        <textarea name="opinion_content" id="opinion_content"></textarea>
-                    </div>
-                    <div class="opinions_slot_send_btn_captcha_container">
-                        <div class="captcha_send">
-                            <img src="./assets/img/products_card/captcha.jpg" alt="captcha">
+                        <div class="opinions_slot_stars">
+                            <p>Ocena:</p>
+                            <img class="stars" src="./assets/icons/products_card/stars0.svg" alt="stars">
                         </div>
-                        <div class="send_btn">
-                            <a href="">Wyślij</a>
+                        <div class="opinions_slot_name">
+                            <label for="opinion_name">Imię:</label>
+                            <input type="text" name="opinion_name" id="opinion_name">
+                        </div>
+                        <div class="opinions_slot_opinion">
+                            <label for="opinion_content">Twoja opinia:</label>
+                            <textarea name="opinion_content" id="opinion_content"></textarea>
+                        </div>
+                        <div class="opinions_slot_send_btn_captcha_container">
+                            <div class="captcha_send">
+                                <img src="./assets/img/products_card/captcha.jpg" alt="captcha">
+                            </div>
+                            <div class="send_btn">
+                                <a href="">Wyślij</a>
+                            </div>
                         </div>
                     </div>
                 </div>
