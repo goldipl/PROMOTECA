@@ -3495,7 +3495,6 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   padding-left: 32px;
 }
 .products_card_description_trader .desc_container .desc_title_box {
-  width: 100%;
   border-bottom: 1px solid #29A8DA;
   display: flex;
   justify-content: space-between;
@@ -3543,6 +3542,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   margin-left: -32px;
   padding-left: 32px;
   border: 1px solid #E2E2E2;
+  background-color: #FFFFFF;
 }
 .products_card_description_trader .desc_container .desc_title_box_content p .bold_green {
   font-weight: 700;
@@ -3554,6 +3554,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 .products_card_description_trader .desc_title_box_content.grey {
   background-color: #F6F6F6;
   padding: 0 32px;
+  margin-bottom: 76px;
 }
 .products_card_description_trader .desc_title_box_content.grey .desc_container {
   margin-left: -32px;
@@ -3860,6 +3861,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   font-size: 14px;
   margin: 22px 0;
   border: 1px solid #333333;
+  padding-left: 16px;
 }
 .products_card_description_trader .desc_title_box_content.grey .calculations-table .desc_your_calculations__slot.no-frame .download_button {
   display: flex;
@@ -3905,11 +3907,218 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.products_card_description_trader .desc_title_box_content.grey .opinions_container {
+  margin-bottom: 120px;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container .desc_title_box {
+  width: calc(100% + 32px);
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot {
+  padding: 22px 22px 33px 22px;
+  border-bottom: 1px solid #E2E2E2;
+  background-color: #FFFFFF;
+  margin-top: 33px;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot .opinions_slot_author {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot .opinions_slot_author--name p {
+  margin-right: 40px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot .opinions_slot_author--stars img {
+  margin-right: 32px;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot .opinions_slot_author--data p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8A8A8A;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot .opinions_slot_content p {
+  margin: 0;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion {
+  padding: 15px 22px;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_title p {
+  font-size: 16px;
+  font-weight: 700;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_stars p {
+  font-weight: 400;
+  margin: 0;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_stars .stars {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_name,
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_opinion {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_name label,
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_opinion label {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_name textarea,
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_name input,
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_opinion textarea,
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_opinion input {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #E2E2E2;
+  width: 100%;
+  height: 48px;
+  font-size: 14px;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_name textarea:focus, .products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_name textarea:hover,
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_name input:focus,
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_name input:hover,
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_opinion textarea:focus,
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_opinion textarea:hover,
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_opinion input:focus,
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_opinion input:hover {
+  outline: 1px solid #29A8DA;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_name textarea,
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_opinion textarea {
+  height: 113px;
+  margin-bottom: 22px;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_send_btn_captcha_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_send_btn_captcha_container .captcha_send {
+  margin-right: 21px;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_send_btn_captcha_container .send_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 101px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+  background-color: #FFFFFF;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_send_btn_captcha_container .send_btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_send_btn_captcha_container .send_btn:hover {
+  background-color: #29A8DA;
+  border: 1px solid #29A8DA;
+}
+.products_card_description_trader .desc_title_box_content.grey .opinions_container_box--slot_new_opinion .opinions_slot_send_btn_captcha_container .send_btn:hover a {
+  color: #FFFFFF;
+}
 
 @media (max-width: 760px) {
-  .calculations-table {
+  .products_card_description_trader {
+    margin: 0;
+  }
+  .products_card_description_trader .desc_title_box_content.grey {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_container__products_box--text p {
+    font-size: 16px;
+    line-height: 160%;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_calc_types {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_calc_types--title {
+    margin-bottom: 10px;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_calc_types--radio-btn {
+    margin-left: 0px;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_calc_types--radio-btn input {
+    margin: 0 10px 0 0;
+    width: 16px;
+    height: 16px;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_calc_types--radio-btn label {
+    margin-top: 6px;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_text_inputs_boxes {
+    width: 100%;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_text_inputs_boxes__slot {
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_text_inputs_boxes__slot.empty {
+    display: none;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_text_inputs_boxes__slot--text {
+    width: 100%;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_text_inputs_boxes__slot--input {
+    width: 100%;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_text_inputs_boxes__slot--input input {
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_text_inputs_boxes__slot--select {
+    width: 100%;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .desc_text_inputs_boxes__slot--select select {
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .calculations-table {
     overflow-x: scroll;
     overflow-y: hidden;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .calculations-table .desc_your_calculations__slot--text p {
+    font-size: 14px;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .calculations-table .desc_your_calculations__slot.no-frame .desc_your_calculations__slot--textnoframe:last-of-type {
+    width: 20%;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .calculations-table .desc_your_calculations__slot.no-frame .desc_your_calculations__slot--textnoframe p.summary-price {
+    font-size: 14px;
+  }
+  .products_card_description_trader .desc_title_box_content.grey .opinions_container_box {
+    margin-left: -16px;
+    margin-right: -16px;
   }
 }
 .products_card_recommended .desc_title_box--title {

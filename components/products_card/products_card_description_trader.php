@@ -4,7 +4,9 @@
             <h2 class="desc_title_box--title">Stany magazynowe</h2>
         </div>
         <div class="desc_title_box_content">
-            <p><span class="bold_green">Dostępny: </span>8500 sztuk</p>
+            <p>
+                <span class="bold_green">Dostępny: </span>8500 sztuk
+            </p>
             <p>na zamówienie w ciągu 7-10 dni</p>
         </div>
     </div>
@@ -19,7 +21,7 @@
                 <img src="./assets/img/products_card/Klip-do-dokumentow-V2794-08-2.jpg" width="76" height="76">
             </div>
             <div class="desc_container__products_box--text">
-                <p>Klip do dokumentów <br>V2794-08</p>
+                <p>Klip do dokumentów <br>V2794-08 </p>
             </div>
         </div>
         <div class="desc_calc_types">
@@ -71,7 +73,7 @@
                     <p>Rozmiar nadruku</p>
                 </div>
                 <div class="desc_text_inputs_boxes__slot--select">
-                <select name="desc_branding_location" id="desc_branding_location">
+                    <select name="desc_branding_location" id="desc_branding_location">
                         <option value="60x6">60x6</option>
                         <option value="60x12">60x12</option>
                     </select>
@@ -176,21 +178,15 @@
                     <div class="desc_your_calculations__slot--textnoframe--bold first">
                         <p>Koszt przygotowalni:</p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
                         <p>47,00 zł</p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
                         <p>47,00 zł</p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
                         <p>47,00 zł</p>
                     </div>
@@ -199,21 +195,15 @@
                     <div class="desc_your_calculations__slot--textnoframe--bold first">
                         <p>Koszt manipulacyjny:</p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
                         <p>20,00 zł</p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
                         <p>20,00 zł</p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
                         <p>20,00 zł</p>
                     </div>
@@ -222,21 +212,15 @@
                     <div class="desc_your_calculations__slot--textnoframe--bold first">
                         <p>Dodatkowe koszty:</p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
                         <p>20,00 zł</p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
                         <p>20,00 zł</p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
                         <p>20,00 zł</p>
                     </div>
@@ -246,51 +230,103 @@
                     <div class="desc_your_calculations__slot--textnoframe--bold first">
                         <p class="summary">Całkowita cena netto:</p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
-                        <p class="summary-price"><span>200.90</span> zł</p>
+                        <p class="summary-price">
+                            <span>200.90</span> zł
+                        </p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
-                        <p class="summary-price"><span>190.90</span> zł</p>
+                        <p class="summary-price">
+                            <span>190.90</span> zł
+                        </p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
-                        <p class="summary-price"><span>180.90</span> zł</p>
+                        <p class="summary-price">
+                            <span>180.90</span> zł
+                        </p>
                     </div>
                 </div>
                 <div class="desc_your_calculations__slot no-frame">
                     <div class="desc_your_calculations__slot--textnoframe--bold first">
                         <p class="summary">Całkowita cena brutto:</p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
-                        <p><span>200.90</span> zł</p>
+                        <p>
+                            <span>200.90</span> zł
+                        </p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
-                        <p><span>190.90</span> zł</p>
+                        <p>
+                            <span>190.90</span> zł
+                        </p>
                     </div>
-                    <div class="desc_your_calculations__slot--input">
-                        
-                    </div>
+                    <div class="desc_your_calculations__slot--input"></div>
                     <div class="desc_your_calculations__slot--textnoframe">
-                        <p><span>180.90</span> zł</p>
+                        <p>
+                            <span>180.90</span> zł
+                        </p>
                     </div>
                 </div>
                 <div class="desc_your_calculations__slot no-frame btn">
                     <div class="download_button">
                         <a href="">Pobierz ofertę pdf</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="desc_title_box_content desc_container grey">
+        <div class="opinions_container">
+            <div class="desc_title_box">
+                <h2 class="desc_title_box--title">Opinie <span>(i1 opinia)</span>
+                </h2>
+                <p class="desc_title_box--expand">Zwiń</p>
+            </div>
+            <div class="opinions_container_box">
+                <div class="opinions_container_box--slot">
+                    <div class="opinions_slot_author">
+                        <div class="opinions_slot_author--name">
+                            <p>Karol</p>
+                        </div>
+                        <div class="opinions_slot_author--stars">
+                            <img src="./assets/icons/products_card/stars4.svg" alt="stars">
+                        </div>
+                        <div class="opinions_slot_author--data">
+                            <p>25.06.2023</p>
+                        </div>
+                    </div>
+                    <div class="opinions_slot_content">
+                        <p>OK! Polecam</p>
+                    </div>
+                </div>
+                <div class="opinions_container_box--slot_new_opinion">
+                    <div class="opinions_slot_title">
+                        <p>Napisz ocenę</p>
+                        <div class="opinions_slot_stars">
+                            <p>Ocena:</p>
+                            <img class="stars" src="./assets/icons/products_card/stars0.svg" alt="stars">
+                        </div>
+                        <div class="opinions_slot_name">
+                            <label for="opinion_name">Imię:</label>
+                            <input type="text" name="opinion_name" id="opinion_name">
+                        </div>
+                        <div class="opinions_slot_opinion">
+                            <label for="opinion_content">Twoja opinia:</label>
+                            <textarea name="opinion_content" id="opinion_content"></textarea>
+                        </div>
+                        <div class="opinions_slot_send_btn_captcha_container">
+                            <div class="captcha_send">
+                                <img src="./assets/img/products_card/captcha.jpg" alt="captcha">
+                            </div>
+                            <div class="send_btn">
+                                <a href="">Wyślij</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
