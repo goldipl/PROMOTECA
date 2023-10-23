@@ -54,6 +54,7 @@
             height: 19px;
             background-size: contain;
             background-repeat: no-repeat;
+            z-index: 1;
         }
         &.recommended::after {
             position: absolute;
@@ -67,6 +68,7 @@
             height: 19px;
             background-size: contain;
             background-repeat: no-repeat;
+            z-index: 1;
         }
         .products_block_wrapper__slot {
             &--img {

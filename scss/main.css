@@ -1097,12 +1097,14 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 #recommend .products_container--slot:hover {
   border: 1px solid #29A8DA;
 }
-#recommend .products_container--slot.new .products_wrapper::after {
+#recommend .products_container--slot.new::after {
   position: absolute;
+  display: block;
   top: 13px;
   left: 13px;
   content: "";
-  background: url("./../../assets/labels/label_new.svg");
+  background: url("./../assets/icons/labels/new.svg");
+  background-color: #FFFFFF;
   width: 80px;
   height: 19px;
   background-size: contain;
@@ -1111,25 +1113,31 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 }
 #recommend .products_container--slot.promotion::after {
   position: absolute;
+  display: block;
   top: 13px;
   left: 13px;
   content: "";
-  background: url("./../../assets/labels/label_promotion.svg");
+  background: url("./../assets/icons/labels/promotion.svg");
+  background-color: #FFFFFF;
   width: 80px;
   height: 19px;
   background-size: contain;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 #recommend .products_container--slot.recommended::after {
   position: absolute;
+  display: block;
   top: 13px;
   left: 13px;
   content: "";
-  background: url("./../../assets/labels/label_recommended.svg");
+  background: url("./../assets/icons/labels/recommend.svg");
+  background-color: #FFFFFF;
   width: 80px;
   height: 19px;
   background-size: contain;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 #recommend .products_container--slot .products_wrapper {
   display: flex;
@@ -1872,6 +1880,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   height: 19px;
   background-size: contain;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 .products_blocks_wrapper__slot.recommended::after {
   position: absolute;
@@ -1885,6 +1894,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   height: 19px;
   background-size: contain;
   background-repeat: no-repeat;
+  z-index: 1;
 }
 .products_blocks_wrapper__slot .products_block_wrapper__slot--img {
   width: 180px;
