@@ -5,7 +5,7 @@
     <?php include "./components/category/category_top_options.php"; ?> 
 
     <div class="products_blocks_wrapper">
-        <div class="products_blocks_wrapper__slot">
+        <div class="products_blocks_wrapper__slot new">
             <div class="products_block_wrapper__slot--img">
                 <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
             </div>
@@ -23,7 +23,7 @@
             </div>
         </div>
 
-        <div class="products_blocks_wrapper__slot">
+        <div class="products_blocks_wrapper__slot promotion">
             <div class="products_block_wrapper__slot--img">
                 <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
             </div>
@@ -41,7 +41,7 @@
             </div>
         </div>
 
-        <div class="products_blocks_wrapper__slot">
+        <div class="products_blocks_wrapper__slot recommended">
             <div class="products_block_wrapper__slot--img">
                 <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
             </div>

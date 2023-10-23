@@ -28,12 +28,14 @@
         &:hover {
             border: 1px solid $blue_color;
         }
-        &.new .products_wrapper::after {
+        &.new::after {
             position: absolute;
+            display: block;
             top: 13px;
             left: 13px;
             content: '';
-            background: url('./../../assets/labels/label_new.svg');
+            background: url('./../assets/icons/labels/new.svg');
+            background-color: $white;
             width: 80px;
             height: 19px;
             background-size: contain;
@@ -42,10 +44,12 @@
         }
         &.promotion::after {
             position: absolute;
+            display: block;
             top: 13px;
             left: 13px;
             content: '';
-            background: url('./../../assets/labels/label_promotion.svg');
+            background: url('./../assets/icons/labels/promotion.svg');
+            background-color: $white;
             width: 80px;
             height: 19px;
             background-size: contain;
@@ -53,10 +57,12 @@
         }
         &.recommended::after {
             position: absolute;
+            display: block;
             top: 13px;
             left: 13px;
             content: '';
-            background: url('./../../assets/labels/label_recommended.svg');
+            background: url('./../assets/icons/labels/recommend.svg');
+            background-color: $white;
             width: 80px;
             height: 19px;
             background-size: contain;

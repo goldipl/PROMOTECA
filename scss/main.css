@@ -1846,12 +1846,14 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 .products_blocks_wrapper__slot:hover {
   border: 1px solid #29A8DA;
 }
-.products_blocks_wrapper__slot.new .products_wrapper::after {
+.products_blocks_wrapper__slot.new::after {
   position: absolute;
+  display: block;
   top: 13px;
   left: 13px;
   content: "";
-  background: url("./../../assets/labels/label_new.svg");
+  background: url("./../assets/icons/labels/new.svg");
+  background-color: #FFFFFF;
   width: 80px;
   height: 19px;
   background-size: contain;
@@ -1860,10 +1862,12 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 }
 .products_blocks_wrapper__slot.promotion::after {
   position: absolute;
+  display: block;
   top: 13px;
   left: 13px;
   content: "";
-  background: url("./../../assets/labels/label_promotion.svg");
+  background: url("./../assets/icons/labels/promotion.svg");
+  background-color: #FFFFFF;
   width: 80px;
   height: 19px;
   background-size: contain;
@@ -1871,10 +1875,12 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 }
 .products_blocks_wrapper__slot.recommended::after {
   position: absolute;
+  display: block;
   top: 13px;
   left: 13px;
   content: "";
-  background: url("./../../assets/labels/label_recommended.svg");
+  background: url("./../assets/icons/labels/recommend.svg");
+  background-color: #FFFFFF;
   width: 80px;
   height: 19px;
   background-size: contain;
