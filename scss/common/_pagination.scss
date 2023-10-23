@@ -16,18 +16,30 @@
             background-color: $white;
             margin-right: 13px;
             cursor: pointer;
+            box-sizing: border-box;
             p {
                 font-size: 16px;
                 font-weight: 400;
                 line-height: normal;
                 color: $title_black;
             }
-            &.active,
-            &:hover {
+            &.active {
                 background-color: $blue_color;
                 border-color: $blue_color;
                 p {
                     color: $white;
+                }
+            }
+            &:hover {
+                border: 1px solid $blue_color;
+            }
+            &.last {
+                img {
+                    width: 35px;
+                    height: 35px;
+                    &:hover {
+                        border: 1px solid $blue_color;
+                    }
                 }
             }
         }

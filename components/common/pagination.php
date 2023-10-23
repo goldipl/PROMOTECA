@@ -10,7 +10,7 @@
             <img src="./assets/icons/pagination/pagination_right.svg" alt="next" width="12" height="12">
         </div>
         <div class="element last">
-            <img src="./assets/icons/pagination/pagination_right.svg" alt="last" width="12" height="12">
+            <img src="./assets/icons/pagination/pagination_last.svg" alt="last" width="12" height="12">
         </div>
     </div>
 </div>

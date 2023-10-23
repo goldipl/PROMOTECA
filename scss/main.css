@@ -2048,6 +2048,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background-color: #FFFFFF;
   margin-right: 13px;
   cursor: pointer;
+  box-sizing: border-box;
 }
 .pagination_container .element p {
   font-size: 16px;
@@ -2055,12 +2056,22 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   line-height: normal;
   color: #010B32;
 }
-.pagination_container .element.active, .pagination_container .element:hover {
+.pagination_container .element.active {
   background-color: #29A8DA;
   border-color: #29A8DA;
 }
-.pagination_container .element.active p, .pagination_container .element:hover p {
+.pagination_container .element.active p {
   color: #FFFFFF;
+}
+.pagination_container .element:hover {
+  border: 1px solid #29A8DA;
+}
+.pagination_container .element.last img {
+  width: 35px;
+  height: 35px;
+}
+.pagination_container .element.last img:hover {
+  border: 1px solid #29A8DA;
 }
 
 @media (max-width: 760px) {
