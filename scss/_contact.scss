@@ -3,12 +3,17 @@
         width: 100%;
         height: auto;
         padding: 32px;
+        border: 1px solid $grey_light;
+        margin-bottom: 36px;
         .title {
             font-size: 22px;
             font-weight: 600;
             line-height: normal;
             color: $title_black;
             margin: 0 0 24px 0;
+        }
+        .form {
+            
         }
     }
 }

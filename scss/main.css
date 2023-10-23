@@ -4325,6 +4325,8 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   width: 100%;
   height: auto;
   padding: 32px;
+  border: 1px solid #E2E2E2;
+  margin-bottom: 36px;
 }
 .contact_container .message_box_container .title {
   font-size: 22px;
@@ -4333,7 +4335,6 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #010B32;
   margin: 0 0 24px 0;
 }
-
 footer {
   background-color: #F5F5F5;
   border-top: 1px solid #29A8DA;
