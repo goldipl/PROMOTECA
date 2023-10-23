@@ -283,7 +283,7 @@
     <div class="desc_title_box_content desc_container grey">
         <div class="opinions_container">
             <div class="desc_title_box">
-                <h2 class="desc_title_box--title">Opinie <span>(i1 opinia)</span>
+                <h2 class="desc_title_box--title">Opinie <span>(1 opinia)</span>
                 </h2>
                 <p class="desc_title_box--expand">Zwiń</p>
             </div>
