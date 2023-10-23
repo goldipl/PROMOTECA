@@ -4554,6 +4554,71 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   text-decoration: none;
 }
 
+@media (max-width: 760px) {
+  .contact_container {
+    margin-top: 10px;
+  }
+  .contact_container .message_box_container .title {
+    font-size: 20px;
+  }
+  .contact_container .message_box_container .form {
+    flex-direction: column;
+  }
+  .contact_container .message_box_container .form_left {
+    width: 100%;
+    margin-right: 0;
+  }
+  .contact_container .message_box_container .form_left__column--slot label,
+  .contact_container .message_box_container .form_left__column--slot input {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .contact_container .message_box_container .form_right {
+    width: 100%;
+  }
+  .contact_container .message_box_container .form_right__column--slot label,
+  .contact_container .message_box_container .form_right__column--slot textarea {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .contact_container .message_box_container .form .send_captcha__box {
+    flex-direction: column;
+    margin: 16px 0;
+  }
+  .contact_container .message_box_container .form .send_captcha__box .captcha_send {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .contact_container .phone_mail_address_container {
+    flex-direction: column;
+    margin-bottom: 24px;
+  }
+  .contact_container .phone_mail_address_container .phone_mail_container {
+    margin-right: 0;
+  }
+  .contact_container .phone_mail_address_container .phone_mail_container,
+  .contact_container .phone_mail_address_container .address_container {
+    width: 100%;
+  }
+  .contact_container .phone_mail_address_container .phone_mail_container--slot .title,
+  .contact_container .phone_mail_address_container .address_container--slot .title {
+    font-size: 18px;
+  }
+  .contact_container .phone_mail_address_container .phone_mail_container--slot .title::before,
+  .contact_container .phone_mail_address_container .address_container--slot .title::before {
+    top: 0 !important;
+  }
+  .contact_container .phone_mail_address_container .phone_mail_container--slot .desc,
+  .contact_container .phone_mail_address_container .address_container--slot .desc {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .contact_container .phone_mail_address_container .phone_mail_container--slot .desc a,
+  .contact_container .phone_mail_address_container .address_container--slot .desc a {
+    font-size: 14px;
+    line-height: 160%;
+  }
+}
 footer {
   background-color: #F5F5F5;
   border-top: 1px solid #29A8DA;
