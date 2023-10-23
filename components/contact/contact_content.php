@@ -1,7 +1,7 @@
 <div class="contact_container">
     <div class="message_box_container">
         <h1 class="title">Zostaw nam wiadomość</h1>
-        <form>
+        <form class="form">
             <div class="form_left">
                 <div class="form_left__column">
                     <div class="form_left__column--slot">
