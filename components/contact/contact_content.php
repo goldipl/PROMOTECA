@@ -35,22 +35,22 @@
     <div class="phone_mail_address_container">
         <div class="phone_mail_container">
             <div class="phone_mail_container--slot">
-                <p class="title"></p>
-                <p class="desc"></p>
+                <p class="title">Telefon</p>
+                <p class="desc"><a href="tel:+22 486 34 83">22 486 34 83</a></p>
             </div>
             <div class="phone_mail_container--slot">
-                <p class="title"></p>
-                <p class="desc"></p>
+                <p class="title">E-mail</p>
+                <p class="desc"><a href="mailto:info@promoteca.pl">info@promoteca.pl</a></p>
             </div>
             <div class="phone_mail_container--slot">
-                <p class="title"></p>
-                <p class="desc"></p>
+                <p class="title">Godziny otwarcia</p>
+                <p class="desc">9:00-17:00</p>
             </div>
         </div>
         <div class="address_container">
             <div class="address_container--slot">
-                <p class="title"></p>
-                <p class="desc"></p>
+                <p class="title">Adres</p>
+                <p class="desc">Exito Group <br>ul. Baletowa <br>1202-862 Warszawa <br>NIP: 5213362020</p>
             </div>
         </div>
     </div>
