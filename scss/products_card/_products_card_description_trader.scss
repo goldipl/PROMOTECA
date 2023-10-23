@@ -63,8 +63,379 @@
             }
         }
     }
+    .desc_title_box_content.grey {
+        background-color: $grey_light3;
+        padding: 0 32px;
+        .desc_container {
+            margin-left: -32px;
+            margin-right: -32px;
+            margin-bottom: 17px;
+        }
+        .desc_container__products_box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 8px 40px;
+            border: 1px solid $grey_light;
+            background-color: $white;
+            &--img {
+                padding: 8px;
+                img {
+                    height: 76px;
+                    width: auto;
+                }
+            }
+            &--text {
+                margin-left: 53px;
+                p {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: normal;
+                    color: $title_black;
+                }
+            }
+        }
+        .desc_calc_types {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 45px;
+            &--title {
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: normal;
+                    color: $light_black;
+                    margin: 0;
+                }
+            }
+            &--radio-btn {
+                display: flex;
+                align-items: center;
+                margin-left: 40px;
+                input {
+                    cursor: pointer;
+                    margin: 0 20px 0 0;
+                    width: 20px;
+                    height: 20px;
+                    box-sizing: border-box;
+                }
+                label {
+                    cursor: pointer;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+        .desc_text_inputs_boxes {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 25px;
+            &__slot {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 48.5%;
+                height: 45px;
+                box-sizing: border-box;
+                border: 1px solid $grey_light;
+                background-color: $white;
+                margin-bottom: 17px;
+                margin-right: 1.5%;
+                &:nth-of-type(2n) {
+                    margin-right: 0;
+                }
+                &.empty {
+                    background-color: unset;
+                    border: 0;
+                }
+                &--text {
+                    width: 60%;
+                    p {
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: normal;
+                        color: $light_black;
+                        padding: 0 28px;
+                    }
+                }
+                &--input {
+                    width: 40%;
+                    input {
+                        width: 100%;
+                        font-family: 'Poppins', sans-serif;
+                        border: 0;
+                        height: 45px;
+                        background-color: $white;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: normal;
+                        color: $light_black;
+                        padding: 0 0 0 28px;
+                        border: 1px solid $grey_light;
+                        box-sizing: border-box;
+                        &::-webkit-inner-spin-button, 
+                        &::-webkit-outer-spin-button {
+                            opacity: 1;
+                        }
+                        &:hover,
+                        &:focus {
+                            outline: 0;
+                        }
+                    }
+                }
+                &--select {
+                    width: 40%;
+                    select {
+                        cursor: pointer;
+                        width: 100%;
+                        font-family: 'Poppins', sans-serif;
+                        border: 0;
+                        height: 45px;
+                        background-color: $white;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: normal;
+                        color: $light_black;
+                        padding: 0 28px;
+                        border: 1px solid $grey_light;
+                        box-sizing: border-box;
+                        &::-webkit-inner-spin-button, 
+                        &::-webkit-outer-spin-button {
+                            opacity: 1;
+                        }
+                        &:hover,
+                        &:focus {
+                            outline: 0;
+                        }
+                    }
+                }
+                .download_button {
+                    padding: 2px 20px;
+                    border: 1px solid $blue_color;
+                    cursor: pointer;
+                    a {
+                        position: relative;
+                        font-size: 12px;
+                        font-weight: 600;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        color: $blue_color;
+                        text-decoration: none;
+                        margin: 0;
+                        &::after {
+                            display: inline-block;
+                            content: '';
+                            width: 15px;
+                            height: 11px;
+                            background: url('./../assets/icons/products_card/download.svg');
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            margin-left: 10px;
+                        }
+                    }
+                    &:hover {
+                        background-color: $blue_color;
+                        a {
+                            color: $white;
+                            &::after {
+                                background: url('./../assets/icons/products_card/download_white.svg');
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: contain;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .calculations-table {
+            .desc_your_calculations {
+                display: table;
+                width: 100%;
+                &__title {
+                    p {
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: normal;
+                        margin: 35px 0 25px 0;
+                    }
+                }
+                .blue-line {
+                    display: block;
+                    width: 100%;
+                    height: 1px;
+                    background-color: $blue_color;
+                    margin-top: 24px;
+                }
+                &__slot {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    height: 45px;
+                    box-sizing: border-box;
+                    border: 1px solid $grey_light;
+                    background-color: $white;
+                    margin-bottom: 5px;
+                    &--text {
+                        width: 100%;
+                        p {
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: normal;
+                            color: $light_black;
+                            padding: 0 28px;
+                        }
+                        &.first {
+                            width: 400px;
+                            p {
+                                width: 400px;
+                            }
+                        }
+                    }
+                    &--input {
+                        width: 100px;
+                        input {
+                            font-family: 'Poppins', sans-serif;
+                            border: 0;
+                            height: 45px;
+                            width: 100px;
+                            background-color: $white;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $light_black;
+                            padding: 0 0 0 28px;
+                            border: 1px solid $grey_light;
+                            box-sizing: border-box;
+                            &::-webkit-inner-spin-button, 
+                            &::-webkit-outer-spin-button {
+                                opacity: 1;
+                            }
+                            &:hover,
+                            &:focus {
+                                outline: 0;
+                            }
+                        }
+                    }
+                    &.no-frame {
+                        background-color: unset;
+                        border: 0;
+                        &.btn {
+                            margin-bottom: 40px;
+                        }
+                        .desc_your_calculations__slot--textnoframe {
+                            width: 30%;
+                            &:last-of-type {
+                                width: 15%;
+                            }
+                            &--bold {
+                                p {
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    line-height: normal;
+                                }
+                                p.summary {
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                }
+                            }
+                            p.summary-price {
+                                font-size: 16px;
+                                font-weight: 500;
+                                span {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    color: $blue_color;
+                                }
+                            }
+                            p {
+                                font-size: 14px;
+                            }
+                            &--bold.first {
+                                width: 300px;
+                                p {
+                                    width: 300px;
+                                }
+                            }
+                            &.first {
+                                width: 310px;
+                                p {
+                                    width: 310px;
+                                }
+                            }
+                        }
+                        .desc_your_calculations__slot--input {
+                            margin-right: 16px;
+                            width: 116px;
+                            input {
+                                width: 78px;
+                                height: 35px;
+                                font-size: 14px;
+                                margin: 22px 0;
+                                border: 1px solid $light_black;
+                            }
+                        }
+                        .download_button {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 35px;
+                            padding: 2px 20px;
+                            border: 1px solid $blue_color;
+                            cursor: pointer;
+                            margin: auto 0 auto auto;
+                            box-sizing: border-box;
+                            a {
+                                position: relative;
+                                font-size: 12px;
+                                font-weight: 600;
+                                line-height: normal;
+                                text-transform: uppercase;
+                                color: $blue_color;
+                                text-decoration: none;
+                                margin: 0;
+                                &::after {
+                                    display: inline-block;
+                                    content: '';
+                                    width: 15px;
+                                    height: 11px;
+                                    background: url('./../assets/icons/products_card/download.svg');
+                                    background-position: center;
+                                    background-repeat: no-repeat;
+                                    background-size: contain;
+                                    margin-left: 10px;
+                                }
+                            }
+                            &:hover {
+                                background-color: $blue_color;
+                                a {
+                                    color: $white;
+                                    &::after {
+                                        background: url('./../assets/icons/products_card/download_white.svg');
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        background-size: contain;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }    
+            }
+        }
+    }
 }
 
 @media (max-width: 760px) {
-
+    .calculations-table {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
 }
