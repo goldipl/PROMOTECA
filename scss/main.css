@@ -4553,6 +4553,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #333333;
   text-decoration: none;
 }
+.contact_container .phone_mail_address_container .phone_mail_container--slot .desc a:hover,
+.contact_container .phone_mail_address_container .address_container--slot .desc a:hover {
+  color: #29A8DA;
+}
 
 @media (max-width: 760px) {
   .contact_container {

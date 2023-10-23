@@ -204,6 +204,9 @@
                         line-height: normal;
                         color: $light_black;
                         text-decoration: none;
+                        &:hover {
+                            color: $blue_color;
+                        }
                     }
                 }
             }
