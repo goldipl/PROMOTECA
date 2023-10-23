@@ -4354,6 +4354,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   padding: 32px;
   border: 1px solid #E2E2E2;
   margin-bottom: 36px;
+  box-sizing: border-box;
 }
 .contact_container .message_box_container .title {
   font-size: 22px;
@@ -4362,6 +4363,197 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #010B32;
   margin: 0 0 24px 0;
 }
+.contact_container .message_box_container .form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.contact_container .message_box_container .form_left {
+  width: calc(50% - 12px);
+  margin-right: 24px;
+}
+.contact_container .message_box_container .form_left__column--slot label {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.contact_container .message_box_container .form_left__column--slot input {
+  border: 1px solid #E2E2E2;
+  background: #F6F6F6;
+  width: 100%;
+  height: 45px;
+  box-sizing: border-box;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.contact_container .message_box_container .form_left__column--slot input:hover, .contact_container .message_box_container .form_left__column--slot input:focus {
+  outline: 1px solid #29A8DA;
+}
+.contact_container .message_box_container .form_right {
+  width: calc(50% - 12px);
+}
+.contact_container .message_box_container .form_right__column--slot label {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.contact_container .message_box_container .form_right__column--slot textarea {
+  border: 1px solid #E2E2E2;
+  background: #F6F6F6;
+  width: 100%;
+  height: 149px;
+  box-sizing: border-box;
+  font-size: 18px;
+  max-width: 744px;
+}
+.contact_container .message_box_container .form_right__column--slot textarea:hover, .contact_container .message_box_container .form_right__column--slot textarea:focus {
+  outline: 1px solid #29A8DA;
+}
+.contact_container .message_box_container .form .send_captcha__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact_container .message_box_container .form .send_captcha__box .send_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 101px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+}
+.contact_container .message_box_container .form .send_captcha__box .send_btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+.contact_container .message_box_container .form .send_captcha__box .send_btn:hover {
+  background-color: #29A8DA;
+  border: 1px solid #29A8DA;
+}
+.contact_container .message_box_container .form .send_captcha__box .send_btn:hover a {
+  color: #FFFFFF;
+}
+.contact_container .message_box_container .form .send_captcha__box .captcha_send {
+  margin-left: 23px;
+}
+.contact_container .message_box_container .form .send_captcha__box .captcha_send img {
+  width: 303px;
+  height: 86px;
+}
+.contact_container .phone_mail_address_container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 200px;
+}
+.contact_container .phone_mail_address_container .phone_mail_container {
+  margin-right: 24px;
+}
+.contact_container .phone_mail_address_container .phone_mail_container,
+.contact_container .phone_mail_address_container .address_container {
+  width: calc(50% - 12px);
+  height: auto;
+  padding: 32px;
+  border: 1px solid #E2E2E2;
+  margin-bottom: 36px;
+  box-sizing: border-box;
+}
+.contact_container .phone_mail_address_container .phone_mail_container--slot .title,
+.contact_container .phone_mail_address_container .address_container--slot .title {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: normal;
+  color: #010B32;
+  padding-left: 51px;
+  margin: 0 0 16px 0;
+}
+.contact_container .phone_mail_address_container .phone_mail_container--slot .title.telephone::before,
+.contact_container .phone_mail_address_container .address_container--slot .title.telephone::before {
+  position: absolute;
+  display: block;
+  top: 3px;
+  left: 0;
+  content: "";
+  background: url("./../assets/icons/contact/contact-telephone.svg");
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.contact_container .phone_mail_address_container .phone_mail_container--slot .title.email::before,
+.contact_container .phone_mail_address_container .address_container--slot .title.email::before {
+  position: absolute;
+  display: block;
+  top: 3px;
+  left: 0;
+  content: "";
+  background: url("./../assets/icons/contact/contact-email.svg");
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.contact_container .phone_mail_address_container .phone_mail_container--slot .title.hours::before,
+.contact_container .phone_mail_address_container .address_container--slot .title.hours::before {
+  position: absolute;
+  display: block;
+  top: 3px;
+  left: 0;
+  content: "";
+  background: url("./../assets/icons/contact/contact-hours.svg");
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.contact_container .phone_mail_address_container .phone_mail_container--slot .title.address::before,
+.contact_container .phone_mail_address_container .address_container--slot .title.address::before {
+  position: absolute;
+  display: block;
+  top: 3px;
+  left: 0;
+  content: "";
+  background: url("./../assets/icons/contact/contact-address.svg");
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.contact_container .phone_mail_address_container .phone_mail_container--slot .desc,
+.contact_container .phone_mail_address_container .address_container--slot .desc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  padding-left: 51px;
+  margin: 0 0 16px 0;
+}
+.contact_container .phone_mail_address_container .phone_mail_container--slot .desc a,
+.contact_container .phone_mail_address_container .address_container--slot .desc a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-decoration: none;
+}
+
 footer {
   background-color: #F5F5F5;
   border-top: 1px solid #29A8DA;
