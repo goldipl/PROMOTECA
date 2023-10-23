@@ -1,0 +1,14 @@
+.contact_container {
+    .message_box_container {
+        width: 100%;
+        height: auto;
+        padding: 32px;
+        .title {
+            font-size: 22px;
+            font-weight: 600;
+            line-height: normal;
+            color: $title_black;
+            margin: 0 0 24px 0;
+        }
+    }
+}

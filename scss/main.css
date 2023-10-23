@@ -4321,6 +4321,19 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     height: auto;
   }
 }
+.contact_container .message_box_container {
+  width: 100%;
+  height: auto;
+  padding: 32px;
+}
+.contact_container .message_box_container .title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: normal;
+  color: #010B32;
+  margin: 0 0 24px 0;
+}
+
 footer {
   background-color: #F5F5F5;
   border-top: 1px solid #29A8DA;
