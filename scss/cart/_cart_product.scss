@@ -1,0 +1,172 @@
+.cart_product_container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 23px 43px 43px 43px;
+    box-sizing: border-box;
+    &--img {
+        margin-right: 35px;
+        img {
+            height: 140px;
+            max-height: 140px;
+            width: auto;
+        }
+    }
+    &--text {
+        display: flex;
+        flex-direction: column;
+        .title {
+            p {
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;  
+                color: $light_black;
+                margin-top: 10px;
+                margin-bottom: 21px;
+            }
+        }
+        .text-slot {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            &--left {
+                p {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    color: $grey_middle;
+                    margin: 0 0 9px 0;
+                }
+            }
+            &--right {
+                p {
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    color: $grey_middle;
+                    margin: 0 0 9px 0;
+                }
+            }
+        }
+    }
+    &--input {
+        display: flex;
+        flex-direction: column;
+        margin: auto auto 20px 63px;
+        label {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            color: $light_black;
+            margin-bottom: 8px;
+        }
+        input {
+            width: 123px;
+            height: 45px;
+            box-sizing: border-box;
+            border: 1px solid $grey_light;
+            background: $grey_light3;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $blue_color;
+            padding-left: 12px;
+            &:hover,
+            &:focus {
+                outline: 1px solid $blue_color;
+            }
+            &::-webkit-inner-spin-button,
+            &::-webkit-outer-spin-button {
+                opacity: 1;
+            }
+        }
+    }
+    &--delete {
+        position: absolute;
+        top: 31px;
+        right: 40px;
+        cursor: pointer;
+        &:hover {
+            p {
+                color: $red;
+            }
+        }
+        p {
+            position: relative;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 164%;
+            color: $light_black;
+            margin: 0;
+            &::before {
+                position: absolute;
+                display: block;
+                top: 7px;
+                left: -22px;
+                content: '';
+                background: url('./../assets/icons/cart/delete.svg');
+                width: 16px;
+                height: 16px;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .cart_product_container {
+        flex-direction: column;
+        padding: 15px;
+        &--img {
+            margin-right: 0;
+            margin: 30px 0 0 30px;
+        }
+        &--text {
+            .title {
+                p {
+                    font-size: 19px;
+                    margin-bottom: 18px;
+                }
+            }
+            .text-slot {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                &--left {
+                    p {
+                        font-size: 12px;
+                    }
+                }
+                &--right {
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        &--input {
+            margin: 0;
+            label {
+                font-size: 14px;
+                margin-top: 10px;
+            }
+            input {
+                font-size: 14px;
+            }
+        }
+        &--delete {
+            top: 24px;
+            right: 24px;
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
