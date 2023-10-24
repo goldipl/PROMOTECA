@@ -4478,6 +4478,53 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #FFFFFF;
 }
 
+@media (max-width: 760px) {
+  .cart_step_two_container .cart_login_container-top {
+    display: flex;
+    flex-direction: column;
+  }
+  .cart_step_two_container .cart_login_container-top__left {
+    width: 100%;
+    padding: 15px;
+    margin-right: 0;
+  }
+  .cart_step_two_container .cart_login_container-top__left .title {
+    font-size: 19px;
+  }
+  .cart_step_two_container .cart_login_container-top__left .input-slot label {
+    font-size: 14px;
+    line-height: 160%;
+    margin-bottom: 10px;
+  }
+  .cart_step_two_container .cart_login_container-top__left .input-slot input {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .cart_step_two_container .cart_login_container-top__left .input-slot .remind_password {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .cart_step_two_container .cart_login_container-top__left .input-slot .blue-button {
+    width: 100%;
+  }
+  .cart_step_two_container .cart_login_container-top__right {
+    margin-top: 24px;
+    width: 100%;
+  }
+  .cart_step_two_container .cart_login_container-top__right--slot {
+    padding: 15px;
+  }
+  .cart_step_two_container .cart_login_container-top__right--slot .title {
+    font-size: 19px;
+  }
+  .cart_step_two_container .cart_login_container-top__right--slot .text {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .cart_step_two_container .cart_login_container-top__right--slot .blue-button {
+    width: 100%;
+  }
+}
 #cart_steps_container .cart_steps {
   display: flex;
   flex-direction: row;
