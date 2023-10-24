@@ -4,41 +4,45 @@
             <div class="cart_without_account__box--left">
                 <p class="title">Dane osobowe</p>
                 <div class="input-slot">
-                    <label for="email_login">Adres e-mail: *</label>
-                    <input type="email" name="email_login" id="email_login" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                    <label for="data_name">Imię: *</label>
+                    <input type="text" name="data_name" id="data_name" required>
                 </div>
                 <div class="input-slot">
-                    <label for="password_login">Hasło: *</label>
-                    <input type="password" name="password_login" id="password_login" required>
+                    <label for="data_surname">Nazwisko: *</label>
+                    <input type="text" name="data_surname" id="data_surname" required>
                 </div>
                 <div class="input-slot">
-                    <label for="repeat_password_login">Powtórz hasło: *</label>
-                    <input type="password" name="repeat_password_login" id="repeat_password_login" required>
+                    <label for="data_email">Adres e-mail: *</label>
+                    <input type="email" name="data_email" id="data_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                </div>
+                <div class="input-slot">
+                    <label for="data_telephone">Telefon: *</label>
+                    <input type="text" name="data_telephone" id="data_telephone" required>
                 </div>
             </div>
             <div class="cart_without_account__box--right">
             <p class="title">Dane do faktury</p>
                 <div class="input-slot">
-                    <label for="company_name_surname">Nazwa firmy / Imię i Nazwisko:</label>
+                    <label for="company_name_surname">Nazwa firmy / Imię i Nazwisko: *</label>
                     <input type="text" name="company_name_surname" id="company_name_surname">
                 </div>
                 <div class="input-slot with-btn">
-                    <label for="nip_code">NIP:</label>
+                    <label for="nip_code">NIP: *</label>
                     <input type="text" name="nip_code" id="nip_code">
                     <div class="gus_btn">
                         <a href="">Pobierz dane z GUS</a>
                     </div>
                 </div>
                 <div class="input-slot">
-                    <label for="address">Adres:</label>
+                    <label for="address">Adres: *</label>
                     <input type="text" name="address" id="address">
                 </div>
                 <div class="input-slot">
-                    <label for="zipcode">Kod pocztowy:</label>
+                    <label for="zipcode">Kod pocztowy: *</label>
                     <input type="text" name="zipcode" id="zipcode">
                 </div>
                 <div class="input-slot">
-                    <label for="city">Miasto:</label>
+                    <label for="city">Miasto: *</label>
                     <input type="text" name="city" id="city">
                 </div>
                 <div class="input-slot checkbox-slot">
