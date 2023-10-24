@@ -35,7 +35,7 @@
             </div>
             <div class="cart_product_container--input">
                 <label for="cart_product_quantity">Ilość produktów</label>
-                <input type="number" name="cart_product_quantity" id="cart_product_quantity">
+                <input type="number" name="cart_product_quantity" id="cart_product_quantity" min="0">
                 <div class="cart_product_container--delete">
                     <p>Usuń</p>
                 </div>
