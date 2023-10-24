@@ -1,0 +1,133 @@
+#cart_steps_container {
+    .cart_steps {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0;
+        margin-top: 0;
+        &--item {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            margin-right: 24px;
+            &:first-of-type {
+                a {
+                    .item--number {
+                        &::before {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &.active {
+                a {
+                    .item--number {
+                        background-color: $blue_color;
+                        p {
+                            font-weight: 800;
+                            color: $white;
+                        }
+                    }
+                    .item--text {
+                        p {
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+            a {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .item--number {
+                    display: flex;
+                    width: 44px;
+                    height: 45px;
+                    align-items: center;
+                    justify-content: center;
+                    box-sizing: border-box;
+                    margin-right: 17px;
+                    position: relative;
+                    background-color: $grey_middle_light;
+                    &::before {
+                        position: absolute;
+                        top: 16px;
+                        left: -32px;
+                        background-size: contain;
+                        width: 10px;
+                        height: 10px;
+                        content: "";
+                        background-image: url("./../assets/icons/breadcrumb_icon.svg");
+                        display: inline-block;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                    }
+                    p {
+                        font-size: 28px;
+                        font-weight: 400;
+                        line-height: normal;
+                        color: $light_black;
+                    }
+                }
+                .item--text {
+                    margin-right: 40px;
+                    p {
+                        font-size: 26px;
+                        font-weight: 400;
+                        line-height: normal;
+                        color: $light_black;
+                    }
+                }
+                &:hover {
+                    text-decoration: none;
+                    .item--text {
+                        p {
+                            color: $blue_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    #cart_steps_container {
+        .cart_steps {
+            flex-wrap: wrap;
+            padding-left: 24px;
+            &--item {
+                margin-right: 12px;
+                &:first-of-type {
+                    margin-left: -24px;
+                }
+                a {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    height: 36px;
+                    .item--number {
+                        min-width: 20px;
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 16px;
+                        &::before {
+                            top: 5px;
+                            left: -24px;
+                        }
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                    .item--text {
+                        margin-right: 24px;
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

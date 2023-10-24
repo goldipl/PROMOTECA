@@ -24,6 +24,40 @@
                     </li>
                 </ul>
             </div>
+            <div id="cart_steps_container">
+                <ul class="cart_steps">
+                    <li class="cart_steps--item">
+                        <a href="#">
+                            <div class="item--number">
+                                <p>1</p>
+                            </div>
+                            <div class="item--text">
+                                <p>Koszyk</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="cart_steps--item active">
+                        <a href="#">
+                            <div class="item--number">
+                                <p>2</p>
+                            </div>
+                            <div class="item--text">
+                                <p>Adres dostawy</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="cart_steps--item">
+                        <a href="#">
+                            <div class="item--number">
+                                <p>3</p>
+                            </div>
+                            <div class="item--text">
+                                <p>Podsumowanie</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <?php include "./components/cart/cart_step_two_content.php"; ?>
         </div>
         <footer> 
