@@ -42,33 +42,33 @@
             </div>
         </div>
         <div class="upload_logo_notes_container">
-                <div class="upload_logo_notes_container__left">
-                    <div class="title">
-                        <p>Wgraj logo lub projekt:</p>
-                    </div>
-                    <div class="upload-area">
-                        <div class="upload-area--img">
-                            <img src="./assets/icons/cart/upload.svg" alt="upload" width="21" height="14">
-                        </div>
-                        <div class="upload-area--text">
-                            <p>Przeciągnij i upuść albo <br>
-                                <a href="">Dodaj plik</a>
-                            </p>
-                        </div>
-                        <div class="upload-area--small-text">
-                            <p>Wymagamy plik w wektorach <br>format pliku pdf zapisany w krzywych (czcionka i kontury) </p>
-                        </div>
-                    </div>
+            <div class="upload_logo_notes_container__left">
+                <div class="title">
+                    <p>Wgraj logo lub projekt:</p>
                 </div>
-                <div class="upload_logo_notes_container__right">
-                    <div class="title">
-                        <p>Zostaw notatkę:</p>
+                <div class="upload-area">
+                    <div class="upload-area--img">
+                        <img src="./assets/icons/cart/upload.svg" alt="upload" width="21" height="14">
                     </div>
-                    <div class="text-area">
-                        <textarea name="cart_notes" id="cart_notes"></textarea>
+                    <div class="upload-area--text">
+                        <p>Przeciągnij i upuść albo <br>
+                            <a href="">Dodaj plik</a>
+                        </p>
+                    </div>
+                    <div class="upload-area--small-text">
+                        <p>Wymagamy plik w wektorach <br>format pliku pdf zapisany w krzywych (czcionka i kontury) </p>
                     </div>
                 </div>
             </div>
+            <div class="upload_logo_notes_container__right">
+                <div class="title">
+                    <p>Zostaw notatkę:</p>
+                </div>
+                <div class="text-area">
+                    <textarea name="cart_notes" id="cart_notes"></textarea>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="cart_step_one_container__right">
         <div class="cart_pay_box">
