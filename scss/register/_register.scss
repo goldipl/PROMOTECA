@@ -1,0 +1,258 @@
+.register_container {
+    .title {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        color: $title_black;
+        margin: 15px 0 0 0;
+    }
+    .desc {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $light_black;
+        margin: 5px 0 24px 0;
+    }
+    &__box {
+        display: flex;
+        flex-direction: row;
+        padding: 32px;
+        border: 1px solid $grey_light;
+        &--left {
+            margin-right: 84px;
+        }
+        &--right {
+            .input-slot:first-of-type {
+                margin-top: 50px;
+            }
+        }
+        &--left,
+        &--right {
+            width: calc(50% - 42px);
+            .title {
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                color: $light_black;
+                width: 100%;
+                text-transform: none;
+                margin: 0 0 18px 0;
+            }
+            .input-slot {
+                &.with-btn {
+                    flex-wrap: wrap;
+                    input {
+                        display: inline;
+                        width: 65% !important;
+                    }
+                    .gus_btn {
+                        display: inline-flex;
+                        width: 33% !important;
+                        border: 1px solid $blue_color;
+                        background: $grey_light3;
+                        box-sizing: border-box;
+                        justify-content: center;
+                        align-items: center;
+                        height: 45px;
+                        margin-left: 1%;
+                        a {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 100%;
+                            height: 100%;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $light_black;
+                            text-align: center;
+                            text-decoration: none;
+                        }
+                        &:hover {
+                            background-color: $blue_color;
+                            a {
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+                &.checkbox-slot {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-start;
+                }
+                label:not(.checkbox) {
+                    display: block;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: normal;
+                    color: $light_black;
+                    margin-bottom: 16px;
+                    width: 100%;
+                }
+                label.checkbox {
+                    margin-left: 16px;
+                    user-select: none;
+                    cursor: pointer;
+                    margin: 24px 16px;
+                }
+                input#register_checkbox {
+                    width: 24px;
+                    height: 24px;
+                    box-sizing: border-box;
+                    border: 1px solid $grey_light;
+                    background: $grey_light3;
+                    cursor: pointer;
+                }
+                input:not(#register_checkbox) {
+                    border: 1px solid $grey_light;
+                    background: $grey_light3;
+                    width: 100%;
+                    height: 45px;
+                    box-sizing: border-box;
+                    font-size: 18px;
+                    margin-bottom: 16px;
+                    padding: 0 12px;
+                    &:hover,
+                    &:focus {
+                        outline: 1px solid $blue_color;
+                    }
+                }
+                .blue-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 220px;
+                    background-color: $blue_color;
+                    border: 1px solid $blue_color;
+                    height: 47px;
+                    box-sizing: border-box;
+                    margin: 25px 0 0 0;
+                    a {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        height: 100%;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        color: $white;
+                        text-decoration: none;
+                    }
+                    &:hover {
+                        background-color: $white;
+                        a {
+                            color: $blue_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 101px;
+        height: 44px;
+        box-sizing: border-box;
+        border: 1px solid $light_black;
+        margin: 32px 0 126px 0;
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: normal;
+            color: $light_black;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+        }
+        &:hover {
+            background-color: $blue_color;
+            border: 1px solid $blue_color;
+            a {
+                color: $white
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .register_container {
+        .desc {
+            font-size: 14px;
+            line-height: 160%;
+            margin-bottom: 10px;
+        }
+        &__box {
+            flex-direction: column;
+            padding: 15px;
+            &--left {
+                margin-right: 0;
+            }
+            &--right {
+                .input-slot:first-of-type {
+                    margin-top: 0;
+                }
+            }
+            &--left,
+            &--right {
+                width: 100%;
+                .title {
+                    font-size: 19px;
+                }
+                .input-slot {
+                    &.with-btn {
+                        flex-wrap: wrap;
+                        input {
+                            width: 100% !important;
+                        }
+                        .gus_btn {
+                            width: 100% !important;
+                            margin-left: 0;
+                            margin-bottom: 15px
+                        }
+                    }
+                    label:not(.checkbox) {
+                        font-size: 14px;
+                        line-height: 160%;
+                    }
+                    label.checkbox {
+                        margin: 5px 15px 15px 5px;
+                        font-size: 14px;
+                        line-height: 160%;
+                    }
+                    input#register_checkbox {
+                        width: 20px;
+                        height: 20px;
+                        margin-top: -5px;
+                    }
+                    input:not(#register_checkbox) {
+                        font-size: 14px;
+                        line-height: 160%;
+                    }
+                    .blue-button {
+                        position: absolute;
+                        left: 16px;
+                        bottom: 50px;
+                        margin: 15px 0 15px 0;
+                    }
+                }
+            }
+        }
+        &__button {
+            margin-top: 88px;
+        }
+    }
+}

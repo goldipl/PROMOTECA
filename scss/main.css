@@ -4946,6 +4946,251 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     color: #29A8DA;
   }
 }
+.register_container .title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #010B32;
+  margin: 15px 0 0 0;
+}
+.register_container .desc {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  margin: 5px 0 24px 0;
+}
+.register_container__box {
+  display: flex;
+  flex-direction: row;
+  padding: 32px;
+  border: 1px solid #E2E2E2;
+}
+.register_container__box--left {
+  margin-right: 84px;
+}
+.register_container__box--right .input-slot:first-of-type {
+  margin-top: 50px;
+}
+.register_container__box--left, .register_container__box--right {
+  width: calc(50% - 42px);
+}
+.register_container__box--left .title, .register_container__box--right .title {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #333333;
+  width: 100%;
+  text-transform: none;
+  margin: 0 0 18px 0;
+}
+.register_container__box--left .input-slot.with-btn, .register_container__box--right .input-slot.with-btn {
+  flex-wrap: wrap;
+}
+.register_container__box--left .input-slot.with-btn input, .register_container__box--right .input-slot.with-btn input {
+  display: inline;
+  width: 65% !important;
+}
+.register_container__box--left .input-slot.with-btn .gus_btn, .register_container__box--right .input-slot.with-btn .gus_btn {
+  display: inline-flex;
+  width: 33% !important;
+  border: 1px solid #29A8DA;
+  background: #F6F6F6;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  margin-left: 1%;
+}
+.register_container__box--left .input-slot.with-btn .gus_btn a, .register_container__box--right .input-slot.with-btn .gus_btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-align: center;
+  text-decoration: none;
+}
+.register_container__box--left .input-slot.with-btn .gus_btn:hover, .register_container__box--right .input-slot.with-btn .gus_btn:hover {
+  background-color: #29A8DA;
+}
+.register_container__box--left .input-slot.with-btn .gus_btn:hover a, .register_container__box--right .input-slot.with-btn .gus_btn:hover a {
+  color: #FFFFFF;
+}
+.register_container__box--left .input-slot.checkbox-slot, .register_container__box--right .input-slot.checkbox-slot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.register_container__box--left .input-slot label:not(.checkbox), .register_container__box--right .input-slot label:not(.checkbox) {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.register_container__box--left .input-slot label.checkbox, .register_container__box--right .input-slot label.checkbox {
+  margin-left: 16px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  margin: 24px 16px;
+}
+.register_container__box--left .input-slot input#register_checkbox, .register_container__box--right .input-slot input#register_checkbox {
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  border: 1px solid #E2E2E2;
+  background: #F6F6F6;
+  cursor: pointer;
+}
+.register_container__box--left .input-slot input:not(#register_checkbox), .register_container__box--right .input-slot input:not(#register_checkbox) {
+  border: 1px solid #E2E2E2;
+  background: #F6F6F6;
+  width: 100%;
+  height: 45px;
+  box-sizing: border-box;
+  font-size: 18px;
+  margin-bottom: 16px;
+  padding: 0 12px;
+}
+.register_container__box--left .input-slot input:not(#register_checkbox):hover, .register_container__box--left .input-slot input:not(#register_checkbox):focus, .register_container__box--right .input-slot input:not(#register_checkbox):hover, .register_container__box--right .input-slot input:not(#register_checkbox):focus {
+  outline: 1px solid #29A8DA;
+}
+.register_container__box--left .input-slot .blue-button, .register_container__box--right .input-slot .blue-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  background-color: #29A8DA;
+  border: 1px solid #29A8DA;
+  height: 47px;
+  box-sizing: border-box;
+  margin: 25px 0 0 0;
+}
+.register_container__box--left .input-slot .blue-button a, .register_container__box--right .input-slot .blue-button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.register_container__box--left .input-slot .blue-button:hover, .register_container__box--right .input-slot .blue-button:hover {
+  background-color: #FFFFFF;
+}
+.register_container__box--left .input-slot .blue-button:hover a, .register_container__box--right .input-slot .blue-button:hover a {
+  color: #29A8DA;
+}
+.register_container__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 101px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+  margin: 32px 0 126px 0;
+}
+.register_container__button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+.register_container__button:hover {
+  background-color: #29A8DA;
+  border: 1px solid #29A8DA;
+}
+.register_container__button:hover a {
+  color: #FFFFFF;
+}
+
+@media (max-width: 760px) {
+  .register_container .desc {
+    font-size: 14px;
+    line-height: 160%;
+    margin-bottom: 10px;
+  }
+  .register_container__box {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .register_container__box--left {
+    margin-right: 0;
+  }
+  .register_container__box--right .input-slot:first-of-type {
+    margin-top: 0;
+  }
+  .register_container__box--left, .register_container__box--right {
+    width: 100%;
+  }
+  .register_container__box--left .title, .register_container__box--right .title {
+    font-size: 19px;
+  }
+  .register_container__box--left .input-slot.with-btn, .register_container__box--right .input-slot.with-btn {
+    flex-wrap: wrap;
+  }
+  .register_container__box--left .input-slot.with-btn input, .register_container__box--right .input-slot.with-btn input {
+    width: 100% !important;
+  }
+  .register_container__box--left .input-slot.with-btn .gus_btn, .register_container__box--right .input-slot.with-btn .gus_btn {
+    width: 100% !important;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+  .register_container__box--left .input-slot label:not(.checkbox), .register_container__box--right .input-slot label:not(.checkbox) {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .register_container__box--left .input-slot label.checkbox, .register_container__box--right .input-slot label.checkbox {
+    margin: 5px 15px 15px 5px;
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .register_container__box--left .input-slot input#register_checkbox, .register_container__box--right .input-slot input#register_checkbox {
+    width: 20px;
+    height: 20px;
+    margin-top: -5px;
+  }
+  .register_container__box--left .input-slot input:not(#register_checkbox), .register_container__box--right .input-slot input:not(#register_checkbox) {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .register_container__box--left .input-slot .blue-button, .register_container__box--right .input-slot .blue-button {
+    position: absolute;
+    left: 16px;
+    bottom: 50px;
+    margin: 15px 0 15px 0;
+  }
+  .register_container__button {
+    margin-top: 88px;
+  }
+}
 .article_container .title {
   font-size: 24px;
   font-weight: 600;
