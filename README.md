@@ -31,3 +31,7 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 ![Screenshot](./screenshots/promoteca02.jpg)  
 
 ![Screenshot](./screenshots/promoteca03.jpg)  
+
+![Screenshot](./screenshots/promoteca04.jpg)  
+
+![Screenshot](./screenshots/promoteca05.jpg)  
