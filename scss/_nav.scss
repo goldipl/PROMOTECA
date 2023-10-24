@@ -76,6 +76,7 @@ header {
                     &:hover,
                     &:focus {
                         outline: 1px solid $blue_color;
+                        border: 1px solid rgba(255,255,255,0);
                     }
                 }
                 #searchQuerySubmit {
