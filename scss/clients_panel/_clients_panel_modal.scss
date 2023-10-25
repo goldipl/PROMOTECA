@@ -1,3 +1,134 @@
+body {
+    position: relative;
+    &.active-modal::before {
+        display: block;
+        position: absolute;
+        content:'';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        background-color: $modal_background_black;
+    }
+}
+
 .modal_container {
-    
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width: 560px;
+    height: 504px;
+    border: 1px solid $grey_light;
+    background-color: $white;
+    padding: 34px 31px;
+    box-sizing: border-box;
+    &.show {
+        display: flex;
+    }
+    &--close-icon {
+        position: absolute;
+        display: block;
+        top: 34px;
+        right: 30px;
+        content: '';
+        background: url('./../assets/icons/clients_panel/close.svg');
+        width: 18px;
+        height: 18px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer
+    }
+    &--title {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: $light_black;
+        margin-top: 0;
+    }
+    &--slot {
+        label {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: $light_black;
+        }
+        input {
+            border: 1px solid $grey_light;
+            background: $grey_light3;
+            width: 100%;
+            height: 45px;
+            box-sizing: border-box;
+            font-size: 18px;
+            margin-top: 18px;
+            margin-bottom: 16px;
+            padding: 0 12px;
+            &:hover,
+            &:focus {
+                outline: 1px solid $blue_color;
+            }
+        }
+    }
+    &--button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $blue_color;
+        border: 1px solid $blue_color;
+        width: 105px;
+        height: 44px;
+        margin: 0 auto;
+        cursor: pointer;
+        color: $white;
+        margin-top: 16px;
+        &:hover {
+            background-color: $white;
+            color: $light_black;
+            border: 1px solid $light_black;
+        }
+        span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .modal_container {
+        display: none;
+        position: absolute;
+        top: 40px;
+        left: 2%;
+        right: 2%;
+        transform: none;
+        z-index: 999;
+        width: 96%;
+        height: auto;
+        &.show {
+            display: flex;
+        }
+        &--slot {
+            label {
+                font-size: 14px;
+                line-height: 160%;
+            }
+            input {
+                font-size: 14px;
+                line-height: 160%;
+            }
+        }
+    }
 }
