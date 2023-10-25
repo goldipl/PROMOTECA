@@ -32,13 +32,13 @@
                 </div>
             </div>
             <div class="password__container">
-                <div class="data__container--title">
+                <div class="password__container--title">
                     <p>Hasło</p>
                 </div>
-                <div class="data__container--input">
+                <div class="password__container--input">
                     <input type="password" name="pass_input" id="pass_input">
                 </div>
-                <div class="data__container--button">
+                <div class="password__container--button">
                     <a href="">Edytuj</a>
                 </div>
             </div>
