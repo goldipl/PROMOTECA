@@ -5998,7 +5998,7 @@ body.active-modal::before {
   transform: translate(-50%, -50%);
   z-index: 999;
   width: 560px;
-  height: 504px;
+  height: auto;
   border: 1px solid #E2E2E2;
   background-color: #FFFFFF;
   padding: 34px 31px;
@@ -6089,7 +6089,6 @@ body.active-modal::before {
     transform: none;
     z-index: 999;
     width: 96%;
-    height: auto;
   }
   .modal_container.show {
     display: flex;
