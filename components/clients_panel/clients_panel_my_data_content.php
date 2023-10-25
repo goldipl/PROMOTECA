@@ -18,6 +18,38 @@
         </aside>
     </div>
     <div class="clients_panel_my_data_content__right">
-
+        <div class="data_password__container">
+            <div class="data__container">
+                <div class="data__container--title">
+                    <p>Twoje dane</p>
+                </div>
+                <div class="data__container--text">
+                    <p>Jan Kowalski</p>
+                    <p>email@gmail.com</p>
+                </div>
+                <div class="data__container--button">
+                    <a href="">Edytuj</a>
+                </div>
+            </div>
+            <div class="password__container">
+                <div class="data__container--title">
+                    <p>Hasło</p>
+                </div>
+                <div class="data__container--input">
+                    <input type="password" name="pass_input" id="pass_input">
+                </div>
+                <div class="data__container--button">
+                    <a href="">Edytuj</a>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+<!-- Data Modal -->
+<div class="modal_container data">
+
+</div>
+<!-- Password Modal -->
+<div class="modal_container password">
+    
 </div>
