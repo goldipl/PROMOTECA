@@ -2542,7 +2542,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   height: 24px;
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: 1000000000000000000;
+  z-index: 9;
 }
 .gallery-container-big .gallery-item.big .left-bottom-size {
   position: absolute;
