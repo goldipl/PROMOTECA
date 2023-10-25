@@ -341,6 +341,10 @@
         }
         .opinions_container {
             &_box {
+                display: block;
+                &.hide {
+                    display: none;
+                }
                 &--slot {
                     padding: 33px 22px;
                     border-bottom: 1px solid $grey_light;

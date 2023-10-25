@@ -438,6 +438,10 @@
                 width: calc(100% + 32px);
             }
             &_box {
+                display: block;
+                &.hide {
+                    display: none;
+                }
                 &--slot {
                     padding: 22px 22px 33px 22px;
                     border-bottom: 1px solid $grey_light;

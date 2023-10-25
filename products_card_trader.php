@@ -49,5 +49,6 @@
         <script src="./js/script.js"></script>
         <script src="./js/accordion_title.js"></script>
         <script src="./js/products_page/products_gallery.js"></script>
+        <script src="./js/products_page/opinions_accordion_trader.js"></script>
     </body>
 </html>
