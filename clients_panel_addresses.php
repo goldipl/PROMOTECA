@@ -55,5 +55,6 @@
         </footer>
         <script src="./js/mobile_searchbar.js"></script>
         <script src="./js/script.js"></script>
+        <script src="./js/clients_panel/addresses_modal.js"></script>
     </body>
 </html>
