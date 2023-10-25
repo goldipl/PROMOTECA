@@ -45,11 +45,3 @@
         </div>
     </div>
 </div>
-<!-- Data Modal -->
-<div class="modal_container data">
-
-</div>
-<!-- Password Modal -->
-<div class="modal_container password">
-    
-</div>
