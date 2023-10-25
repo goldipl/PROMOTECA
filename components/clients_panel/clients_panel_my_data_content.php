@@ -24,7 +24,7 @@
                     <p>Twoje dane</p>
                 </div>
                 <div class="data__container--text">
-                    <p>Jan Kowalski</p>
+                    <p class="name">Jan <span class="surname">Kowalski</span></p>
                     <p>email@gmail.com</p>
                 </div>
                 <div class="data__container--button">
