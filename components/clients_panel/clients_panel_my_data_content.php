@@ -25,7 +25,7 @@
                 </div>
                 <div class="data__container--text">
                     <p class="name">Jan <span class="surname">Kowalski</span></p>
-                    <p>email@gmail.com</p>
+                    <p class="email">email@gmail.com</p>
                 </div>
                 <div class="data__container--button">
                     <a href="">Edytuj</a>
