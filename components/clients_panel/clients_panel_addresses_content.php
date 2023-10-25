@@ -18,6 +18,20 @@
         </aside>
     </div>
     <div class="clients_panel_addresses_content__right">
-
+        <div class="addresses__container_box">
+            <div class="addresses__container">
+                <div class="addresses__container--title">
+                    <p>Adres do wysyłki</p>
+                </div>
+                <div class="addresses__container--text">
+                    <p class="company">Firma1 Mirosław Kozłowski</p>
+                    <p class="street">Krakowska, 4c/14</p>
+                    <p class="city_zipcode">35-582 Kraków</p>
+                </div>
+                <div class="addresses__container--button">
+                    <a href="">Edytuj</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

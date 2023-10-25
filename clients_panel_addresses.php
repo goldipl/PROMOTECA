@@ -26,6 +26,30 @@
             </div>
             <?php include "./components/clients_panel/clients_panel_addresses_content.php"; ?>
         </div>
+        <!-- Addresses Modal -->
+        <div class="modal_container addresses">
+            <div class="modal_container--close-icon"></div>
+            <p class="modal_container--title">Edycja adresu wysyłki</p>
+            <div class="modal_container--slot">
+                <label for="modal_addresses_name">Nazwa firmy / Imię i Nazwisko: *</label>
+                <input type="text" name="modal_addresses_name" id="modal_addresses_name" required>
+            </div>
+            <div class="modal_container--slot">
+                <label for="modal_addresses_address">Adres: *</label>
+                <input type="text" name="modal_addresses_address" id="modal_addresses_address" required>
+            </div>
+            <div class="modal_container--slot">
+                <label for="modal_addresses_zip_code">Kod pocztowy: *</label>
+                <input type="text" name="modal_addresses_zip_code" id="modal_addresses_zip_code" required>
+            </div>
+            <div class="modal_container--slot">
+                <label for="modal_addresses_city">Miasto: *</label>
+                <input type="text" name="modal_addresses_city" id="modal_addresses_city" required>
+            </div>
+            <div class="modal_container--button">
+               <span>Zapisz</span>
+            </div>
+        </div>
         <footer> 
             <?php include "./components/footer.php"; ?> 
         </footer>

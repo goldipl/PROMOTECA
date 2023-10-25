@@ -18,6 +18,21 @@
         </aside>
     </div>
     <div class="clients_panel_fv_content__right">
-
+        <div class="fv__container_box">
+            <div class="fv__container">
+                <div class="fv__container--title">
+                    <p>Dane do Faktury</p>
+                </div>
+                <div class="fv__container--text">
+                    <p class="company">Firma1 Mirosław Kozłowski</p>
+                    <p class="street">Krakowska, 4c/14</p>
+                    <p class="city_zipcode">35-582 Kraków</p>
+                    <p class="nipcode">NIP: <span>552158562</span></p>
+                </div>
+                <div class="fv__container--button">
+                    <a href="">Edytuj</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

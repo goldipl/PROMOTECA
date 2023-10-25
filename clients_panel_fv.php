@@ -26,6 +26,34 @@
             </div>
             <?php include "./components/clients_panel/clients_panel_fv_content.php"; ?>
         </div>
+        <!-- FV Modal -->
+        <div class="modal_container fv">
+            <div class="modal_container--close-icon"></div>
+            <p class="modal_container--title">Edycja danych do Faktury</p>
+            <div class="modal_container--slot">
+                <label for="modal_fv_name">Nazwa firmy / Imię i Nazwisko: *</label>
+                <input type="text" name="modal_fv_name" id="modal_fv_name" required>
+            </div>
+            <div class="modal_container--slot">
+                <label for="modal_fv_address">Adres: *</label>
+                <input type="text" name="modal_fv_address" id="modal_fv_address" required>
+            </div>
+            <div class="modal_container--slot">
+                <label for="modal_fv_zip_code">Kod pocztowy: *</label>
+                <input type="text" name="modal_fv_zip_code" id="modal_fv_zip_code" required>
+            </div>
+            <div class="modal_container--slot">
+                <label for="modal_fv_city">Miasto: *</label>
+                <input type="text" name="modal_fv_city" id="modal_fv_city" required>
+            </div>
+            <div class="modal_container--slot">
+                <label for="modal_fv_nip_code">NIP: *</label>
+                <input type="text" name="modal_fv_nip_code" id="modal_fv_nip_code" required>
+            </div>
+            <div class="modal_container--button">
+               <span>Zapisz</span>
+            </div>
+        </div>
         <footer> 
             <?php include "./components/footer.php"; ?> 
         </footer>
