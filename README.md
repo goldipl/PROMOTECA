@@ -2,7 +2,6 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [License](#license)
-* [Live](#live-star2)
 * [Screenshots](#screenshots)
 
 ## General info
@@ -20,9 +19,6 @@ License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mi
 
 This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License (not for commercial use)
 
-## Live :star2:
-* live link
-
 ## Screenshots
 * Desktop & mobile version :desktop_computer: :iphone:       
 
@@ -35,3 +31,7 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 ![Screenshot](./screenshots/promoteca04.jpg)  
 
 ![Screenshot](./screenshots/promoteca05.jpg)  
+
+![Screenshot](./screenshots/promoteca06.jpg)  
+
+![Screenshot](./screenshots/promoteca07.jpg)  
