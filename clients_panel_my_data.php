@@ -48,7 +48,23 @@
         </div>
         <!-- Password Modal -->
         <div class="modal_container password">
-            <div class="close-icon"></div>
+        <div class="modal_container--close-icon"></div>
+            <p class="modal_container--title">Zmiana Hasła</p>
+            <div class="modal_container--slot">
+                <label for="modal_actual_password">Obecne hasło: *</label>
+                <input type="password" name="modal_actual_password" id="modal_actual_password" required>
+            </div>
+            <div class="modal_container--slot">
+                <label for="modal_new_password">Nowe hasło: *</label>
+                <input type="password" name="modal_new_password" id="modal_new_password" required>
+            </div>
+            <div class="modal_container--slot">
+                <label for="modal_repeat_new_password">Powtórz nowe hasło: *</label>
+                <input type="password" name="modal_repeat_new_password" id="modal_repeat_new_password" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+            </div>
+            <div class="modal_container--button">
+               <span>Zapisz</span>
+            </div>
         </div>
         <footer> 
             <?php include "./components/footer.php"; ?> 
@@ -56,5 +72,6 @@
         <script src="./js/mobile_searchbar.js"></script>
         <script src="./js/script.js"></script>
         <script src="./js/clients_panel/data_modal.js"></script>
+        <script src="./js/clients_panel/password_modal.js"></script>
     </body>
 </html>
