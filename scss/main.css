@@ -4706,6 +4706,54 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #FFFFFF;
 }
 
+@media (max-width: 760px) {
+  .cart_step_two_without_account_container {
+    flex-direction: column;
+  }
+  .cart_step_two_without_account_container--left {
+    margin-right: 0;
+  }
+  .cart_step_two_without_account_container--left .cart_without_account__box {
+    padding: 15px;
+    width: 100%;
+  }
+  .cart_step_two_without_account_container--left .cart_without_account__box--left .title, .cart_step_two_without_account_container--left .cart_without_account__box--right .title {
+    font-size: 19px;
+  }
+  .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot {
+    width: 100%;
+    margin-right: 0;
+  }
+  .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot.with-btn input, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot.with-btn input {
+    width: 100% !important;
+  }
+  .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot.with-btn .gus_btn, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot.with-btn .gus_btn {
+    width: 100% !important;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot.with-btn .gus_btn a, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot.with-btn .gus_btn a {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot label, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot label {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot label:not(.checkbox), .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot label:not(.checkbox) {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot label.checkbox, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot label.checkbox {
+    margin: 6px 16px;
+  }
+  .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input#register_checkbox,
+  .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input#different_address, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input#register_checkbox,
+  .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input#different_address {
+    width: auto;
+    height: auto;
+  }
+}
 #cart_steps_container .cart_steps {
   display: flex;
   flex-direction: row;
