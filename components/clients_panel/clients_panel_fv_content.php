@@ -1,6 +1,6 @@
 <div class="clients_panel_fv_content">
-    <h1 class="title">Panel klienta</h1>
     <div class="clients_panel_fv_content__left">
+        <h1 class="title">Panel klienta</h1>
         <aside class="clients_panel_aside">
             <p class="clients_panel_aside--title">Witamy!</p>
             <a class="clients_panel_aside--slot data" href="./clients_panel_my_data.php">

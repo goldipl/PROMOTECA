@@ -5617,7 +5617,11 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     margin-top: 2px;
   }
 }
-.clients_panel_addresses_content h1.title {
+.clients_panel_addresses_content {
+  display: flex;
+  flex-direction: row;
+}
+.clients_panel_addresses_content__left h1.title {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -5626,7 +5630,11 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #010B32;
   margin-bottom: 32px;
 }
-.clients_panel_fv_content h1.title {
+.clients_panel_fv_content {
+  display: flex;
+  flex-direction: row;
+}
+.clients_panel_fv_content__left h1.title {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -5635,7 +5643,11 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #010B32;
   margin-bottom: 32px;
 }
-.clients_panel_my_data_content h1.title {
+.clients_panel_my_data_content {
+  display: flex;
+  flex-direction: row;
+}
+.clients_panel_my_data_content__left h1.title {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -5644,7 +5656,11 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #010B32;
   margin-bottom: 32px;
 }
-.clients_panel_orders_content h1.title {
+.clients_panel_orders_content {
+  display: flex;
+  flex-direction: row;
+}
+.clients_panel_orders_content__left h1.title {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
