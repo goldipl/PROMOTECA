@@ -18,6 +18,10 @@
         </aside>
     </div>
     <div class="clients_panel_orders_content__right">
+        <div class="panel_orders_box">
+            <div class="panel_orders_box__slot">
 
+            </div>
+        </div>
     </div>
 </div>
