@@ -2531,6 +2531,19 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 .gallery-container-big .gallery-item.big {
   position: relative;
 }
+.gallery-container-big .gallery-item.big::after {
+  position: absolute;
+  display: block;
+  top: 21px;
+  right: 24px;
+  content: "";
+  background: url("./../assets/icons/products_card/heart.svg");
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1000000000000000000;
+}
 .gallery-container-big .gallery-item.big .left-bottom-size {
   position: absolute;
   left: 0;
