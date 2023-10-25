@@ -22,7 +22,7 @@ body {
     transform: translate(-50%, -50%);
     z-index: 999;
     width: 560px;
-    height: 504px;
+    height: auto;
     border: 1px solid $grey_light;
     background-color: $white;
     padding: 34px 31px;
@@ -116,7 +116,6 @@ body {
         transform: none;
         z-index: 999;
         width: 96%;
-        height: auto;
         &.show {
             display: flex;
         }
