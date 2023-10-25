@@ -1,0 +1,32 @@
+.clients_panel_orders_details_content {
+    display: flex;
+    flex-direction: row;
+    &__left {
+        h1.title {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;
+            color: $title_black;
+            margin-bottom: 32px;
+        }
+    }
+    &__right {
+
+    } 
+}
+
+@media (max-width: 760px) {
+    .clients_panel_orders_details_content {
+        flex-direction: column;
+        &__left {
+            h1.title {
+                font-size: 21px;
+            }
+        }
+        &__right {
+            margin-top: 0;
+        }
+    }
+}
