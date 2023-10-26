@@ -1,8 +1,13 @@
 ## Table of contents
+* [Gif website presentation](#gif-website-presentation)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [License](#license)
 * [Screenshots](#screenshots)
+
+## Gif website presentation
+
+![gif](./gif/promoteca.gif)
 
 ## General info
 PROMOTECA.pl website ➡️ E-commerce dynamic website written using PHP, SCSS, Vanilla JavaScript, HTML5 with SwiperJS. Website contains products page, cart page, login, register, offerts & account profiles/settings pages.
