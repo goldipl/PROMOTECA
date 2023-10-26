@@ -7145,6 +7145,7 @@ footer .footer-container .footer-top .footer-left-container {
   flex-direction: column;
   height: -moz-max-content;
   height: max-content;
+  margin-right: 40px;
 }
 footer .footer-container .footer-top .footer-left-container .footer-col {
   display: flex;
@@ -7362,6 +7363,9 @@ footer .footer-container .footer-bottom .footer-three-cols .footer-col_slot--tex
   }
   footer .footer-container {
     margin-top: 20px;
+  }
+  footer .footer-container .footer-top .footer-left-container {
+    margin-right: 0;
   }
   footer .footer-container .footer-top .footer-right-container {
     flex-direction: column;

@@ -18,6 +18,7 @@ footer {
                 display: flex;
                 flex-direction: column;
                 height: max-content;
+                margin-right: 40px;
                 .footer-col {
                     display: flex;
                     flex-direction: column;
@@ -264,6 +265,9 @@ footer {
         .footer-container {
             margin-top: 20px;
             .footer-top {
+                .footer-left-container {
+                    margin-right: 0;
+                }
                 .footer-right-container {
                     flex-direction: column;
                     .footer-col {
