@@ -100,15 +100,18 @@
     }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1576px) {
     #blog {
         .blog_container {
             display: flex;
             flex-wrap: wrap;
             .article_slot {
-                width: 48%;
-                min-width: 48%;
-                margin-right: 2%;
+                width: 32%;
+                min-width: 32%;
+                margin-right: 1%;
+                &:last-of-type {
+                    margin-right: 0;
+                }
                 &--img {
                     overflow: hidden;
                     width: 100%;
@@ -122,6 +125,18 @@
                 &--title {
                     width: 90%;
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    #blog {
+        .blog_container {
+            .article_slot {
+                width: 48%;
+                min-width: 48%;
+                margin-right: 2%;
             }
         }
     }
