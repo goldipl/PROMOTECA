@@ -19,6 +19,10 @@ Used technologies:
 * HTML5
 * SCSS
 
+Used also:
+* Swiper.js
+* Lightbox.js
+
 ## License
 License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
 
