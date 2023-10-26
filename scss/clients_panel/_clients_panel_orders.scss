@@ -13,7 +13,152 @@
         }
     }
     &__right {
-
+        .panel_orders_box {
+            display: flex;
+            flex-direction: column;
+            margin-top: 83px;
+            &__slot {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 36px;
+                box-sizing: border-box;
+                border: 1px solid $grey_light;
+                margin-bottom: 16px;
+                &--col {
+                    display: flex;
+                    flex-direction: column;
+                    .slot-text {
+                        margin-right: 80px;
+                        p {
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $grey_middle;
+                            margin: 0 0 11px 0;
+                            strong {
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                color: $light_black;
+                                &.green {
+                                    color: $green;
+                                    font-weight: 700;
+                                }
+                                &.orange {
+                                    color: $orange;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                    .col-first-line {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        .slot-img {
+                            margin-right: 34px;
+                            img {
+                                width: auto;
+                                height: 50px;
+                            }
+                        }
+                        .slot-title {
+                            margin-right: 141px;
+                            max-width: 348px;
+                            strong {
+                                font-size: 22px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                color: $light_black;
+                            }
+                        }
+                    }
+                    .col-second-line {
+                        .pay-value {
+                            margin-top: 21px;
+                            p {
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 16px;
+                                color: $grey_middle;
+                                strong {
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 16px;
+                                    color: $light_black;
+                                    span {
+                                        &.blue {
+                                            color: $blue_color;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .details-btn {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        width: 145px;
+                        height: 44px;
+                        box-sizing: border-box;
+                        border: 1px solid $blue_color;
+                        background-color: $blue_color;
+                        a {
+                            position: relative;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            width: 100%;
+                            height: 100%;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $light_black;
+                            padding-left: 24px;
+                            color: $white;
+                            &::after {
+                                position: absolute;
+                                display: block;
+                                content: "";
+                                top: 12px;
+                                right: 16px;
+                                background: url("./../assets/icons/products_block/more_plus_white.svg");
+                                height: 18px;
+                                width: 18px;
+                                background-size: cover;
+                                background-repeat: no-repeat;
+                            }
+                        }
+                        &:hover {
+                            background-color: $white; 
+                            a {
+                                color: $blue_color;
+                                text-decoration: none;
+                                &::after {
+                                    position: absolute;
+                                    display: block;
+                                    content: "";
+                                    top: 12px;
+                                    right: 16px;
+                                    background: url("./../assets/icons/products_block/more_plus.svg");
+                                    height: 18px;
+                                    width: 18px;
+                                    background-size: cover;
+                                    background-repeat: no-repeat;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     } 
 }
 
@@ -27,6 +172,46 @@
         }
         &__right {
             margin-top: 0;
+            .panel_orders_box {
+                &__slot {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 15px;
+                    &--col {
+                        .slot-text {
+                            margin-right: 0;
+                            p {
+                                font-size: 14px;
+                                line-height: 160%;
+                                margin: 0 0 8px 0;
+                                strong {
+                                    font-size: 15px;
+                                    line-height: 170%;
+                                }
+                            }
+                        }
+                        .col-first-line {
+                            .slot-img {
+                                margin-right: 15px;
+                            }
+                            .slot-title {
+                                margin-right: 0;
+                                strong {
+                                    font-size: 19px;
+                                }
+                            }
+                        }
+                        .col-second-line {
+                            .pay-value {
+                                p {
+                                    font-size: 14px;
+                                    line-height: 160%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

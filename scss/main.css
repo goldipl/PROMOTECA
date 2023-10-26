@@ -5975,6 +5975,149 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #010B32;
   margin-bottom: 32px;
 }
+.clients_panel_orders_content__right .panel_orders_box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 83px;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 36px;
+  box-sizing: border-box;
+  border: 1px solid #E2E2E2;
+  margin-bottom: 16px;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col {
+  display: flex;
+  flex-direction: column;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .slot-text {
+  margin-right: 80px;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .slot-text p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #8A8A8A;
+  margin: 0 0 11px 0;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .slot-text p strong {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #333333;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .slot-text p strong.green {
+  color: #00AA25;
+  font-weight: 700;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .slot-text p strong.orange {
+  color: #FF8A1E;
+  font-weight: 700;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .col-first-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .col-first-line .slot-img {
+  margin-right: 34px;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .col-first-line .slot-img img {
+  width: auto;
+  height: 50px;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .col-first-line .slot-title {
+  margin-right: 141px;
+  max-width: 348px;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .col-first-line .slot-title strong {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #333333;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .col-second-line .pay-value {
+  margin-top: 21px;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .col-second-line .pay-value p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: #8A8A8A;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .col-second-line .pay-value p strong {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  color: #333333;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .col-second-line .pay-value p strong span.blue {
+  color: #29A8DA;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .details-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 145px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 1px solid #29A8DA;
+  background-color: #29A8DA;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .details-btn a {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  padding-left: 24px;
+  color: #FFFFFF;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .details-btn a::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 12px;
+  right: 16px;
+  background: url("./../assets/icons/products_block/more_plus_white.svg");
+  height: 18px;
+  width: 18px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .details-btn:hover {
+  background-color: #FFFFFF;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .details-btn:hover a {
+  color: #29A8DA;
+  text-decoration: none;
+}
+.clients_panel_orders_content__right .panel_orders_box__slot--col .details-btn:hover a::after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 12px;
+  right: 16px;
+  background: url("./../assets/icons/products_block/more_plus.svg");
+  height: 18px;
+  width: 18px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 760px) {
   .clients_panel_orders_content {
     flex-direction: column;
@@ -5983,6 +6126,60 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     font-size: 21px;
   }
   .clients_panel_orders_content__right {
+    margin-top: 0;
+  }
+  .clients_panel_orders_content__right .panel_orders_box__slot {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+  .clients_panel_orders_content__right .panel_orders_box__slot--col .slot-text {
+    margin-right: 0;
+  }
+  .clients_panel_orders_content__right .panel_orders_box__slot--col .slot-text p {
+    font-size: 14px;
+    line-height: 160%;
+    margin: 0 0 8px 0;
+  }
+  .clients_panel_orders_content__right .panel_orders_box__slot--col .slot-text p strong {
+    font-size: 15px;
+    line-height: 170%;
+  }
+  .clients_panel_orders_content__right .panel_orders_box__slot--col .col-first-line .slot-img {
+    margin-right: 15px;
+  }
+  .clients_panel_orders_content__right .panel_orders_box__slot--col .col-first-line .slot-title {
+    margin-right: 0;
+  }
+  .clients_panel_orders_content__right .panel_orders_box__slot--col .col-first-line .slot-title strong {
+    font-size: 19px;
+  }
+  .clients_panel_orders_content__right .panel_orders_box__slot--col .col-second-line .pay-value p {
+    font-size: 14px;
+    line-height: 160%;
+  }
+}
+.clients_panel_orders_details_content {
+  display: flex;
+  flex-direction: row;
+}
+.clients_panel_orders_details_content__left h1.title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #010B32;
+  margin-bottom: 32px;
+}
+@media (max-width: 760px) {
+  .clients_panel_orders_details_content {
+    flex-direction: column;
+  }
+  .clients_panel_orders_details_content__left h1.title {
+    font-size: 21px;
+  }
+  .clients_panel_orders_details_content__right {
     margin-top: 0;
   }
 }
