@@ -259,8 +259,28 @@
     }
 }
 
+@media (max-width: 1576px) {
+    #recommend {
+        padding-left: 52px;
+        margin-left: -52px;
+        padding-right: 52px;
+        margin-right: -52px;
+        .mainpage-title--btn { 
+            margin-right: 52px;
+        }
+        .products_container {
+            overflow-x: scroll;
+            overflow-y: hidden;
+            justify-content: flex-start;
+        }
+    }
+}
+
 @media (max-width: 1280px) {
     #recommend {
+        .mainpage-title--btn { 
+            margin-right: 52px;
+        }
         .products_container {
             overflow-x: scroll;
             overflow-y: hidden;

@@ -93,13 +93,25 @@ h1.mainpage-title::before {
   background-color: #29A8DA;
 }
 
+@media (max-width: 1576px) {
+  #main-wrapper {
+    width: calc(100% - 108px);
+    padding: 0 52px;
+  }
+}
 @media (max-width: 1280px) {
   #main-wrapper {
-    width: calc(100% - 32px);
-    padding: 0 16px;
+    width: calc(100% - 72px);
+    padding: 0 36px;
   }
 }
 @media (max-width: 760px) {
+  #main-wrapper {
+    width: calc(100% - 32px);
+    padding: 0 16px;
+    margin-left: 0;
+    margin-right: 0;
+  }
   .products_card_page aside {
     order: 1;
   }
@@ -187,6 +199,11 @@ h1.mainpage-title::before {
   margin: 0 0 0 12px;
 }
 
+@media (max-width: 1576px) {
+  #topbar .topbar_container {
+    width: 90%;
+  }
+}
 @media (max-width: 1280px) {
   #topbar .topbar_container {
     justify-content: center;
@@ -603,6 +620,18 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   display: none;
 }
 
+@media (max-width: 1576px) {
+  header #nav .top-nav {
+    width: 90vw;
+  }
+  header #nav .bottom-nav {
+    width: 90vw;
+  }
+  header #nav .bottom-nav::after {
+    left: calc(-10vw + 15px);
+    width: 110vw;
+  }
+}
 @media (max-width: 1280px) {
   .account-cart-container .account-text-container .login {
     display: none;
@@ -923,6 +952,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     margin-top: 0;
   }
   .breadcrumbs ul {
+    padding-left: 16px;
     margin: 0;
   }
   .breadcrumbs ul li.breadcrumb-item {
@@ -934,6 +964,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     left: -12px;
     width: 8px;
     height: 8px;
+  }
+  .breadcrumbs ul li.breadcrumb-item:first-of-type {
+    margin-left: -12px;
   }
   .breadcrumbs ul li.breadcrumb-item a {
     font-weight: 400;
@@ -976,12 +1009,19 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background-color: rgba(202, 201, 201, 0.7450980392);
 }
 
+@media (max-width: 1576px) {
+  #swiper {
+    margin-left: -52px;
+    margin-right: -52px;
+    width: calc(100% + 108px);
+  }
+}
 @media (max-width: 1280px) {
   #swiper {
     margin-top: 0;
-    margin-left: -16px;
-    margin-right: -16px;
-    width: calc(100% + 32px);
+    margin-left: -36px;
+    margin-right: -36px;
+    width: calc(100% + 71px);
   }
 }
 @media (max-width: 760px) {
@@ -1270,7 +1310,26 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 1576px) {
+  #recommend {
+    padding-left: 52px;
+    margin-left: -52px;
+    padding-right: 52px;
+    margin-right: -52px;
+  }
+  #recommend .mainpage-title--btn {
+    margin-right: 52px;
+  }
+  #recommend .products_container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    justify-content: flex-start;
+  }
+}
 @media (max-width: 1280px) {
+  #recommend .mainpage-title--btn {
+    margin-right: 52px;
+  }
   #recommend .products_container {
     overflow-x: scroll;
     overflow-y: hidden;
@@ -1362,6 +1421,25 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   }
   #our_offert .vertical_listings-slot:last-of-type {
     margin-right: 0;
+  }
+}
+@media (max-width: 1576px) {
+  #our_offert {
+    padding-left: 52px;
+    margin-left: -52px;
+    padding-right: 52px;
+    margin-right: -52px;
+  }
+  #our_offert .vertical_listings-slot {
+    width: 20%;
+    margin-right: 0;
+    align-items: center;
+  }
+}
+@media (max-width: 1280px) {
+  #our_offert .vertical_listings-slot {
+    width: 23%;
+    margin-right: 1%;
   }
 }
 @media (max-width: 760px) {
@@ -7249,7 +7327,29 @@ footer .footer-container .footer-bottom .footer-three-cols .footer-col_slot--tex
     font-size: 14px;
   }
 }
+@media (max-width: 1576px) {
+  footer {
+    width: calc(100% - 108px);
+    padding: 0 52px;
+  }
+  footer .footer-container .footer-bottom {
+    margin-left: -52px;
+    padding-left: 52px;
+    margin-right: -52px;
+    padding-right: 52px;
+  }
+}
+@media (max-width: 1280px) {
+  footer {
+    width: calc(100% - 72px);
+    padding: 0 36px;
+  }
+}
 @media (max-width: 760px) {
+  footer {
+    width: 100%;
+    padding: 0;
+  }
   footer .footer-container {
     margin-top: 20px;
   }
@@ -7273,6 +7373,7 @@ footer .footer-container .footer-bottom .footer-three-cols .footer-col_slot--tex
   footer .footer-container .footer-bottom {
     height: auto;
     flex-direction: column;
+    margin: 0;
     padding: 12px 0;
   }
   footer .footer-container .footer-bottom::after {
