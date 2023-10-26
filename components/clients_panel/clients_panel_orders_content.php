@@ -38,7 +38,7 @@
                     </div>
                     <div class="col-second-line">
                         <div class="pay-value">
-                            <p>Zapłacaono: <strong><span class="blue">200.90</span> zł</strong></p>
+                            <p>Zapłacono: <strong><span class="blue">200.90</span> zł</strong></p>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="col-second-line">
                         <div class="pay-value">
-                            <p>Zapłacaono: <strong><span class="blue">200.90</span> zł</strong></p>
+                            <p>Zapłacono: <strong><span class="blue">200.90</span> zł</strong></p>
                         </div>
                     </div>
                 </div>
