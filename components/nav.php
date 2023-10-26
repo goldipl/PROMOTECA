@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="cart-container">
-                <a class="cart-link" href="./cart.php">
+                <a class="cart-link" href="./cart_step_one.php">
                     <div class="cart-logo-container">
                         <img class="cart-image" src="./assets/icons/cart.svg" alt="cart image" width="31" height="31">
                         <span class="cart-quantity">0</span>
