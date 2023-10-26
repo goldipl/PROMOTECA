@@ -13,8 +13,199 @@
         }
     }
     &__right {
-
+        .orders_details_box {
+            display: flex;
+            flex-direction: row;
+            margin-top: 83px;
+            &__slot {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 36px;
+                box-sizing: border-box;
+                border: 1px solid $grey_light;
+                margin-bottom: 16px;
+                width: 1251px;
+                &__top {
+                    width: 100%;
+                    .slot-text {
+                        display: flex;
+                        flex-direction: row;
+                        border-bottom: 1px solid $grey_light;
+                        margin-left: -36px;
+                        margin-right: -36px;
+                        padding: 0 0 32px 36px;
+                        p {
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            color: $grey_middle;
+                            display: flex;
+                            width: 33%;
+                            margin: 12px 0;
+                            &:nth-of-type(2),
+                            &:nth-of-type(3) {
+                                justify-content: center;
+                            }
+                            strong {
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                color: $light_black;
+                                margin-left: 4px;
+                                &.green {
+                                    color: $green;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+                &__bottom {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 100%;
+                    .slot-column {
+                        margin-top: 35px;
+                        &:first-of-type {
+                            margin-top: 0;
+                        }
+                        &:nth-of-type(2) {
+                            margin-top: 60px;
+                        }
+                        &:last-of-type {
+                            margin-right: 120px;
+                        }
+                        .title {
+                            p {
+                                font-size: 22px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                color: $light_black;
+                                margin-bottom: 21px;
+                            }
+                        }
+                        .text-slot {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: space-between;
+                            &--left {
+                                p {
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                    color: $grey_middle;
+                                    margin: 0 0 9px 0;
+                                }
+                            }
+                            &--right {
+                                p {
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;  
+                                    color: $grey_middle; 
+                                    margin: 0 0 9px 0;                         
+                                }
+                            }
+                        }
+                        .address__slot {
+                            .title {
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                color: $light_black;
+                                margin: 15px 0 21px 0;
+                            }
+                            .text-slot--left {
+                                p {
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;  
+                                    color: $grey_middle; 
+                                    margin: 0 0 9px 0;
+                                }
+                            }
+                        }
+                        .text-slot-middle {
+                            p {
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                color: $grey_middle;
+                                margin: 0 0 12px 0;
+                                span {
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    line-height: normal;
+                                    color: $light_black;
+                                }
+                                strong {
+                                    font-size: 18px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: normal;
+                                    color: $light_black;
+                                    span {
+                                        font-weight: 700;
+                                        color: $blue_color;
+                                    }
+                                }
+                            }
+                        }
+                        .image {
+                            width: auto;
+                            height: 140px;
+                            img {
+                                width: auto;
+                                height: 140px;
+                                object-fit: contain;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     } 
+    &--button_back {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 101px;
+        height: 44px;
+        box-sizing: border-box;
+        border: 1px solid $light_black;
+        margin: 0 0 126px 0;
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: normal;
+            color: $light_black;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+        }
+        &:hover {
+            background-color: $blue_color;
+            border: 1px solid $blue_color;
+            a {
+                color: $white
+            }
+        }
+    }
 }
 
 @media (max-width: 760px) {
@@ -27,6 +218,93 @@
         }
         &__right {
             margin-top: 0;
+            .orders_details_box {
+                margin-top: 0;
+                &__slot {
+                    padding: 15px;
+                    width: 100%;
+                    &__top {
+                        width: 100%;
+                        .slot-text {
+                            flex-direction: column;
+                            margin-left: -15px;
+                            margin-right: -15px;
+                            padding: 0 0 15px 15px;
+                            p {
+                                font-size: 14px;
+                                line-height: 160%;
+                                width: 100%;
+                                margin: 6px 0;
+                                &:nth-of-type(2),
+                                &:nth-of-type(3) {
+                                    justify-content: flex-start;
+                                }
+                                strong {
+                                    font-size: 14px;
+                                    line-height: 160%;
+                                }
+                            }
+                        }
+                    }
+                    &__bottom {
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        .slot-column {
+                            margin-top: 0;
+                            &:first-of-type {
+                                margin-top: 0;
+                            }
+                            &:nth-of-type(2) {
+                                margin-top: 0;
+                            }
+                            &:last-of-type {
+                                margin-right: 0;
+                            }
+                            .title {
+                                p {
+                                    font-size: 19px;
+                                }
+                            }
+                            .text-slot {
+                                &--left {
+                                    p {
+                                        font-size: 12px;
+                                        line-height: 140%;
+                                    }
+                                }
+                                &--right {
+                                    p {
+                                        font-size: 12px;
+                                        line-height: 140%;                       
+                                    }
+                                }
+                            }
+                            .address__slot {
+                                .text-slot--left {
+                                    p {
+                                        font-size: 14px;
+                                        line-height: 160%;
+                                    }
+                                }
+                            }
+                            .text-slot-middle {
+                                p {
+                                    font-size: 16px;
+                                    line-height: 150%;
+                                    span {
+                                        font-size: 17px;
+                                        line-height: 170%;
+                                    }
+                                    strong {
+                                        font-size: 17px;
+                                        line-height: 170%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

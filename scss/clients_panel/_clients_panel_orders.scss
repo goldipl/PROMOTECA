@@ -173,6 +173,8 @@
         &__right {
             margin-top: 0;
             .panel_orders_box {
+                margin-top: 0;
+                margin-bottom: 40px;
                 &__slot {
                     flex-direction: column;
                     align-items: flex-start;

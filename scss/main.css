@@ -5712,6 +5712,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   .clients_panel_addresses_content__right .addresses__container {
     padding: 15px;
     width: 100%;
+    margin-bottom: 40px;
   }
   .clients_panel_addresses_content__right .addresses__container--text p {
     font-size: 14px;
@@ -5801,6 +5802,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   .clients_panel_fv_content__right .fv__container {
     padding: 15px;
     width: 100%;
+    margin-bottom: 40px;
   }
   .clients_panel_fv_content__right .fv__container--text p {
     font-size: 14px;
@@ -5943,6 +5945,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   }
   .clients_panel_my_data_content__right {
     margin-top: 0;
+  }
+  .clients_panel_my_data_content__right .data_password__container {
+    margin-bottom: 40px;
   }
   .clients_panel_my_data_content__right .data_password__container .data__container {
     padding: 15px;
@@ -6128,6 +6133,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   .clients_panel_orders_content__right {
     margin-top: 0;
   }
+  .clients_panel_orders_content__right .panel_orders_box {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
   .clients_panel_orders_content__right .panel_orders_box__slot {
     flex-direction: column;
     align-items: flex-start;
@@ -6172,6 +6181,187 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #010B32;
   margin-bottom: 32px;
 }
+.clients_panel_orders_details_content__right .orders_details_box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 83px;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px;
+  box-sizing: border-box;
+  border: 1px solid #E2E2E2;
+  margin-bottom: 16px;
+  width: 1251px;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__top {
+  width: 100%;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__top .slot-text {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #E2E2E2;
+  margin-left: -36px;
+  margin-right: -36px;
+  padding: 0 0 32px 36px;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__top .slot-text p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #8A8A8A;
+  display: flex;
+  width: 33%;
+  margin: 12px 0;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__top .slot-text p:nth-of-type(2), .clients_panel_orders_details_content__right .orders_details_box__slot__top .slot-text p:nth-of-type(3) {
+  justify-content: center;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__top .slot-text p strong {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #333333;
+  margin-left: 4px;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__top .slot-text p strong.green {
+  color: #00AA25;
+  font-weight: 700;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column {
+  margin-top: 35px;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column:first-of-type {
+  margin-top: 0;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column:nth-of-type(2) {
+  margin-top: 60px;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column:last-of-type {
+  margin-right: 120px;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .title p {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #333333;
+  margin-bottom: 21px;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .text-slot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .text-slot--left p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #8A8A8A;
+  margin: 0 0 9px 0;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .text-slot--right p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #8A8A8A;
+  margin: 0 0 9px 0;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .address__slot .title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #333333;
+  margin: 15px 0 21px 0;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .address__slot .text-slot--left p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #8A8A8A;
+  margin: 0 0 9px 0;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .text-slot-middle p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #8A8A8A;
+  margin: 0 0 12px 0;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .text-slot-middle p span {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #333333;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .text-slot-middle p strong {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #333333;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .text-slot-middle p strong span {
+  font-weight: 700;
+  color: #29A8DA;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .image {
+  width: auto;
+  height: 140px;
+}
+.clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .image img {
+  width: auto;
+  height: 140px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.clients_panel_orders_details_content--button_back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 101px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 1px solid #333333;
+  margin: 0 0 126px 0;
+}
+.clients_panel_orders_details_content--button_back a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+.clients_panel_orders_details_content--button_back:hover {
+  background-color: #29A8DA;
+  border: 1px solid #29A8DA;
+}
+.clients_panel_orders_details_content--button_back:hover a {
+  color: #FFFFFF;
+}
+
 @media (max-width: 760px) {
   .clients_panel_orders_details_content {
     flex-direction: column;
@@ -6181,6 +6371,78 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   }
   .clients_panel_orders_details_content__right {
     margin-top: 0;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box {
+    margin-top: 0;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot {
+    padding: 15px;
+    width: 100%;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__top {
+    width: 100%;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__top .slot-text {
+    flex-direction: column;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0 0 15px 15px;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__top .slot-text p {
+    font-size: 14px;
+    line-height: 160%;
+    width: 100%;
+    margin: 6px 0;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__top .slot-text p:nth-of-type(2), .clients_panel_orders_details_content__right .orders_details_box__slot__top .slot-text p:nth-of-type(3) {
+    justify-content: flex-start;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__top .slot-text p strong {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__bottom {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column {
+    margin-top: 0;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column:first-of-type {
+    margin-top: 0;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column:nth-of-type(2) {
+    margin-top: 0;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column:last-of-type {
+    margin-right: 0;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .title p {
+    font-size: 19px;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .text-slot--left p {
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .text-slot--right p {
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .address__slot .text-slot--left p {
+    font-size: 14px;
+    line-height: 160%;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .text-slot-middle p {
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .text-slot-middle p span {
+    font-size: 17px;
+    line-height: 170%;
+  }
+  .clients_panel_orders_details_content__right .orders_details_box__slot__bottom .slot-column .text-slot-middle p strong {
+    font-size: 17px;
+    line-height: 170%;
   }
 }
 body {
