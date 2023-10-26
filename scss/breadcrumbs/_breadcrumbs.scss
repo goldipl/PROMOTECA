@@ -58,6 +58,7 @@
     .breadcrumbs {
         margin-top: 0;
         ul {
+            padding-left: 16px;
             margin: 0;
             li.breadcrumb-item {
                 margin-right: 16px;
@@ -67,6 +68,9 @@
                     left: -12px;
                     width: 8px;
                     height: 8px;
+                }
+                &:first-of-type {
+                    margin-left: -12px;
                 }
                 a {
                     font-weight: 400;
