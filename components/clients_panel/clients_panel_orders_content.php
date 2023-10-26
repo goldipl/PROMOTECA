@@ -44,7 +44,7 @@
                 </div>
                 <div class="panel_orders_box__slot--col">
                     <div class="details-btn">
-                        <a href="./clients_panel_orders_details_content.php">Szczegóły</a>
+                        <a href="./clients_panel_orders_details.php">Szczegóły</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                 </div>
                 <div class="panel_orders_box__slot--col">
                     <div class="details-btn">
-                        <a href="./clients_panel_orders_details_content.php">Szczegóły</a>
+                        <a href="./clients_panel_orders_details.php">Szczegóły</a>
                     </div>
                 </div>
             </div>
