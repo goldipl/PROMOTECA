@@ -269,11 +269,30 @@
         }
     }
 }
+@media (max-width: 1576px) {
+    .products_card_gallery_open {
+        &--gallery {
+            .gallery-container {
+                margin-right: 10px;
+            }
+        }  
+    }
+}
+
+@media (max-width: 1280px) {
+    .products_card_gallery_open {
+        flex-direction: column;
+        margin-left: 0;
+        &--gallery {
+            .gallery-container {
+                margin: 0;
+            }
+        }
+    } 
+}
 
 @media (max-width: 760px) {
     .products_card_gallery_open {
-        margin-left: 0;
-        flex-direction: column;
         &--details {
             .title {
                 margin-top: 10px;

@@ -235,3 +235,11 @@
     }
 }
 /* /==== LIGHTBOX ==== */
+
+@media (max-width: 760px) {
+    .gallery-container-big {
+        .gallery-item {
+            width: 100%;
+        }
+    }
+}
