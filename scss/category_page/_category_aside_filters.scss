@@ -204,3 +204,19 @@
         }
     }
 }
+
+@media (max-width: 1576px) {
+    .category_filters {
+        &-slot {
+            .price_filters_box {
+                .price_filter_container {
+                    &--to {
+                        input {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
