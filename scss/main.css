@@ -4205,13 +4205,12 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #FFFFFF;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1280px) {
   .products_card_description_trader {
     margin: 0;
   }
   .products_card_description_trader .desc_title_box_content.grey {
-    margin-left: -16px;
-    margin-right: -16px;
+    width: 60vw;
   }
   .products_card_description_trader .desc_title_box_content.grey .desc_container__products_box--text p {
     font-size: 16px;
@@ -4286,6 +4285,13 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   .products_card_description_trader .desc_title_box_content.grey .opinions_container_box {
     margin-left: -16px;
     margin-right: -16px;
+  }
+}
+@media (max-width: 760px) {
+  .products_card_description_trader .desc_title_box_content.grey {
+    margin-left: -16px;
+    margin-right: -16px;
+    width: calc(100% - 32px);
   }
 }
 .products_card_recommended .desc_title_box--title {
