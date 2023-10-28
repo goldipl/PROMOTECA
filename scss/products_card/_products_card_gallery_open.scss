@@ -133,6 +133,8 @@
                     line-height: normal;
                     color: $light_black;
                     padding-left: 24px;
+                    padding-right: 40px;
+                    white-space: pre;
                     color: $white;
                     &::after {
                         position: absolute;

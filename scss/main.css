@@ -2927,6 +2927,8 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   line-height: normal;
   color: #333333;
   padding-left: 24px;
+  padding-right: 40px;
+  white-space: pre;
   color: #FFFFFF;
 }
 .products_card_gallery_open--details .price_cart_btn__container--btn a::after {
