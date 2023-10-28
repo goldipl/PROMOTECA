@@ -2126,9 +2126,13 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1576px) {
   .products_blocks_wrapper {
     justify-content: center;
+  }
+}
+@media (max-width: 760px) {
+  .products_blocks_wrapper {
     max-height: unset;
     margin-bottom: 24px;
   }
