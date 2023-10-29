@@ -1015,6 +1015,13 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     margin-right: -52px;
     width: calc(100% + 108px);
   }
+  #swiper .swiper {
+    height: auto;
+  }
+  #swiper .swiper .swiper-slide a img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
 }
 @media (max-width: 1280px) {
   #swiper {
@@ -1022,6 +1029,13 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     margin-left: -36px;
     margin-right: -36px;
     width: calc(100% + 71px);
+  }
+  #swiper .swiper.desktop .swiper-pagination {
+    bottom: 8px;
+  }
+  #swiper .swiper.desktop .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
   }
 }
 @media (max-width: 760px) {
