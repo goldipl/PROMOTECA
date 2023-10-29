@@ -138,6 +138,25 @@
     }
 }
 
+@media (max-width: 1576px) {
+    .clients_panel_my_data_content {
+        &__right {
+            width: 100%;
+            .data_password__container {
+                .data__container {
+                    width: 100%;
+                }
+                .password__container {
+                    width: 100%;
+                    input {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 760px) {
     .clients_panel_my_data_content {
         flex-direction: column;

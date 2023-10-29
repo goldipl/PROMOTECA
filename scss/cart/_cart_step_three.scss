@@ -40,6 +40,21 @@
     }
 }
 
+@media (max-width: 1576px) {
+    .cart_step_three_container {
+        &__left {
+            .cart_delivery_data_container {
+               margin-bottom: 24px;
+            }
+        }
+        &__right {
+            .cart_pay_box {
+                margin-bottom: 24px;
+            }
+        }
+    }
+}
+
 @media (max-width: 760px) {
     .cart_step_three_container {
         &__left {

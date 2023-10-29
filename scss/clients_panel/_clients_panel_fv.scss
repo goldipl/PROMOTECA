@@ -74,6 +74,18 @@
     } 
 }
 
+@media (max-width: 1576px) {
+    .clients_panel_fv_content {
+        &__right {
+            width: 100%;
+            .fv__container {
+                padding: 15px;
+                width: 100%;
+            }
+        }
+    }
+}
+
 @media (max-width: 760px) {
     .clients_panel_fv_content {
         flex-direction: column;
@@ -84,18 +96,17 @@
         }
         &__right {
             margin-top: 0;
-                .fv__container {
-                    padding: 15px;
-                    width: 100%;
-                    margin-bottom: 40px;
-                    &--text {
-                        p {
-                            font-size: 14px;
-                            line-height: 160%;
-                        }
+            .fv__container {
+                padding: 15px;
+                width: 100%;
+                margin-bottom: 40px;
+                &--text {
+                    p {
+                        font-size: 14px;
+                        line-height: 160%;
                     }
                 }
             }
-        
+        }
     }
 }

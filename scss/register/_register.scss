@@ -44,6 +44,7 @@
             }
             .input-slot {
                 &.with-btn {
+                    display: flex;
                     flex-wrap: wrap;
                     input {
                         display: inline;
