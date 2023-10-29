@@ -108,9 +108,19 @@
         margin-right: -52px;
         .vertical_listings {
             &-slot {
-                width: 20%;
-                margin-right: 0;
+                width: 15%;
+                min-width: unset;
+                margin-right: calc(10%/6);
                 align-items: center;
+                &:last-of-type {
+                    margin-right: 0;
+                }
+                .slot--image {
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
             }
         }
     }
@@ -121,7 +131,7 @@
         .vertical_listings {
             &-slot {
                 width: 23%;
-                margin-right: 1%
+                margin-right: 1%;
             }
         }
     }

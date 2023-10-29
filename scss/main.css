@@ -1445,9 +1445,17 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     margin-right: -52px;
   }
   #our_offert .vertical_listings-slot {
-    width: 20%;
-    margin-right: 0;
+    width: 15%;
+    min-width: unset;
+    margin-right: 1.6666666667%;
     align-items: center;
+  }
+  #our_offert .vertical_listings-slot:last-of-type {
+    margin-right: 0;
+  }
+  #our_offert .vertical_listings-slot .slot--image img {
+    width: 100%;
+    height: auto;
   }
 }
 @media (max-width: 1280px) {
