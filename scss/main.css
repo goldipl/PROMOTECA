@@ -1357,6 +1357,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     padding: 43px 16px;
   }
   #recommend .mainpage-title--btn {
+    margin-right: 0;
     right: 16px;
   }
 }
