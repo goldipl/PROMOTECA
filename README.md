@@ -3,6 +3,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [License](#license)
+* [Architecture](#architecture)
 * [Screenshots](#screenshots)
 
 ## Gif website presentation
@@ -27,6 +28,10 @@ Used also:
 License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
 
 This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License (not for commercial use)
+
+## Architecture   
+
+![Architecture](./screenshots/architecture-promoteca.jpg)     
 
 ## Screenshots
 * Desktop & mobile version :desktop_computer: :iphone:       
