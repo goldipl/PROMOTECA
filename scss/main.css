@@ -1061,6 +1061,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     font-size: 14px;
     line-height: 160%;
   }
+  #welcome .text_container p a {
+    font-size: 14px;
+    line-height: 160%;
+  }
 }
 #recommend {
   padding: 43px 0;
@@ -1751,6 +1755,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
     font-size: 14px;
     line-height: 160%;
     margin: 25px 0;
+  }
+  #why_us .why_us_container .big_img_text_slot--text p a {
+    font-size: 14px;
+    line-height: 160%;
   }
 }
 .aside_boxes {
