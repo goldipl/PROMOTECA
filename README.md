@@ -26,8 +26,7 @@ Used also:
 
 ## Gif mobile website presentation
 
-![gif](./gif/promoteca-mobile.gif)
-
+<img src="./gif/promoteca-mobile.gif" width="300"/>
 
 ## License
 License Creative Commons Non-Commercial (CC BY-NC) License ![license](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
