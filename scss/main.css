@@ -6924,6 +6924,7 @@ body.active-modal::before {
 .article_container .article_img_txt_box {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-bottom: 36px;
 }
 .article_container .article_img_txt_box--img {
@@ -6949,6 +6950,7 @@ body.active-modal::before {
 .article_container .article_txt_img_box {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-bottom: 36px;
 }
 .article_container .article_txt_img_box--img {
