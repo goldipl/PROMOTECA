@@ -32,7 +32,7 @@
                 </div>
                 <div class="cart_login_container-top__right--slot">
                     <p class="title">Jeśli nie chcesz zakładać konta? Nic straconego</p>
-                    <p class="text">Możesz zrobić zakupy bez rejesrtacji</p>
+                    <p class="text">Możesz zrobić zakupy bez rejestracji</p>
                     <div class="input-slot">
                         <div class="blue-button fast-shopping">
                             <a href="">Szybkie zakupy</a>
