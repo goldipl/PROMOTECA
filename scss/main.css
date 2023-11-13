@@ -4388,6 +4388,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .cart_step_one_container__left .upload_logo_notes_container__left .upload-area--img img {
   -o-object-fit: contain;
