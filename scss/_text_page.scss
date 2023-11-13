@@ -114,6 +114,9 @@
 @media (max-width: 1576px) {
     .article_container {
         .article_img_txt_box {
+            &--text {
+                width: 50vw;
+            }
             &--img {
                 width: 50vw;
                 img {
@@ -122,6 +125,9 @@
             }
         }
         .article_txt_img_box {
+            &--text {
+                width: 50vw;
+            }
             &--img {
                 width: 50vw;
                 img {
@@ -156,6 +162,9 @@
         .article_img_txt_box {
             flex-direction: column;
             margin-bottom: 24px;
+            &--text {
+                width: 100%;
+            }
             &--img {
                 margin-right: 0;
                 width: 100%;
@@ -178,6 +187,9 @@
         .article_txt_img_box {
             flex-direction: column;
             margin-bottom: 24px;
+            &--text {
+                width: 100%;
+            }
             &--img {
                 width: 100%;
                 margin-left: 0;
