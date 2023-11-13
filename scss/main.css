@@ -2951,7 +2951,12 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   border: 1px solid #29A8DA;
   background-color: #29A8DA;
 }
-.products_card_gallery_open--details .price_cart_btn__container--btn a {
+.products_card_gallery_open--details .price_cart_btn__container--btn a,
+.products_card_gallery_open--details .price_cart_btn__container--btn button {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
+  background-color: #29A8DA;
   position: relative;
   display: flex;
   justify-content: flex-start;
@@ -2967,7 +2972,8 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   white-space: pre;
   color: #FFFFFF;
 }
-.products_card_gallery_open--details .price_cart_btn__container--btn a::after {
+.products_card_gallery_open--details .price_cart_btn__container--btn a::after,
+.products_card_gallery_open--details .price_cart_btn__container--btn button::after {
   position: absolute;
   display: block;
   content: "";
@@ -2982,11 +2988,13 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 .products_card_gallery_open--details .price_cart_btn__container--btn:hover {
   background-color: #FFFFFF;
 }
-.products_card_gallery_open--details .price_cart_btn__container--btn:hover a {
+.products_card_gallery_open--details .price_cart_btn__container--btn:hover a,
+.products_card_gallery_open--details .price_cart_btn__container--btn:hover button {
   color: #29A8DA;
   text-decoration: none;
 }
-.products_card_gallery_open--details .price_cart_btn__container--btn:hover a::after {
+.products_card_gallery_open--details .price_cart_btn__container--btn:hover a::after,
+.products_card_gallery_open--details .price_cart_btn__container--btn:hover button::after {
   position: absolute;
   display: block;
   content: "";
@@ -2997,6 +3005,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   width: 18px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.products_card_gallery_open--details .price_cart_btn__container--btn:hover button {
+  background-color: #FFFFFF;
 }
 .products_card_gallery_open--details .colors_container {
   display: flex;
@@ -4540,12 +4551,16 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   outline: 1px solid #29A8DA;
 }
 .cart_step_two_container .cart_login_container-top__left .input-slot .remind_password {
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   color: #8A8A8A;
   text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  cursor: pointer;
 }
 .cart_step_two_container .cart_login_container-top__left .input-slot .remind_password:hover {
   text-decoration: underline;
@@ -4561,7 +4576,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   box-sizing: border-box;
   margin: 25px 0 0 0;
 }
-.cart_step_two_container .cart_login_container-top__left .input-slot .blue-button a {
+.cart_step_two_container .cart_login_container-top__left .input-slot .blue-button a,
+.cart_step_two_container .cart_login_container-top__left .input-slot .blue-button button {
+  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4573,12 +4590,22 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   line-height: normal;
   color: #FFFFFF;
   text-decoration: none;
+  cursor: pointer;
+  background-color: #29A8DA;
+  border: 1px solid #29A8DA;
+  outline: 0;
 }
 .cart_step_two_container .cart_login_container-top__left .input-slot .blue-button:hover {
   background-color: #FFFFFF;
 }
 .cart_step_two_container .cart_login_container-top__left .input-slot .blue-button:hover a {
   color: #29A8DA;
+}
+.cart_step_two_container .cart_login_container-top__left .input-slot .blue-button:hover button {
+  color: #29A8DA;
+  background-color: #FFFFFF;
+  outline: 0;
+  border: 0;
 }
 .cart_step_two_container .cart_login_container-top__right {
   box-sizing: border-box;
@@ -4876,7 +4903,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   height: 45px;
   margin-left: 1%;
 }
-.cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot.with-btn .gus_btn a, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot.with-btn .gus_btn a {
+.cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot.with-btn .gus_btn a,
+.cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot.with-btn .gus_btn button, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot.with-btn .gus_btn a,
+.cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot.with-btn .gus_btn button {
+  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4889,11 +4919,17 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   color: #333333;
   text-align: center;
   text-decoration: none;
+  border: 0;
+  cursor: pointer;
 }
 .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot.with-btn .gus_btn:hover, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot.with-btn .gus_btn:hover {
   background-color: #29A8DA;
 }
 .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot.with-btn .gus_btn:hover a, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot.with-btn .gus_btn:hover a {
+  color: #FFFFFF;
+}
+.cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot.with-btn .gus_btn:hover button, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot.with-btn .gus_btn:hover button {
+  background-color: #29A8DA;
   color: #FFFFFF;
 }
 .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot.checkbox-slot, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot.checkbox-slot {
@@ -5388,6 +5424,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   margin: 24px 32px 0 32px;
 }
 .cart_pay_box__button .pay-btn {
+  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5399,11 +5436,15 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   line-height: normal;
   color: #FFFFFF;
   text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  background-color: #29A8DA;
 }
 .cart_pay_box__button:hover {
   background-color: #FFFFFF;
 }
 .cart_pay_box__button:hover .pay-btn {
+  background-color: #FFFFFF;
   color: #29A8DA;
 }
 
@@ -5523,7 +5564,12 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   height: 45px;
   margin-left: 1%;
 }
-.register_container__box--left .input-slot.with-btn .gus_btn a, .register_container__box--right .input-slot.with-btn .gus_btn a {
+.register_container__box--left .input-slot.with-btn .gus_btn a,
+.register_container__box--left .input-slot.with-btn .gus_btn button, .register_container__box--right .input-slot.with-btn .gus_btn a,
+.register_container__box--right .input-slot.with-btn .gus_btn button {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5541,6 +5587,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background-color: #29A8DA;
 }
 .register_container__box--left .input-slot.with-btn .gus_btn:hover a, .register_container__box--right .input-slot.with-btn .gus_btn:hover a {
+  color: #FFFFFF;
+}
+.register_container__box--left .input-slot.with-btn .gus_btn:hover button, .register_container__box--right .input-slot.with-btn .gus_btn:hover button {
+  background-color: #29A8DA;
   color: #FFFFFF;
 }
 .register_container__box--left .input-slot.checkbox-slot, .register_container__box--right .input-slot.checkbox-slot {
@@ -5598,7 +5648,13 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   box-sizing: border-box;
   margin: 25px 0 0 0;
 }
-.register_container__box--left .input-slot .blue-button a, .register_container__box--right .input-slot .blue-button a {
+.register_container__box--left .input-slot .blue-button a,
+.register_container__box--left .input-slot .blue-button button, .register_container__box--right .input-slot .blue-button a,
+.register_container__box--right .input-slot .blue-button button {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
+  background-color: #29A8DA;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5615,6 +5671,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   background-color: #FFFFFF;
 }
 .register_container__box--left .input-slot .blue-button:hover a, .register_container__box--right .input-slot .blue-button:hover a {
+  color: #29A8DA;
+}
+.register_container__box--left .input-slot .blue-button:hover button, .register_container__box--right .input-slot .blue-button:hover button {
+  background-color: #FFFFFF;
   color: #29A8DA;
 }
 .register_container__button {
@@ -5874,7 +5934,11 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   border: 1px solid #333333;
   margin-top: 16px;
 }
-.clients_panel_addresses_content__right .addresses__container--button a {
+.clients_panel_addresses_content__right .addresses__container--button a,
+.clients_panel_addresses_content__right .addresses__container--button button {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -5885,12 +5949,18 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   text-decoration: none;
   width: 100%;
   height: 100%;
+  background-color: #FFFFFF;
 }
 .clients_panel_addresses_content__right .addresses__container--button:hover {
   background-color: #29A8DA;
   border: 1px solid #29A8DA;
 }
 .clients_panel_addresses_content__right .addresses__container--button:hover a {
+  color: #FFFFFF;
+}
+.clients_panel_addresses_content__right .addresses__container--button:hover button {
+  background-color: #29A8DA;
+  border: 1px solid #29A8DA;
   color: #FFFFFF;
 }
 
@@ -6070,7 +6140,11 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   border: 1px solid #333333;
   margin-top: 16px;
 }
-.clients_panel_my_data_content__right .data_password__container .data__container--button a {
+.clients_panel_my_data_content__right .data_password__container .data__container--button a,
+.clients_panel_my_data_content__right .data_password__container .data__container--button button {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6081,6 +6155,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   text-decoration: none;
   width: 100%;
   height: 100%;
+  background-color: #FFFFFF;
 }
 .clients_panel_my_data_content__right .data_password__container .data__container--button:hover {
   background-color: #29A8DA;
@@ -6088,6 +6163,11 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 }
 .clients_panel_my_data_content__right .data_password__container .data__container--button:hover a {
   color: #FFFFFF;
+}
+.clients_panel_my_data_content__right .data_password__container .data__container--button:hover button {
+  color: #FFFFFF;
+  background-color: #29A8DA;
+  border: 1px solid #29A8DA;
 }
 .clients_panel_my_data_content__right .data_password__container .password__container {
   border: 1px solid #E2E2E2;
@@ -6127,7 +6207,11 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   border: 1px solid #333333;
   margin-top: 16px;
 }
-.clients_panel_my_data_content__right .data_password__container .password__container--button a {
+.clients_panel_my_data_content__right .data_password__container .password__container--button a,
+.clients_panel_my_data_content__right .data_password__container .password__container--button button {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6138,6 +6222,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   text-decoration: none;
   width: 100%;
   height: 100%;
+  background-color: #FFFFFF;
 }
 .clients_panel_my_data_content__right .data_password__container .password__container--button:hover {
   background-color: #29A8DA;
@@ -6145,6 +6230,11 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 }
 .clients_panel_my_data_content__right .data_password__container .password__container--button:hover a {
   color: #FFFFFF;
+}
+.clients_panel_my_data_content__right .data_password__container .password__container--button:hover button {
+  color: #FFFFFF;
+  background-color: #29A8DA;
+  border: 1px solid #29A8DA;
 }
 
 @media (max-width: 1576px) {
@@ -6770,8 +6860,6 @@ body.active-modal::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #29A8DA;
-  border: 1px solid #29A8DA;
   width: 105px;
   height: 44px;
   margin: 0 auto;
@@ -6779,12 +6867,10 @@ body.active-modal::before {
   color: #FFFFFF;
   margin-top: 16px;
 }
-.modal_container--button:hover {
-  background-color: #FFFFFF;
-  color: #333333;
-  border: 1px solid #333333;
-}
-.modal_container--button span {
+.modal_container--button button {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6794,6 +6880,14 @@ body.active-modal::before {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  background-color: #29A8DA;
+  border: 1px solid #29A8DA;
+  color: #FFFFFF;
+}
+.modal_container--button button:hover {
+  background-color: #FFFFFF;
+  color: #333333;
+  border: 1px solid #333333;
 }
 
 @media (max-width: 760px) {
@@ -7119,7 +7213,12 @@ body.active-modal::before {
   box-sizing: border-box;
   border: 1px solid #333333;
 }
-.contact_container .message_box_container .form .send_captcha__box .send_btn a {
+.contact_container .message_box_container .form .send_captcha__box .send_btn a,
+.contact_container .message_box_container .form .send_captcha__box .send_btn button {
+  font-family: "Poppins", sans-serif;
+  border: 0;
+  cursor: pointer;
+  background-color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7136,6 +7235,11 @@ body.active-modal::before {
   border: 1px solid #29A8DA;
 }
 .contact_container .message_box_container .form .send_captcha__box .send_btn:hover a {
+  color: #FFFFFF;
+}
+.contact_container .message_box_container .form .send_captcha__box .send_btn:hover button {
+  background-color: #29A8DA;
+  border: 1px solid #29A8DA;
   color: #FFFFFF;
 }
 .contact_container .message_box_container .form .send_captcha__box .captcha_send {

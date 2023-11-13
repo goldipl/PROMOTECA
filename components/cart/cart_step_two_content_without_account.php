@@ -30,7 +30,7 @@
                     <label for="nip_code">NIP: *</label>
                     <input type="text" name="nip_code" id="nip_code">
                     <div class="gus_btn">
-                        <a href="">Pobierz dane z GUS</a>
+                        <button>Pobierz dane z GUS</button>
                     </div>
                 </div>
                 <div class="input-slot">
@@ -105,7 +105,7 @@
                 </div>
             </div>
             <div class="cart_pay_box__button">
-                <a class="pay-btn" href="">Płacę</a>
+                <button class="pay-btn">Płacę</a>
             </div>
         </div>
     </div>

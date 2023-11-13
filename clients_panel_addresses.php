@@ -47,7 +47,7 @@
                 <input type="text" name="modal_addresses_city" id="modal_addresses_city" required>
             </div>
             <div class="modal_container--button">
-               <span>Zapisz</span>
+               <button>Zapisz</button>
             </div>
         </div>
         <footer> 

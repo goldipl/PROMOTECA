@@ -60,7 +60,11 @@
                         align-items: center;
                         height: 45px;
                         margin-left: 1%;
-                        a {
+                        a,
+                        button {
+                            font-family: 'Poppins', sans-serif; 
+                            border: 0;
+                            cursor: pointer;
                             display: flex;
                             align-items: center;
                             justify-content: center;
@@ -77,6 +81,10 @@
                         &:hover {
                             background-color: $blue_color;
                             a {
+                                color: $white;
+                            }
+                            button {
+                                background-color: $blue_color;
                                 color: $white;
                             }
                         }
@@ -135,7 +143,12 @@
                     height: 47px;
                     box-sizing: border-box;
                     margin: 25px 0 0 0;
-                    a {
+                    a,
+                    button {
+                        font-family: 'Poppins', sans-serif; 
+                        border: 0;
+                        cursor: pointer;
+                        background-color: $blue_color;
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -151,6 +164,10 @@
                     &:hover {
                         background-color: $white;
                         a {
+                            color: $blue_color;
+                        }
+                        button {
+                            background-color: $white;
                             color: $blue_color;
                         }
                     }

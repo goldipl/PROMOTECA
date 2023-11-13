@@ -29,7 +29,7 @@
                     <p class="city_zipcode">35-582 Kraków</p>
                 </div>
                 <div class="addresses__container--button">
-                    <a href="">Edytuj</a>
+                    <button>Edytuj</button>
                 </div>
             </div>
         </div>

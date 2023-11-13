@@ -78,7 +78,9 @@
                                 align-items: center;
                                 height: 45px;
                                 margin-left: 1%;
-                                a {
+                                a,
+                                button {
+                                    font-family: 'Poppins', sans-serif;
                                     display: flex;
                                     align-items: center;
                                     justify-content: center;
@@ -91,10 +93,16 @@
                                     color: $light_black;
                                     text-align: center;
                                     text-decoration: none;
+                                    border: 0;
+                                    cursor: pointer;
                                 }
                                 &:hover {
                                     background-color: $blue_color;
                                     a {
+                                        color: $white;
+                                    }
+                                    button {
+                                        background-color: $blue_color;
                                         color: $white;
                                     }
                                 }

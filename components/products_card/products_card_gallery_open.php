@@ -78,7 +78,7 @@
                 <input type="number" name="products_quantity" id="products_quantity" value="1" min="0">
             </div>
             <div class="price_cart_btn__container--btn">
-                <a href="#">Do koszyka</a>
+                <button>Do koszyka</button>
             </div>
         </div>
         <div class="colors_container">

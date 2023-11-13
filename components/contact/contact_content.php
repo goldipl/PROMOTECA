@@ -24,7 +24,7 @@
             </div>
             <div class="send_captcha__box">
                 <div class="send_btn">
-                    <a href="">Wyślij</a>
+                    <button>Wyślij</button>
                 </div>
                 <div class="captcha_send">
                     <img src="./assets/img/contact/captcha_big.jpg" alt="captcha">

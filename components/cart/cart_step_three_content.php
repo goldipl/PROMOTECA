@@ -103,7 +103,7 @@
                 </div>
             </div>
             <div class="cart_pay_box__button">
-                <a class="pay-btn" href="">Płacę</a>
+                <button class="pay-btn" href="">Płacę</button>
             </div>
         </div>
     </div>

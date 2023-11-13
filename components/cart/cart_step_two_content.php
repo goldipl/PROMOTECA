@@ -12,11 +12,11 @@
                     <input type="password" name="password_login" id="password_login" required>
                 </div>
                 <div class="input-slot">
-                    <a class="remind_password" href="">Zapomniałeś hasło?</a>
+                    <button class="remind_password">Zapomniałeś hasło?</button>
                 </div>
                 <div class="input-slot">
                     <div class="blue-button login">
-                        <a href="">Zaloguj się</a>
+                        <button>Zaloguj się</button>
                     </div>
                 </div>
             </div>

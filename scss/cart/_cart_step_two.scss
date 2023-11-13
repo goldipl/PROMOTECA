@@ -42,12 +42,16 @@
                         }
                     }
                     .remind_password {
+                        font-family: 'Poppins', sans-serif;
                         font-size: 18px;
                         font-style: normal;
                         font-weight: 400;
                         line-height: normal;
                         color: $grey_middle;
                         text-decoration: none;
+                        background-color: rgba(255,255,255,0);
+                        border: 0;
+                        cursor: pointer;
                         &:hover {
                             text-decoration: underline;
                         }
@@ -62,7 +66,9 @@
                         height: 47px;
                         box-sizing: border-box;
                         margin: 25px 0 0 0;
-                        a {
+                        a,
+                        button {
+                            font-family: 'Poppins', sans-serif;
                             display: flex;
                             align-items: center;
                             justify-content: center;
@@ -74,11 +80,21 @@
                             line-height: normal;
                             color: $white;
                             text-decoration: none;
+                            cursor: pointer;
+                            background-color: $blue_color;
+                            border: 1px solid $blue_color;
+                            outline: 0;
                         }
                         &:hover {
                             background-color: $white;
                             a {
                                 color: $blue_color;
+                            }
+                            button {
+                                color: $blue_color;
+                                background-color: $white;
+                                outline: 0;
+                                border: 0;
                             }
                         }
                     }

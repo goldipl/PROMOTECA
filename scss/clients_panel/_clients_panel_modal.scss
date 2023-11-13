@@ -79,20 +79,16 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: $blue_color;
-        border: 1px solid $blue_color;
         width: 105px;
         height: 44px;
         margin: 0 auto;
         cursor: pointer;
         color: $white;
         margin-top: 16px;
-        &:hover {
-            background-color: $white;
-            color: $light_black;
-            border: 1px solid $light_black;
-        }
-        span {
+        button {
+            font-family: 'Poppins', sans-serif; 
+            border: 0;
+            cursor: pointer;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -102,6 +98,14 @@ body {
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+            background-color: $blue_color;
+            border: 1px solid $blue_color;
+            color: $white;
+            &:hover {
+                background-color: $white;
+                color: $light_black;
+                border: 1px solid $light_black;
+            }
         }
     }
 }

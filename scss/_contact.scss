@@ -90,7 +90,12 @@
                     height: 44px;
                     box-sizing: border-box;
                     border: 1px solid $light_black;
-                    a {
+                    a,
+                    button {
+                        font-family: 'Poppins', sans-serif; 
+                        border: 0;
+                        cursor: pointer;
+                        background-color: $white;
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -106,6 +111,11 @@
                         background-color: $blue_color;
                         border: 1px solid $blue_color;
                         a {
+                            color: $white
+                        }
+                        button {
+                            background-color: $blue_color;
+                            border: 1px solid $blue_color; 
                             color: $white
                         }
                     }

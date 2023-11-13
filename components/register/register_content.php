@@ -22,7 +22,7 @@
             </div>
             <div class="input-slot">
                 <div class="blue-button create-account">
-                    <a href="">Utwórz konto</a>
+                    <button>Utwórz konto</button>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
                 <label for="nip_code">NIP:</label>
                 <input type="text" name="nip_code" id="nip_code">
                 <div class="gus_btn">
-                    <a href="">Pobierz dane z GUS</a>
+                    <button>Pobierz dane z GUS</button>
                 </div>
             </div>
             <div class="input-slot">

@@ -28,7 +28,7 @@
                     <p class="email">email@gmail.com</p>
                 </div>
                 <div class="data__container--button">
-                    <a href="">Edytuj</a>
+                    <button>Edytuj</button>
                 </div>
             </div>
             <div class="password__container">
@@ -39,7 +39,7 @@
                     <input type="password" name="pass_input" id="pass_input">
                 </div>
                 <div class="password__container--button">
-                    <a href="">Edytuj</a>
+                    <button>Edytuj</button>
                 </div>
             </div>
         </div>

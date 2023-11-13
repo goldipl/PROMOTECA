@@ -43,7 +43,7 @@
                 <input type="email" name="modal_data_email" id="modal_data_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
             </div>
             <div class="modal_container--button">
-               <span>Zapisz</span>
+               <button>Zapisz</button>
             </div>
         </div>
         <!-- Password Modal -->
@@ -63,7 +63,7 @@
                 <input type="password" name="modal_repeat_new_password" id="modal_repeat_new_password" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
             </div>
             <div class="modal_container--button">
-               <span>Zapisz</span>
+               <button>Zapisz</button>
             </div>
         </div>
         <footer> 
