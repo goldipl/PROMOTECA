@@ -1,7 +1,7 @@
 <div class="cart_step_two_container">
     <div class="cart_login_container">
         <div class="cart_login_container-top">
-            <div class="cart_login_container-top__left">
+            <form class="cart_login_container-top__left">
                 <p class="title">Zaloguj się</p>
                 <div class="input-slot">
                     <label for="email_login">Adres e-mail:</label>
@@ -19,7 +19,7 @@
                         <button>Zaloguj się</button>
                     </div>
                 </div>
-            </div>
+            </form>
             <div class="cart_login_container-top__right">
                 <div class="cart_login_container-top__right--slot">
                     <p class="title">Nie posiadasz jeszcze konta?</p>

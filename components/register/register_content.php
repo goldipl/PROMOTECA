@@ -1,7 +1,7 @@
 <div class="register_container">
     <h1 class="title">Rejestracja</h1>
     <p class="desc">Zarejestruj się na promoteca.pl</p>
-    <div class="register_container__box">
+    <form class="register_container__box">
         <div class="register_container__box--left">
             <p class="title">Załóż konto</p>
             <div class="input-slot">
@@ -51,7 +51,7 @@
                 <input type="text" name="city" id="city">
             </div>
         </div>
-    </div>
+    </form>
     <div class="register_container__button">
         <a href="">Wstecz</a>
     </div>
