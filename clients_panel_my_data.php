@@ -27,7 +27,7 @@
             <?php include "./components/clients_panel/clients_panel_my_data_content.php"; ?>
         </div>
         <!-- Data Modal -->
-        <div class="modal_container data">
+        <form class="modal_container data">
             <div class="modal_container--close-icon"></div>
             <p class="modal_container--title">Edycja Twoich danych</p>
             <div class="modal_container--slot">
@@ -45,10 +45,10 @@
             <div class="modal_container--button">
                <button>Zapisz</button>
             </div>
-        </div>
+        </form>
         <!-- Password Modal -->
-        <div class="modal_container password">
-        <div class="modal_container--close-icon"></div>
+        <form class="modal_container password">
+            <div class="modal_container--close-icon"></div>
             <p class="modal_container--title">Zmiana Hasła</p>
             <div class="modal_container--slot">
                 <label for="modal_actual_password">Obecne hasło: *</label>
@@ -65,7 +65,7 @@
             <div class="modal_container--button">
                <button>Zapisz</button>
             </div>
-        </div>
+        </form>
         <footer> 
             <?php include "./components/footer.php"; ?> 
         </footer>

@@ -27,7 +27,7 @@
             <?php include "./components/clients_panel/clients_panel_fv_content.php"; ?>
         </div>
         <!-- FV Modal -->
-        <div class="modal_container fv">
+        <form class="modal_container fv">
             <div class="modal_container--close-icon"></div>
             <p class="modal_container--title">Edycja danych do Faktury</p>
             <div class="modal_container--slot">
@@ -53,7 +53,7 @@
             <div class="modal_container--button">
                <button>Zapisz</button>
             </div>
-        </div>
+        </form>
         <footer> 
             <?php include "./components/footer.php"; ?> 
         </footer>

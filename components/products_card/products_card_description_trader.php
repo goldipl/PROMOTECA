@@ -10,7 +10,7 @@
             <p>na zamówienie w ciągu 7-10 dni</p>
         </div>
     </div>
-    <div class="desc_title_box_content grey">
+    <form class="desc_title_box_content grey">
         <div class="desc_container">
             <div class="desc_title_box">
                 <h2 class="desc_title_box--title">Kalkulator nadruków</h2>
@@ -274,12 +274,12 @@
                 </div>
                 <div class="desc_your_calculations__slot no-frame btn">
                     <div class="download_button">
-                        <a href="">Pobierz ofertę pdf</a>
+                        <button>Pobierz ofertę pdf</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
     <div class="desc_title_box_content desc_container grey">
         <div class="opinions_container">
             <div class="desc_title_box">
@@ -304,7 +304,7 @@
                         <p>OK! Polecam</p>
                     </div>
                 </div>
-                <div class="opinions_container_box--slot_new_opinion">
+                <form class="opinions_container_box--slot_new_opinion">
                     <div class="opinions_slot_title">
                         <p>Napisz ocenę</p>
                         <div class="opinions_slot_stars">
@@ -313,22 +313,22 @@
                         </div>
                         <div class="opinions_slot_name">
                             <label for="opinion_name">Imię:</label>
-                            <input type="text" name="opinion_name" id="opinion_name">
+                            <input type="text" name="opinion_name" id="opinion_name" required>
                         </div>
                         <div class="opinions_slot_opinion">
                             <label for="opinion_content">Twoja opinia:</label>
-                            <textarea name="opinion_content" id="opinion_content"></textarea>
+                            <textarea name="opinion_content" id="opinion_content" required></textarea>
                         </div>
                         <div class="opinions_slot_send_btn_captcha_container">
                             <div class="captcha_send">
                                 <img src="./assets/img/products_card/captcha.jpg" alt="captcha">
                             </div>
                             <div class="send_btn">
-                                <a href="">Wyślij</a>
+                                <button>Wyślij</button>
                             </div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>

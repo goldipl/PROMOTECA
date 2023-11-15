@@ -296,7 +296,12 @@
                     background-color: $blue_color; 
                     border: 1px solid $blue_color;
                     margin: 10px 0 80px auto;
-                    a {
+                    a,
+                    button {
+                        font-family: 'Poppins', sans-serif; 
+                        border: 0;
+                        cursor: pointer;
+                        background-color: $blue_color;
                         position: relative;
                         display: flex;
                         justify-content: flex-start;
@@ -306,9 +311,11 @@
                         font-size: 18px;
                         font-weight: 400;
                         line-height: normal;
-                        color: $white;
+                        color: $light_black;
                         padding-left: 24px;
-                        text-decoration: none;
+                        padding-right: 40px;
+                        white-space: pre;
+                        color: $white;
                         &::after {
                             position: absolute;
                             display: block;
@@ -324,16 +331,25 @@
                     }
                     &:hover {
                         background-color: $white; 
-                        border: 1px solid $light_black;
-                        a {
-                            color: $light_black;
+                        a,
+                        button {
+                            color: $blue_color;
+                            text-decoration: none;
                             &::after {
+                                position: absolute;
+                                display: block;
+                                content: "";
+                                top: 12px;
+                                right: 16px;
                                 background: url("./../assets/icons/products_block/more_plus.svg");
                                 height: 18px;
                                 width: 18px;
                                 background-size: cover;
                                 background-repeat: no-repeat;
                             }
+                        }
+                        button {
+                            background-color: $white; 
                         }
                     }
                 }
@@ -423,7 +439,11 @@
                                 outline: 1px solid $blue_color;
                             }
                         }
+                        input {
+                            padding: 0 12px;
+                        }
                         textarea {
+                            padding: 12px;
                             height: 113px;
                             margin-bottom: 22px;
                         }
@@ -445,7 +465,11 @@
                             height: 44px;
                             box-sizing: border-box;
                             border: 1px solid $light_black;
-                            a {
+                            button {
+                                font-family: 'Poppins', sans-serif; 
+                                border: 0;
+                                cursor: pointer;
+                                background-color: $white;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
@@ -460,7 +484,9 @@
                             &:hover {
                                 background-color: $blue_color;
                                 border: 1px solid $blue_color;
-                                a {
+                                button {
+                                    background-color: $blue_color;
+                                    border: 1px solid $blue_color; 
                                     color: $white
                                 }
                             }

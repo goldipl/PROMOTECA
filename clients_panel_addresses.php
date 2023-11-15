@@ -27,7 +27,7 @@
             <?php include "./components/clients_panel/clients_panel_addresses_content.php"; ?>
         </div>
         <!-- Addresses Modal -->
-        <div class="modal_container addresses">
+        <form class="modal_container addresses">
             <div class="modal_container--close-icon"></div>
             <p class="modal_container--title">Edycja adresu wysyłki</p>
             <div class="modal_container--slot">
@@ -49,7 +49,7 @@
             <div class="modal_container--button">
                <button>Zapisz</button>
             </div>
-        </div>
+        </form>
         <footer> 
             <?php include "./components/footer.php"; ?> 
         </footer>

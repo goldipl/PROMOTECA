@@ -33,7 +33,7 @@
                 <p>Rozwiń</p>
             </div>
             <div class="set-changes-filters-btn">
-                <p>Zastosuj</p>
+                <button>Zastosuj</button>
             </div>
         </div>
     </div>
@@ -94,7 +94,7 @@
                 </div>
             </div>
             <div class="set-prices">
-                <p>Zastosuj zakres cen</p>
+                <button>Zastosuj zakres cen</button>
             </div>
         </div>
     </div>

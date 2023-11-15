@@ -112,7 +112,7 @@
             </div>
             <div class="desc_cart_prices_text--slot btn">
                 <div class="add_to_cart_button">
-                    <a href="">Do koszyka</a>
+                    <button>Do koszyka</button>
                 </div>
             </div>
         </div>
@@ -139,7 +139,7 @@
                         <p>OK! Polecam</p>
                     </div>
                 </div>
-                <div class="opinions_container_box--slot_new_opinion">
+                <form class="opinions_container_box--slot_new_opinion">
                     <div class="opinions_slot_title">
                         <p>Napisz ocenę</p>
                         <div class="opinions_slot_stars">
@@ -148,22 +148,22 @@
                         </div>
                         <div class="opinions_slot_name">
                             <label for="opinion_name">Imię:</label>
-                            <input type="text" name="opinion_name" id="opinion_name">
+                            <input type="text" name="opinion_name" id="opinion_name" required>
                         </div>
                         <div class="opinions_slot_opinion">
                             <label for="opinion_content">Twoja opinia:</label>
-                            <textarea name="opinion_content" id="opinion_content"></textarea>
+                            <textarea name="opinion_content" id="opinion_content" required></textarea>
                         </div>
                         <div class="opinions_slot_send_btn_captcha_container">
                             <div class="captcha_send">
                                 <img src="./assets/img/products_card/captcha.jpg" alt="captcha">
                             </div>
                             <div class="send_btn">
-                                <a href="">Wyślij</a>
+                                <button>Wyślij</button>
                             </div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>

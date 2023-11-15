@@ -219,8 +219,10 @@
                 .download_button {
                     padding: 2px 20px;
                     border: 1px solid $blue_color;
+                    background-color: $blue_color;
                     cursor: pointer;
-                    a {
+                    button {
+                        font-family: 'Poppins', sans-serif;
                         position: relative;
                         font-size: 12px;
                         font-weight: 600;
@@ -229,6 +231,7 @@
                         color: $blue_color;
                         text-decoration: none;
                         margin: 0;
+                        background-color: $blue_color;
                         &::after {
                             display: inline-block;
                             content: '';
@@ -243,7 +246,7 @@
                     }
                     &:hover {
                         background-color: $blue_color;
-                        a {
+                        button {
                             color: $white;
                             &::after {
                                 background: url('./../assets/icons/products_card/download_white.svg');
@@ -388,13 +391,11 @@
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            height: 35px;
-                            padding: 2px 20px;
-                            border: 1px solid $blue_color;
                             cursor: pointer;
                             margin: auto 0 auto auto;
                             box-sizing: border-box;
-                            a {
+                            button {
+                                font-family: 'Poppins', sans-serif;
                                 position: relative;
                                 font-size: 12px;
                                 font-weight: 600;
@@ -403,6 +404,11 @@
                                 color: $blue_color;
                                 text-decoration: none;
                                 margin: 0;
+                                background-color: $white;
+                                cursor: pointer;
+                                padding: 2px 20px;
+                                height: 35px;
+                                border: 1px solid $blue_color;
                                 &::after {
                                     display: inline-block;
                                     content: '';
@@ -416,8 +422,8 @@
                                 }
                             }
                             &:hover {
-                                background-color: $blue_color;
-                                a {
+                                button {
+                                    background-color: $blue_color;
                                     color: $white;
                                     &::after {
                                         background: url('./../assets/icons/products_card/download_white.svg');
@@ -522,7 +528,11 @@
                                 outline: 1px solid $blue_color;
                             }
                         }
+                        input {
+                            padding: 0 12px;
+                        }
                         textarea {
+                            padding: 12px;
                             height: 113px;
                             margin-bottom: 22px;
                         }
@@ -544,8 +554,11 @@
                             height: 44px;
                             box-sizing: border-box;
                             border: 1px solid $light_black;
-                            background-color: $white;
-                            a {
+                            button {
+                                font-family: 'Poppins', sans-serif; 
+                                border: 0;
+                                cursor: pointer;
+                                background-color: $white;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
@@ -560,7 +573,9 @@
                             &:hover {
                                 background-color: $blue_color;
                                 border: 1px solid $blue_color;
-                                a {
+                                button {
+                                    background-color: $blue_color;
+                                    border: 1px solid $blue_color; 
                                     color: $white
                                 }
                             }
