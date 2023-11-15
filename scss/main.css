@@ -950,6 +950,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 @media (max-width: 760px) {
   .breadcrumbs {
     margin-top: 0;
+    margin-bottom: 6px;
   }
   .breadcrumbs ul {
     padding-left: 16px;
@@ -6972,26 +6973,36 @@ body.active-modal::before {
     line-height: 160%;
   }
 }
-.article_container .title {
+.article_title {
   font-size: 24px;
   font-weight: 600;
   line-height: 34px;
   text-transform: uppercase;
   color: #010B32;
-  margin-top: 0;
+  margin: 0;
 }
-.article_container .article_img_txt_box {
+
+.article_container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 36px;
 }
 .article_container .article_img_txt_box--img {
+  display: flex;
+  flex-direction: column;
+  width: calc(48% - 20px);
   margin-right: 20px;
 }
 .article_container .article_img_txt_box--img img {
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
+}
+.article_container .article_img_txt_box--text {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
 }
 .article_container .article_img_txt_box--text .title {
   font-size: 26px;
@@ -7006,18 +7017,21 @@ body.active-modal::before {
   line-height: 160%;
   color: #333333;
 }
-.article_container .article_txt_img_box {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 36px;
-}
 .article_container .article_txt_img_box--img {
-  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 48%;
 }
 .article_container .article_txt_img_box--img img {
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
+}
+.article_container .article_txt_img_box--text {
+  display: flex;
+  flex-direction: column;
+  width: calc(48% - 20px);
+  margin-left: 20px;
 }
 .article_container .article_txt_img_box--text .title {
   font-size: 26px;
@@ -7032,13 +7046,8 @@ body.active-modal::before {
   line-height: 160%;
   color: #333333;
 }
-.article_container .article_small_img_box {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 36px;
-  width: 100%;
-}
 .article_container .article_small_img_box--img {
+  width: calc(24.5% - 20px);
   margin-right: 20px;
 }
 .article_container .article_small_img_box--img:last-of-type {
@@ -7047,11 +7056,6 @@ body.active-modal::before {
 .article_container .article_small_img_box--img img {
   -o-object-fit: cover;
      object-fit: cover;
-}
-.article_container .article_txt_img_img_box {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 76px;
   width: 100%;
 }
 .article_container .article_txt_img_img_box--text {
@@ -7075,64 +7079,22 @@ body.active-modal::before {
   flex-direction: row;
 }
 .article_container .article_txt_img_img_box__images--img {
-  margin-right: 20px;
+  width: 48%;
+  margin-right: 1%;
 }
 .article_container .article_txt_img_img_box__images--img:last-of-type {
-  margin-right: 0;
+  margin-left: 1%;
 }
 .article_container .article_txt_img_img_box__images--img img {
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
 }
 
-@media (max-width: 1576px) {
-  .article_container .article_img_txt_box--text {
-    width: 50vw;
-  }
-  .article_container .article_img_txt_box--img {
-    width: 50vw;
-  }
-  .article_container .article_img_txt_box--img img {
-    width: 100%;
-  }
-  .article_container .article_txt_img_box--text {
-    width: 50vw;
-  }
-  .article_container .article_txt_img_box--img {
-    width: 50vw;
-  }
-  .article_container .article_txt_img_box--img img {
-    width: 100%;
-  }
-  .article_container .article_small_img_box--img {
-    width: 25%;
-    margin-right: 1%;
-  }
-  .article_container .article_small_img_box--img img {
-    width: 100%;
-  }
-  .article_container .article_txt_img_img_box__images--img {
-    width: 50vw;
-  }
-  .article_container .article_txt_img_img_box__images--img img {
-    width: 100%;
-  }
-}
-@media (max-width: 760px) {
-  .article_container .article_img_txt_box {
-    flex-direction: column;
-    margin-bottom: 24px;
-  }
-  .article_container .article_img_txt_box--text {
-    width: 100%;
-  }
-  .article_container .article_img_txt_box--img {
-    margin-right: 0;
-    width: 100%;
-  }
-  .article_container .article_img_txt_box--img img {
-    width: 100%;
-    height: auto;
+@media (max-width: 960px) {
+  .article_title {
+    font-size: 20px;
+    line-height: 28px;
   }
   .article_container .article_img_txt_box--text .title {
     font-size: 20px;
@@ -7143,19 +7105,7 @@ body.active-modal::before {
     line-height: 160%;
   }
   .article_container .article_txt_img_box {
-    flex-direction: column;
     margin-bottom: 24px;
-  }
-  .article_container .article_txt_img_box--text {
-    width: 100%;
-  }
-  .article_container .article_txt_img_box--img {
-    width: 100%;
-    margin-left: 0;
-  }
-  .article_container .article_txt_img_box--img img {
-    width: 100%;
-    height: auto;
   }
   .article_container .article_txt_img_box--text .title {
     font-size: 20px;
@@ -7165,20 +7115,20 @@ body.active-modal::before {
     font-size: 14px;
     line-height: 160%;
   }
-  .article_container .article_small_img_box {
-    flex-direction: column;
-    margin-bottom: 24px;
-  }
   .article_container .article_small_img_box--img {
-    width: 100%;
+    width: 48%;
+    margin-right: 1%;
+  }
+  .article_container .article_small_img_box--img:nth-of-type(2n) {
     margin-right: 0;
+    margin-left: 1%;
   }
   .article_container .article_small_img_box--img img {
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 100%;
-    height: auto;
   }
   .article_container .article_txt_img_img_box {
-    flex-direction: column;
     margin-bottom: 24px;
   }
   .article_container .article_txt_img_img_box--text .title {
@@ -7188,17 +7138,6 @@ body.active-modal::before {
   .article_container .article_txt_img_img_box--text .desc {
     font-size: 14px;
     line-height: 160%;
-  }
-  .article_container .article_txt_img_img_box__images {
-    flex-direction: column;
-  }
-  .article_container .article_txt_img_img_box__images--img {
-    width: 100%;
-    margin-right: 0;
-  }
-  .article_container .article_txt_img_img_box__images--img img {
-    width: 100%;
-    height: auto;
   }
 }
 .contact_container .message_box_container {
