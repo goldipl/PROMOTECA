@@ -6973,20 +6973,20 @@ body.active-modal::before {
     line-height: 160%;
   }
 }
-.article_title {
+.article_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.article_container .title {
   font-size: 24px;
   font-weight: 600;
   line-height: 34px;
   text-transform: uppercase;
   color: #010B32;
   margin: 0 0 24px 0;
-}
-
-.article_container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+  width: 100%;
 }
 .article_container .article_img_txt_box--img {
   display: flex;
@@ -7109,7 +7109,7 @@ body.active-modal::before {
 }
 
 @media (max-width: 960px) {
-  .article_title {
+  .article_container .title {
     font-size: 20px;
     line-height: 28px;
   }
