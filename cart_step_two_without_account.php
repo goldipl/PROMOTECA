@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="./assets/icons/favicon.jpg" type="image/x-icon">
         <link rel="stylesheet" href="./scss/main.css">
     </head>
-    <body class="cart_step_two_without_account_page">
+    <body>
         <header> 
             <?php include "./components/topbar.php"; ?> 
             <?php include "./components/nav.php"; ?> 

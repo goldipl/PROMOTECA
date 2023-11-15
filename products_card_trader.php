@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="./assets/icons/favicon.jpg" type="image/x-icon">
         <link rel="stylesheet" href="./scss/main.css">
     </head>
-    <body class="products_card_page">
+    <body>
         <header> 
             <?php include "./components/topbar.php"; ?> 
             <?php include "./components/nav.php"; ?> 
@@ -30,7 +30,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="row__container">
+            <div class="row__container reverse-order">
                 <aside>
                     <?php include "./components/common/aside_menu.php"; ?> 
                     <?php include "./components/common/aside_boxes.php"; ?> 
