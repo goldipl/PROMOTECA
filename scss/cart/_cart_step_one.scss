@@ -7,106 +7,111 @@
         flex-direction: column;
         margin-right: 23px;
         border: 1px solid $grey_light;
+        border-top: 0;
         box-sizing: border-box;
         width: 1096px;
-        .cart_product_container {
-            position: relative;
-            width: 100%;
-        }
-        .upload_logo_notes_container {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
+        .cart_products_box {
             border-top: 1px solid $grey_light;
-            padding: 26px 35px 35px 35px;
-            box-sizing: border-box;
-            &__left {
-                margin-right: 72px;
-                .title {
-                    p {
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: normal;
-                        margin-bottom: 12px;
-                        color: $grey_middle;
-                        margin-top: 0;
-                    }
-                }
-                .upload-area {
-                    border: 1px dashed $blue_color;
-                    width: 491px;
-                    height: 113px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    cursor: pointer;
-                    &--img {
-                        img {
-                            object-fit: contain;
+            margin-bottom: 24px;
+            .cart_product_container {
+                position: relative;
+                width: 100%;
+            }
+            .upload_logo_notes_container {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                border-top: 1px solid $grey_light;
+                padding: 26px 35px 35px 35px;
+                box-sizing: border-box;
+                &__left {
+                    margin-right: 72px;
+                    .title {
+                        p {
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            margin-bottom: 12px;
+                            color: $grey_middle;
+                            margin-top: 0;
                         }
                     }
-                    &--text {
-                        p {
-                            font-size: 10px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;
-                            margin: 0 0 14px 0;
-                            text-align: center;
-                            a {
-                                text-decoration: none;
-                                color: $blue_color;
+                    .upload-area {
+                        border: 1px dashed $blue_color;
+                        width: 491px;
+                        height: 113px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        &--img {
+                            img {
+                                object-fit: contain;
+                            }
+                        }
+                        &--text {
+                            p {
                                 font-size: 10px;
                                 font-style: normal;
                                 font-weight: 400;
                                 line-height: normal;
+                                margin: 0 0 14px 0;
+                                text-align: center;
+                                a {
+                                    text-decoration: none;
+                                    color: $blue_color;
+                                    font-size: 10px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                            }
+                        }
+                        &--small-text {
+                            p {
+                                font-size: 8px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                margin: 0;
+                                text-align: center;
                             }
                         }
                     }
-                    &--small-text {
+                }
+                &__right {
+                    .title {
                         p {
-                            font-size: 8px;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            margin-bottom: 17px;
+                            color: $grey_middle;
+                            margin-top: 0;
+                        }
+                    }
+                    .text-area {
+                        textarea {
+                            border: 1px solid $grey_light;
+                            padding: 12px;
+                            font-size: 16px;
                             font-style: normal;
                             font-weight: 400;
                             line-height: normal;
-                            margin: 0;
-                            text-align: center;
-                        }
-                    }
-                }
-            }
-            &__right {
-                .title {
-                    p {
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: normal;
-                        margin-bottom: 17px;
-                        color: $grey_middle;
-                        margin-top: 0;
-                    }
-                }
-                .text-area {
-                    textarea {
-                        border: 1px solid $grey_light;
-                        padding: 12px;
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: normal;
-                        color: $blue_color;
-                        width: 465px;
-                        height: 113px;
-                        max-width: 465px;
-                        box-sizing: border-box;
-                        &:hover,
-                        &:focus {
-                            outline: 1px solid $blue_color;
+                            color: $blue_color;
+                            width: 465px;
+                            height: 113px;
+                            max-width: 465px;
+                            box-sizing: border-box;
+                            &:hover,
+                            &:focus {
+                                outline: 1px solid $blue_color;
+                            }
                         }
                     }
                 }
@@ -124,19 +129,21 @@
             margin-right: 0;
             width: 100%;
             margin-bottom: 24px;
-            .upload_logo_notes_container {
-                &__left {
-                    width: 100%;
-                    margin-right: 30px;
-                    .upload-area {
+            .cart_products_box {
+                .upload_logo_notes_container {
+                    &__left {
                         width: 100%;
-                    }
-                }
-                &__right {
-                    width: 100%;
-                    .text-area {
-                        textarea {
+                        margin-right: 30px;
+                        .upload-area {
                             width: 100%;
+                        }
+                    }
+                    &__right {
+                        width: 100%;
+                        .text-area {
+                            textarea {
+                                width: 100%;
+                            }
                         }
                     }
                 }
@@ -149,28 +156,30 @@
     .cart_step_one_container {
         &__left {
             margin-bottom: 0;
-            .upload_logo_notes_container {
-                flex-direction: column;
-                align-items: flex-start;
-                padding: 15px;
-                &__left {
-                    margin-right: 0;
-                    .upload-area {
-                        height: auto;
-                        padding: 10px 0;
-                    }
-                }
-                &__right {
-                    .title {
-                        margin-top: 15px;
-                    }
-                    .text-area {
-                        width: 100%;
-                        textarea {
-                            font-size: 14px;
-                            line-height: 160%;
+            .cart_products_box {
+                .upload_logo_notes_container {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 15px;
+                    &__left {
+                        margin-right: 0;
+                        .upload-area {
                             height: auto;
-                            max-width: 740px;
+                            padding: 10px 0;
+                        }
+                    }
+                    &__right {
+                        .title {
+                            margin-top: 15px;
+                        }
+                        .text-area {
+                            width: 100%;
+                            textarea {
+                                font-size: 14px;
+                                line-height: 160%;
+                                height: auto;
+                                max-width: 740px;
+                            }
                         }
                     }
                 }
