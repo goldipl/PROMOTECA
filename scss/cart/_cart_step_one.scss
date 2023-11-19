@@ -6,12 +6,10 @@
         display: flex;
         flex-direction: column;
         margin-right: 23px;
-        border: 1px solid $grey_light;
-        border-top: 0;
         box-sizing: border-box;
         width: 1096px;
         .cart_products_box {
-            border-top: 1px solid $grey_light;
+            border: 1px solid $grey_light;
             margin-bottom: 24px;
             .cart_product_container {
                 position: relative;

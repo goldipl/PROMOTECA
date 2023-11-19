@@ -4421,13 +4421,11 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   display: flex;
   flex-direction: column;
   margin-right: 23px;
-  border: 1px solid #E2E2E2;
-  border-top: 0;
   box-sizing: border-box;
   width: 1096px;
 }
 .cart_step_one_container__left .cart_products_box {
-  border-top: 1px solid #E2E2E2;
+  border: 1px solid #E2E2E2;
   margin-bottom: 24px;
 }
 .cart_step_one_container__left .cart_products_box .cart_product_container {
