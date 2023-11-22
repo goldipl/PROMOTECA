@@ -21,10 +21,12 @@ Used also:
 * Lightbox.js
 
 ## Gif desktop website presentation
+### wait until the gif file loads (61,3mb)
 
 ![gif](./gif/promoteca.gif)
 
 ## Gif mobile website presentation
+### wait until the gif file loads (46,8mb)
 
 <img src="./gif/promoteca-mobile.gif" width="300"/>
 
