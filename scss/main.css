@@ -6872,7 +6872,7 @@ body.active-modal::before {
   display: none;
   flex-direction: column;
   position: absolute;
-  top: 600px;
+  top: 50vh;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
