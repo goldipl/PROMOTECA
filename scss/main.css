@@ -2175,6 +2175,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 }
 .pagination_container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
