@@ -6,6 +6,9 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        .dots {
+            margin-right: 13px;
+        }
         .element {
             display: flex;
             align-items: center;
@@ -17,11 +20,18 @@
             margin-right: 13px;
             cursor: pointer;
             box-sizing: border-box;
+            text-decoration: none;
             p {
                 font-size: 16px;
                 font-weight: 400;
                 line-height: normal;
                 color: $title_black;
+                text-decoration: none;
+            }
+            &.prev {
+                img {
+                    transform: rotate(180deg);
+                }
             }
             &.active {
                 background-color: $blue_color;

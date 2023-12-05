@@ -2179,6 +2179,9 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   align-items: center;
   justify-content: center;
 }
+.pagination_container .dots {
+  margin-right: 13px;
+}
 .pagination_container .element {
   display: flex;
   align-items: center;
@@ -2190,12 +2193,17 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   margin-right: 13px;
   cursor: pointer;
   box-sizing: border-box;
+  text-decoration: none;
 }
 .pagination_container .element p {
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
   color: #010B32;
+  text-decoration: none;
+}
+.pagination_container .element.prev img {
+  transform: rotate(180deg);
 }
 .pagination_container .element.active {
   background-color: #29A8DA;
