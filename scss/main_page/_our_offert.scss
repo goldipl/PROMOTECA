@@ -51,7 +51,7 @@
                 }
             }
             .slot--links {
-                .link {
+                a {
                     display: inline-flex;
                     font-size: 16px;
                     font-style: normal;
@@ -79,21 +79,6 @@
                 align-items: center;
                 &:last-of-type {
                     margin-right: 0;
-                }
-                .slot--image {
-                    img {
-
-                    }
-                }
-                .slot--title {
-                    p {
-
-                    }
-                }
-                .slot--links {
-                    .link {
-
-                    }
                 }
             }
         }
@@ -160,7 +145,7 @@
                 }
                 .slot--links {
                     width: 50%;
-                    .link {
+                    a {
                         font-size: 14px;
                         line-height: 160%;
                     }

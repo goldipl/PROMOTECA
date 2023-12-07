@@ -1418,7 +1418,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   min-height: 50px;
   margin: 0 0 20px 0;
 }
-#our_offert .vertical_listings-slot .slot--links .link {
+#our_offert .vertical_listings-slot .slot--links a {
   display: inline-flex;
   font-size: 16px;
   font-style: normal;
@@ -1429,7 +1429,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   margin-bottom: 8px;
   width: 100%;
 }
-#our_offert .vertical_listings-slot .slot--links .link:hover {
+#our_offert .vertical_listings-slot .slot--links a:hover {
   color: #29A8DA;
 }
 
@@ -1495,7 +1495,7 @@ header #nav .bottom-nav ul.no-menu-links li::after {
   #our_offert .vertical_listings-slot .slot--links {
     width: 50%;
   }
-  #our_offert .vertical_listings-slot .slot--links .link {
+  #our_offert .vertical_listings-slot .slot--links a {
     font-size: 14px;
     line-height: 160%;
   }
