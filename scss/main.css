@@ -1137,9 +1137,10 @@ header #nav .bottom-nav ul.no-menu-links li::after {
 #recommend .products_container {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   overflow: hidden;
+  overflow-x: scroll;
 }
 #recommend .products_container--slot {
   position: relative;

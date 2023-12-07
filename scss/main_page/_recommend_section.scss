@@ -67,9 +67,10 @@
     .products_container {
         position: relative;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         overflow: hidden;
+        overflow-x: scroll;
         &--slot {
             position: relative;
             width: 16%;
