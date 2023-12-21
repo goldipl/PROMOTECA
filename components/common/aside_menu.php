@@ -11,9 +11,24 @@
                 <input class="accordion-input" type="checkbox" id="chck1">
                 <label class="accordion-tab-label" for="chck1">Ochrona zdrowia</label>
                 <div class="accordion-tab-content">
-                    <a class="accordion-tab-content--link" href="#">Maseczki ochronne</a>
-                    <a class="accordion-tab-content--link" href="#">Płyny antybakteryjne</a>
-                    <a class="accordion-tab-content--link" href="#">Żele antybakteryjne</a>
+                    <div class="accordion-tab">
+                        <input class="accordion-input" type="checkbox" id="chck11">
+                        <label class="accordion-tab-label" for="chck11">Kategoria II rozwijana</label>
+                        <div class="accordion-tab-content">
+                            <a class="accordion-tab-content--link" href="#">Kategoria III</a>
+                            <a class="accordion-tab-content--link" href="#">Kategoria III</a>
+                            <a class="accordion-tab-content--link" href="#">Kategoria III</a>
+                        </div>
+                    </div>
+                    <div class="accordion-tab">
+                        <input class="accordion-input" type="checkbox" id="chck12">
+                        <label class="accordion-tab-label" for="chck12">Kategoria II rozwijana</label>
+                        <div class="accordion-tab-content">
+                            <a class="accordion-tab-content--link" href="#">Kategoria III</a>
+                            <a class="accordion-tab-content--link" href="#">Kategoria III</a>
+                            <a class="accordion-tab-content--link" href="#">Kategoria III</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="accordion-tab">

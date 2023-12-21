@@ -42,7 +42,7 @@
         &-tabs {
             overflow: hidden;
             .accordion-tab {
-                width: 99%;
+                width: 100%;
                 color: #ffffff;
                 overflow: hidden;
     
@@ -101,7 +101,6 @@
                     color: $light_black;
                     line-height: normal;
                     transition: all 0.35s;
-                    margin-left: 24px;
                     width: 100%;
                     &--link {
                         display: inline-flex;

@@ -58,24 +58,84 @@
                         <ul>
                             <li>
                                 <a href="#">Ochrona zdrowia</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
-                                        <a href="#">
-                                            <li>Maseczki ochronne</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Płyny antybakteryjne</li>
-                                        </a>
-                                        <a href="#">
-                                            <li>Żele antybakteryjne</li>
-                                        </a>
+                                        <li>
+                                            <a href="#">Kategoria II rozwijana</a>
+                                            <span class="mobile-arrow">
+                                                <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                            </span>
+                                            <div class="bottom-nav-sub-sub-sublist">
+                                                <ul>
+                                                    <a href="#">
+                                                        <li>Kategoria III</li>
+                                                    </a>
+                                                    <a href="#">
+                                                        <li>Kategoria III</li>
+                                                    </a>
+                                                    <a href="#">
+                                                        <li>Kategoria III</li>
+                                                    </a>
+                                                    <a href="#">
+                                                        <li>Kategoria III</li>
+                                                    </a>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">Kategoria II rozwijana</a>
+                                            <span class="mobile-arrow">
+                                                <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                            </span>
+                                            <div class="bottom-nav-sub-sub-sublist">
+                                                <ul>
+                                                    <a href="#">
+                                                        <li>Kategoria III</li>
+                                                    </a>
+                                                    <a href="#">
+                                                        <li>Kategoria III</li>
+                                                    </a>
+                                                    <a href="#">
+                                                        <li>Kategoria III</li>
+                                                    </a>
+                                                </ul>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </li>
                             <li>
                                 <a href="#">Artykuły piśmiennicze</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
+                                        <li>
+                                            <a href="#">Kategoria II rozwijana</a>
+                                            <span class="mobile-arrow">
+                                                <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                            </span>
+                                            <div class="bottom-nav-sub-sub-sublist">
+                                                <ul>
+                                                    <a href="#">
+                                                        <li>Kategoria III</li>
+                                                    </a>
+                                                    <a href="#">
+                                                        <li>Kategoria III</li>
+                                                    </a>
+                                                    <a href="#">
+                                                        <li>Kategoria III</li>
+                                                    </a>
+                                                    <a href="#">
+                                                        <li>Kategoria III</li>
+                                                    </a>
+                                                </ul>
+                                            </div>
+                                        </li>
                                         <a href="#">
                                             <li>Kategoria II</li>
                                         </a>
@@ -90,6 +150,9 @@
                             </li>
                             <li>
                                 <a href="#">Breloki reklamowe</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -106,6 +169,9 @@
                             </li>
                             <li>
                                 <a href="#">Gadżety biurowe</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -122,6 +188,9 @@
                             </li>
                             <li>
                                 <a href="#">Gadżety dla dzieci</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -138,6 +207,9 @@
                             </li>
                             <li>
                                 <a href="#">Gadżety domowe</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -154,6 +226,9 @@
                             </li>
                             <li>
                                 <a href="#">Gadżety elektroniczne</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -170,6 +245,9 @@
                             </li>
                             <li>
                                 <a href="#">Gadżety podróżne</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -186,6 +264,9 @@
                             </li>
                             <li>
                                 <a href="#">Gadżety biurowe</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -202,6 +283,9 @@
                             </li>
                             <li>
                                 <a href="#">Gadżety sportowe i wypoczynkowe</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -218,6 +302,9 @@
                             </li>
                             <li>
                                 <a href="#">Kubki i bidony</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -234,6 +321,9 @@
                             </li>
                             <li>
                                 <a href="#">Narzędzia reklamowe</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -250,6 +340,9 @@
                             </li>
                             <li>
                                 <a href="#">Odzież reklamowa</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -266,6 +359,9 @@
                             </li>
                             <li>
                                 <a href="#">Parasole reklamowe</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
@@ -282,6 +378,9 @@
                             </li>
                             <li>
                                 <a href="#">Torby i plecaki</a>
+                                <span class="mobile-arrow">
+                                    <img src="./assets/icons/chevron-down.svg" alt="mobile arrow" width="12" height="12">
+                                </span>
                                 <div class="bottom-nav-sub-sublist">
                                     <ul>
                                         <a href="#">
