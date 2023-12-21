@@ -2764,9 +2764,21 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   filter: opacity(0.8);
 }
 .gallery-container-big {
+  position: relative;
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
+}
+.gallery-container-big .favourite-heart {
+  position: absolute;
+  display: block;
+  top: 21px;
+  right: 24px;
+  z-index: 9;
+  cursor: pointer;
+}
+.gallery-container-big .favourite-heart.active {
+  filter: invert(22%) sepia(96%) saturate(6352%) hue-rotate(356deg) brightness(98%) contrast(118%);
 }
 .gallery-container-big .gallery-item {
   border: 1px solid #E2E2E2;
@@ -2793,19 +2805,6 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
 }
 .gallery-container-big .gallery-item.big {
   position: relative;
-}
-.gallery-container-big .gallery-item.big::after {
-  position: absolute;
-  display: block;
-  top: 21px;
-  right: 24px;
-  content: "";
-  background: url("./../assets/icons/products_card/heart.svg");
-  width: 24px;
-  height: 24px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 9;
 }
 .gallery-container-big .gallery-item.big .left-bottom-size {
   position: absolute;

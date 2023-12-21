@@ -5,6 +5,7 @@ const lightBoxImg = document.createElement("img");
 const lightBoxPrev = document.createElement("div");
 const lightBoxNext = document.createElement("div");
 const lightBoxClose = document.createElement("div");
+const favouriteHeart = document.querySelector('.favourite-heart');
 
 lightBoxContainer.classList.add("lightbox");
 lightBoxContent.classList.add("lightbox-content");
@@ -61,3 +62,7 @@ function closeLightBox() {
 }
 lightBoxContainer.addEventListener("click", closeLightBox);
 lightBoxClose.addEventListener("click", closeLightBox);
+
+favouriteHeart.addEventListener('click', () => {
+    favouriteHeart.classList.toggle('active');
+});

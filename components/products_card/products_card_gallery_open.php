@@ -5,6 +5,9 @@
                 <div class="gallery-item big" data-index="1">
                     <img src="./assets/img/products_card/Klip-do-dokumentow-V2794-08-2.jpg">
                 </div>
+                <div class="favourite-heart">
+                    <img src="./assets/icons/products_card/heart.svg" alt="heart" width="24" height="24">
+                </div>
             </div>
             <div class="gallery-container-small">
                 <div class="gallery-item small" data-index="2">
