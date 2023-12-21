@@ -750,6 +750,7 @@ header {
     header #nav .bottom-nav .left-container ul li .bottom-nav-sublist ul .bottom-nav-sub-sublist ul a li {
         justify-content: flex-start !important;
         align-items: center !important;
+        white-space: break-spaces;
     }
     header #nav .top-nav .account-cart-container .account-container .logo-container {
         margin-right: 4px !important;
