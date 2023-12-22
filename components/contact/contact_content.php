@@ -36,11 +36,11 @@
         <div class="phone_mail_container">
             <div class="phone_mail_container--slot">
                 <p class="title telephone">Telefon</p>
-                <p class="desc"><a href="tel:+22 486 34 83">22 486 34 83</a></p>
+                <p class="desc"><a class="gtm-phone" href="tel:+22 486 34 83">22 486 34 83</a></p>
             </div>
             <div class="phone_mail_container--slot">
                 <p class="title email">E-mail</p>
-                <p class="desc"><a href="mailto:info@promoteca.pl">info@promoteca.pl</a></p>
+                <p class="desc"><a class="gtm-mail" href="mailto:info@promoteca.pl">info@promoteca.pl</a></p>
             </div>
             <div class="phone_mail_container--slot">
                 <p class="title hours">Godziny otwarcia</p>

@@ -10,7 +10,7 @@
                         <img src="./assets/icons/footer/telephone.svg" alt="telephone" width="15" height="15">
                     </div>
                     <div class="footer-col-slot--text">
-                        <a href="tel:+22 486 34 83">22 486 34 83</a>
+                        <a class="gtm-phone" href="tel:+22 486 34 83">22 486 34 83</a>
                     </div>
                 </div>
                 <div class="footer-col-slot">
@@ -27,7 +27,7 @@
                     <img src="./assets/icons/footer/email.svg" alt="email" width="15" height="15">
                 </div>
                 <div class="footer-col-slot--text">
-                    <a href="mailto:Info@promoteca.pl">Info@promoteca.pl</a>
+                    <a class="gtm-mail" href="mailto:Info@promoteca.pl">Info@promoteca.pl</a>
                 </div>
             </div>
         </div>
