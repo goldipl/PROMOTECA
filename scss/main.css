@@ -237,13 +237,6 @@ header {
   width: 100vw;
   z-index: 1;
 }
-header.menu-open {
-  position: static;
-}
-header.menu-open #nav {
-  border-bottom: 1px solid #D9D9D9;
-  box-shadow: 0px 8px 9px 0px rgba(0, 0, 0, 0.05);
-}
 header #nav {
   display: flex;
   flex-direction: column;
@@ -817,6 +810,13 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
 }
 /* mobile menu */
 @media (max-width: 1280px) {
+  header.menu-open {
+    position: static;
+  }
+  header.menu-open #nav {
+    border-bottom: 1px solid #D9D9D9;
+    box-shadow: 0px 8px 9px 0px rgba(0, 0, 0, 0.05);
+  }
   .mobile-arrow {
     display: flex;
     position: absolute;
