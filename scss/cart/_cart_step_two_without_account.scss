@@ -129,8 +129,7 @@
                             cursor: pointer;
                             margin: 24px 16px;
                         }
-                        input#register_checkbox,
-                        input#different_address {
+                        input[type=checkbox] {
                             width: 24px;
                             height: 24px;
                             box-sizing: border-box;
@@ -138,7 +137,7 @@
                             background: $grey_light3;
                             cursor: pointer;
                         }
-                        input:not(#register_checkbox, #different_address) {
+                        input:not([type=checkbox]) {
                             border: 1px solid $grey_light;
                             background: $grey_light3;
                             width: 100%;
@@ -257,8 +256,7 @@
                             label.checkbox {
                                 margin: 6px 16px;
                             }
-                            input#register_checkbox,
-                            input#different_address {
+                            input[type=checkbox] {
                                 width: auto;
                                 height: auto;
                             }

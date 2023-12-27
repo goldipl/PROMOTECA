@@ -5136,9 +5136,7 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   cursor: pointer;
   margin: 24px 16px;
 }
-.cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input#register_checkbox,
-.cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input#different_address, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input#register_checkbox,
-.cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input#different_address {
+.cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input[type=checkbox], .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input[type=checkbox] {
   width: 24px;
   height: 24px;
   box-sizing: border-box;
@@ -5146,7 +5144,7 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   background: #F6F6F6;
   cursor: pointer;
 }
-.cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input:not(#register_checkbox, #different_address), .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input:not(#register_checkbox, #different_address) {
+.cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input:not([type=checkbox]), .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input:not([type=checkbox]) {
   border: 1px solid #E2E2E2;
   background: #F6F6F6;
   width: 100%;
@@ -5156,7 +5154,7 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   margin-bottom: 16px;
   padding: 0 12px;
 }
-.cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input:not(#register_checkbox, #different_address):hover, .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input:not(#register_checkbox, #different_address):focus, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input:not(#register_checkbox, #different_address):hover, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input:not(#register_checkbox, #different_address):focus {
+.cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input:not([type=checkbox]):hover, .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input:not([type=checkbox]):focus, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input:not([type=checkbox]):hover, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input:not([type=checkbox]):focus {
   outline: 1px solid #29A8DA;
 }
 .cart_step_two_without_account_container--left .cart_without_account__button {
@@ -5245,9 +5243,7 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot label.checkbox, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot label.checkbox {
     margin: 6px 16px;
   }
-  .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input#register_checkbox,
-  .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input#different_address, .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input#register_checkbox,
-  .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input#different_address {
+  .cart_step_two_without_account_container--left .cart_without_account__box--left .input-slot input[type=checkbox], .cart_step_two_without_account_container--left .cart_without_account__box--right .input-slot input[type=checkbox] {
     width: auto;
     height: auto;
   }
