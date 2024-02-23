@@ -1133,6 +1133,12 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
     width: 10px;
     height: 10px;
   }
+  #swiper .swiper.mobile .swiper-button-next {
+    right: 32px;
+  }
+  #swiper .swiper.mobile .swiper-button-prev {
+    left: 32px;
+  }
 }
 @media (max-width: 760px) {
   #welcome .text_container p {
