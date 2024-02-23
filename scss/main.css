@@ -1068,10 +1068,6 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
 #swiper .swiper.mobile {
   display: none;
 }
-#swiper .swiper .swiper-button-next,
-#swiper .swiper .swiper-button-prev {
-  display: none;
-}
 #swiper .swiper .swiper-slide img {
   width: 100%;
   height: 100%;
