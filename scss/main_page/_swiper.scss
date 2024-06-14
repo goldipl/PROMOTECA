@@ -28,6 +28,10 @@
       border: 2px solid $blue_color;
       background-color: #cac9c9be;
     }
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: $blue_color;
+    }
   }
 }
 
