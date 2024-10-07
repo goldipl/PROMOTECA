@@ -1626,11 +1626,11 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
 }
 #blog .blog_container .article_slot--img {
   width: 503px;
-  height: 346px;
+  height: auto;
 }
 #blog .blog_container .article_slot--img img {
   width: 503px;
-  height: 346px;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
