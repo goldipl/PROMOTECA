@@ -12,9 +12,11 @@
       &--img {
         width: 503px;
         height: auto;
+        max-height: 282px;
         img {
           width: 503px;
           height: auto;
+          max-height: 282px;
           object-fit: cover;
         }
       }

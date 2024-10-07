@@ -1627,10 +1627,12 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
 #blog .blog_container .article_slot--img {
   width: 503px;
   height: auto;
+  max-height: 282px;
 }
 #blog .blog_container .article_slot--img img {
   width: 503px;
   height: auto;
+  max-height: 282px;
   -o-object-fit: cover;
      object-fit: cover;
 }
