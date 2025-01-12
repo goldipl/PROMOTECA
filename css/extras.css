@@ -466,17 +466,6 @@ h2.mainpage-title {
         font-size: 16px;
    }
 }
-/* h2.mainpage-title:before {
-    position: absolute;
-    top: calc(50% - 9px);
-    left: 0;
-    content: "";
-    width: 14px;
-    height: 18px;
-    display: block;
-    background-color: #29A8DA;
-}
-*/
 #recommend .products_container--slot {
     border: 1px solid #ccc;
 }
