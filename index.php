@@ -16,6 +16,7 @@
             <?php include "./components/nav.php"; ?> 
         </header>
         <div id="main-wrapper">
+            <?php include "./components/main_page/welcome_seo_text.php"; ?> 
             <?php include "./components/main_page/swiper.php"; ?> 
             <?php include "./components/main_page/welcome_section.php"; ?> 
             <?php include "./components/main_page/recommend_section.php"; ?> 
