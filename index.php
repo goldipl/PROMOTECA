@@ -8,6 +8,7 @@
         <link rel="shortcut icon" href="./assets/icons/favicon.jpg" type="image/x-icon">
         <link rel="stylesheet" href="./css/swiper-bundle.css" />
         <link rel="stylesheet" href="./scss/main.css">
+        <link rel="stylesheet" href="./css/extras.css">
     </head>
     <body>
         <header> 

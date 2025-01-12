@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PROMOTECA | Koszyk - Adres dostawy</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.jpg" type="image/x-icon">
-        <link rel="stylesheet" href="./scss/main.css">
+        <link rel="stylesheet" href="./scss/main.css"
+        <link rel="stylesheet" href="./css/extras.css">
     </head>
     <body>
         <header> 
