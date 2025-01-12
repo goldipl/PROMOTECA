@@ -1066,8 +1066,8 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
     margin: 0 auto 8px;
   }
   #welcome-seo-text .mainpage-seo-description {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 19px;
     margin: 0 auto 16px;
   }
 }
