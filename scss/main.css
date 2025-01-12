@@ -1059,6 +1059,18 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   max-width: 707px;
 }
 
+@media (max-width: 760px) {
+  #welcome-seo-text .mainpage-seo-title {
+    font-size: 32px;
+    line-height: 48px;
+    margin: 16px auto 8px;
+  }
+  #welcome-seo-text .mainpage-seo-description {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 auto 16px;
+  }
+}
 #swiper {
   width: 100%;
   margin: 10px auto 40px;
