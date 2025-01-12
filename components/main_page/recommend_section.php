@@ -1,5 +1,5 @@
-<section id="recommend">
-    <h2 class="mainpage-title">Polecamy</h2>
+<section class="home-products-list">
+    <h2 class="mainpage-title">Najnowsze gadżety reklamowe</h2>
     <div class="mainpage-title--btn">
         <a href="#">Pokaż wszystkie</a>
     </div>
@@ -18,9 +18,6 @@
                     <div class="color_square red"></div>
                     <div class="color_square yellow"></div>
                 </div>
-                <div class="products_wrapper--btn">
-                    <a href="#">Więcej</a>
-                </div>
             </div>
         </div>
         <div class="products_container--slot">
@@ -32,9 +29,6 @@
                     <p>Bambusowy notatnik ok. A6 V2967-16</p>
                 </div>
                 <div class="products_wrapper--colors">
-                </div>
-                <div class="products_wrapper--btn">
-                    <a href="#">Więcej</a>
                 </div>
             </div>
         </div>
@@ -56,9 +50,6 @@
                     <div class="color_square brown"></div>
                     <div class="color_square yellow2"></div>
                 </div>
-                <div class="products_wrapper--btn">
-                    <a href="#">Więcej</a>
-                </div>
             </div>
         </div>
         <div class="products_container--slot">
@@ -70,9 +61,6 @@
                     <p>Długopis El Primero Solid EP-SOLID-09</p>
                 </div>
                 <div class="products_wrapper--colors">
-                </div>
-                <div class="products_wrapper--btn">
-                    <a href="#">Więcej</a>
                 </div>
             </div>
         </div>
@@ -86,9 +74,6 @@
                 </div>
                 <div class="products_wrapper--colors">
                 </div>
-                <div class="products_wrapper--btn">
-                    <a href="#">Więcej</a>
-                </div>
             </div>
         </div>
         <div class="products_container--slot">
@@ -100,9 +85,6 @@
                     <p>Długopis AP4515W-09</p>
                 </div>
                 <div class="products_wrapper--colors">
-                </div>
-                <div class="products_wrapper--btn">
-                    <a href="#">Więcej</a>
                 </div>
             </div>
         </div>
