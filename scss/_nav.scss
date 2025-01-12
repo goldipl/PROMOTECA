@@ -178,16 +178,16 @@ header {
             height: 40px;
             margin: 0 auto;
             box-sizing: border-box;
-            &::after {
-                position: absolute;
-                content: "";
-                display: block;
-                width: 100vw;
-                height: 1px;
-                background-color: $blue_color;
-                top: 50px;
-                left: calc(((100vw - 1576px)/2)*(-1));
-            }
+            // &::after {
+            //     position: absolute;
+            //     content: "";
+            //     display: block;
+            //     width: 100vw;
+            //     height: 1px;
+            //     background-color: $blue_color;
+            //     top: 50px;
+            //     left: calc(((100vw - 1576px)/2)*(-1));
+            // }
             .left-container {
                 display: flex;
                 ul {
@@ -435,10 +435,10 @@ header {
             }
             .bottom-nav {
                 width: 90vw;
-                &::after {
-                    left: calc(-10vw + 15px);
-                    width: 110vw;
-                }
+                // &::after {
+                //     left: calc(-10vw + 15px);
+                //     width: 110vw;
+                // }
             }
         }
     }
