@@ -1,5 +1,5 @@
 <section id="recommend">
-    <h1 class="mainpage-title">Polecamy</h1>
+    <h2 class="mainpage-title">Polecamy</h2>
     <div class="mainpage-title--btn">
         <a href="#">Pokaż wszystkie</a>
     </div>

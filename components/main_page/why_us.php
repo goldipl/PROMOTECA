@@ -1,5 +1,5 @@
 <section id="why_us">
-    <h1 class="mainpage-title">Dlaczego my?</h1>
+    <h2 class="mainpage-title">Dlaczego my?</h2>
     <div class="why_us_container">
         <div class="big_img_text_slot">
             <div class="big_img_text_slot--img">

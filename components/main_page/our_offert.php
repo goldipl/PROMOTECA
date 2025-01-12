@@ -1,5 +1,5 @@
 <section id="our_offert">
-    <h1 class="mainpage-title">Nasza oferta</h1>
+    <h2 class="mainpage-title">Nasza oferta</h2>
     <div class="vertical_listings">
         <div class="vertical_listings-slot">
             <div class="slot--image">

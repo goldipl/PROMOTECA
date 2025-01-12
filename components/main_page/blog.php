@@ -1,5 +1,5 @@
 <section id="blog">
-    <h1 class="mainpage-title">Blog</h1>
+    <h2 class="mainpage-title">Blog</h2>
     <div class="blog_container">
         <div class="article_slot">
             <div class="article_slot--img">
