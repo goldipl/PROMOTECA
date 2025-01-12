@@ -12,7 +12,9 @@
         <div class="products_container--slot new">
           <div class="products_wrapper">
             <div class="products_wrapper--img">
+             <a href="">
               <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
+             </a>
             </div>
             <div class="products_wrapper--title">
               <a href="">Antystres "kostka" V2704-08</a>
@@ -35,7 +37,9 @@
         <div class="products_container--slot">
           <div class="products_wrapper">
             <div class="products_wrapper--img">
-              <img src="./assets/img/recommend/notepad.jpg" alt="Bambusowy notatnik ok. A6 V2967-16">
+              <a href="">
+                <img src="./assets/img/recommend/notepad.jpg" alt="Bambusowy notatnik ok. A6 V2967-16">
+              </a>
             </div>
             <div class="products_wrapper--title">
               <a href="">Bambusowy notatnik ok. A6 V2967-16</a>
@@ -53,7 +57,9 @@
         <div class="products_container--slot">
           <div class="products_wrapper">
             <div class="products_wrapper--img">
-              <img src="./assets/img/recommend/document_clip.jpg" alt="Klips do dokumentów V2794-11">
+              <a href="">
+                <img src="./assets/img/recommend/document_clip.jpg" alt="Klips do dokumentów V2794-11">
+              </a>
             </div>
             <div class="products_wrapper--title">
               <a href="">Klips do dokumentów V2794-11</a>
@@ -80,7 +86,9 @@
         <div class="products_container--slot">
           <div class="products_wrapper">
             <div class="products_wrapper--img">
-              <img src="./assets/img/recommend/green_pen.jpg" alt="Długopis El Primero Solid EP-SOLID-09">
+              <a href="">
+                <img src="./assets/img/recommend/green_pen.jpg" alt="Długopis El Primero Solid EP-SOLID-09">
+              </a>
             </div>
             <div class="products_wrapper--title">
               <a href="">Długopis El Primero Solid EP-SOLID-09</a>
@@ -98,7 +106,9 @@
         <div class="products_container--slot">
           <div class="products_wrapper">
             <div class="products_wrapper--img">
-              <img src="./assets/img/recommend/silver_green_pen.jpg" alt="Długopis AP1001-09">
+              <a href="">
+                <img src="./assets/img/recommend/silver_green_pen.jpg" alt="Długopis AP1001-09">
+              </a>
             </div>
             <div class="products_wrapper--title">
               <a href="">Długopis AP1001-09</a>
@@ -116,7 +126,9 @@
         <div class="products_container--slot">
           <div class="products_wrapper">
             <div class="products_wrapper--img">
-              <img src="./assets/img/recommend/white_green_pen.jpg" alt="Długopis AP4515W-09">
+              <a href="">
+                <img src="./assets/img/recommend/white_green_pen.jpg" alt="Długopis AP4515W-09">  
+              </a>
             </div>
             <div class="products_wrapper--title">
               <a href="">Długopis AP4515W-09</a>
@@ -134,7 +146,9 @@
         <div class="products_container--slot new">
           <div class="products_wrapper">
             <div class="products_wrapper--img">
-              <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
+              <a href="">
+                <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
+              </a>
             </div>
             <div class="products_wrapper--title">
               <a href="">Antystres "kostka" V2704-08</a>
@@ -157,7 +171,9 @@
         <div class="products_container--slot">
           <div class="products_wrapper">
             <div class="products_wrapper--img">
-              <img src="./assets/img/recommend/notepad.jpg" alt="Bambusowy notatnik ok. A6 V2967-16">
+              <a href="">
+                <img src="./assets/img/recommend/notepad.jpg" alt="Bambusowy notatnik ok. A6 V2967-16">
+              </a>
             </div>
             <div class="products_wrapper--title">
               <a href="">Bambusowy notatnik ok. A6 V2967-16</a>
@@ -175,7 +191,9 @@
         <div class="products_container--slot">
           <div class="products_wrapper">
             <div class="products_wrapper--img">
-              <img src="./assets/img/recommend/green_pen.jpg" alt="Długopis El Primero Solid EP-SOLID-09">
+              <a href="">
+                <img src="./assets/img/recommend/green_pen.jpg" alt="Długopis El Primero Solid EP-SOLID-09">
+              </a>
             </div>
             <div class="products_wrapper--title">
               <a href="">Długopis El Primero Solid EP-SOLID-09</a>
@@ -193,7 +211,9 @@
         <div class="products_container--slot">
           <div class="products_wrapper">
             <div class="products_wrapper--img">
-              <img src="./assets/img/recommend/silver_green_pen.jpg" alt="Długopis AP1001-09">
+              <a href="">
+                <img src="./assets/img/recommend/silver_green_pen.jpg" alt="Długopis AP1001-09">
+              </a>
             </div>
             <div class="products_wrapper--title">
               <a href="">Długopis AP1001-09</a>
@@ -211,7 +231,9 @@
         <div class="products_container--slot">
           <div class="products_wrapper">
             <div class="products_wrapper--img">
-              <img src="./assets/img/recommend/white_green_pen.jpg" alt="Długopis AP4515W-09">
+              <a href="">
+                <img src="./assets/img/recommend/white_green_pen.jpg" alt="Długopis AP4515W-09">
+              </a>
             </div>
             <div class="products_wrapper--title">
               <a href="">Długopis AP4515W-09</a>
@@ -229,7 +251,9 @@
         <div class="products_container--slot new">
           <div class="products_wrapper">
             <div class="products_wrapper--img">
-              <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
+              <a href="">
+                <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
+              </a>
             </div>
             <div class="products_wrapper--title">
               <a href="">Antystres "kostka" V2704-08</a>
@@ -252,7 +276,9 @@
         <div class="products_container--slot">
           <div class="products_wrapper">
             <div class="products_wrapper--img">
-              <img src="./assets/img/recommend/notepad.jpg" alt="Bambusowy notatnik ok. A6 V2967-16">
+              <a href="">
+                <img src="./assets/img/recommend/notepad.jpg" alt="Bambusowy notatnik ok. A6 V2967-16">
+              </a>
             </div>
             <div class="products_wrapper--title">
               <a href="">Bambusowy notatnik ok. A6 V2967-16</a>
