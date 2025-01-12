@@ -19,7 +19,6 @@
             <?php include "./components/main_page/welcome_seo_text.php"; ?> 
             <?php include "./components/main_page/swiper.php"; ?> 
             <?php include "./components/main_page/categories_swiper.php"; ?> 
-            <?php include "./components/main_page/welcome_section.php"; ?> 
             <?php include "./components/main_page/recommend_section.php"; ?> 
             <?php include "./components/main_page/our_offert.php"; ?> 
             <?php include "./components/main_page/blog.php"; ?> 
