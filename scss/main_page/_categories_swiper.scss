@@ -1,6 +1,9 @@
 #categories-swiper {
     overflow: hidden;
-    margin: 16px auto;
+    margin: 24px auto 8px;
+    @media (max-width: 760px) {
+        margin: 16px auto;
+    }
     .categories-swiper {
         position: relative;
         .swiper-slide {
@@ -10,6 +13,7 @@
                 justify-content: center;
                 align-items: center;
                 text-decoration: none;
+                margin: 0 6px;
                 &:hover {
                     .category-swiper-text-box {
                         span {
@@ -62,6 +66,7 @@
             top: 50%;
             right: 0;
             z-index: 1;
+            padding: 4px;
             &::after {
                 display: none;
             }
@@ -78,6 +83,7 @@
             top: 50%;
             left: 0;
             z-index: 1;
+            padding: 4px;
             &::after {
                 display: none;
             }

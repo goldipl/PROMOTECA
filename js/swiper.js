@@ -82,7 +82,7 @@ const newGadgetsSwiper = new Swiper('.new-gadgets-swiper', {
     },
     // when window width is >= 200px
     200: {
-      slidesPerView: 3,
+      slidesPerView: 1,
     },
   },
 });

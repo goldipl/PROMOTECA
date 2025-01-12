@@ -21,6 +21,7 @@
         top: 50%;
         right: 0;
         z-index: 1;
+        padding: 4px;
         &::after {
             display: none;
         }
@@ -37,6 +38,7 @@
         top: 50%;
         left: 0;
         z-index: 1;
+        padding: 4px;
         &::after {
             display: none;
         }

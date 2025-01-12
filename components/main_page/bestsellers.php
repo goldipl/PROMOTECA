@@ -1,5 +1,5 @@
-<section class="home-products-list">
-  <h2 class="mainpage-title">Najnowsze gadżety reklamowe</h2>
+<section class="home-products-list" id="bestsellery">
+  <h2 class="mainpage-title">Bestsellery</h2>
   <div class="mainpage-title--btn">
     <a href="#">Pokaż wszystkie</a>
   </div>

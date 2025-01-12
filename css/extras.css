@@ -463,7 +463,8 @@ h2.mainpage-title {
     h1.mainpage-title, 
     h2.mainpage-title {
         font-size: 22px;
-        line-height: 36px;
+        line-height: 58px;
+        margin: 0;
    }
 }
 #recommend .products_container--slot {
@@ -519,7 +520,7 @@ h2.mainpage-title {
     box-sizing: border-box;
 }
 .home-products-list .mainpage-title--btn {
-    top: 10px;
+    top: 40px;
 }
 #blog .mainpage-title--btn a, .home-products-list .mainpage-title--btn a {
     position: relative;
@@ -791,11 +792,10 @@ h2.mainpage-title {
     .home-products-list {
         margin-left: -16px;
         margin-right: -16px;
-        padding: 43px 16px;
+        padding: 0 16px;
    }
     .home-products-list .mainpage-title--btn {
-        margin-right: 0;
-        right: 16px;
+        display: none;
    }
 }
 @media (max-width: 767px) {

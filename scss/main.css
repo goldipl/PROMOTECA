@@ -1161,7 +1161,12 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
 }
 #categories-swiper {
   overflow: hidden;
-  margin: 16px auto;
+  margin: 24px auto 8px;
+}
+@media (max-width: 760px) {
+  #categories-swiper {
+    margin: 16px auto;
+  }
 }
 #categories-swiper .categories-swiper {
   position: relative;
@@ -1172,6 +1177,7 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  margin: 0 6px;
 }
 #categories-swiper .categories-swiper .swiper-slide .category-swiper-link:hover .category-swiper-text-box span {
   color: #29A8DA;
@@ -1222,6 +1228,7 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   top: 50%;
   right: 0;
   z-index: 1;
+  padding: 4px;
 }
 #categories-swiper .categories-swiper .swiper-button-next::after {
   display: none;
@@ -1238,6 +1245,7 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   top: 50%;
   left: 0;
   z-index: 1;
+  padding: 4px;
 }
 #categories-swiper .categories-swiper .swiper-button-prev::after {
   display: none;
@@ -1279,6 +1287,7 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   top: 50%;
   right: 0;
   z-index: 1;
+  padding: 4px;
 }
 #recommend .swiper-button-next::after,
 .home-products-list .swiper-button-next::after {
@@ -1297,6 +1306,7 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   top: 50%;
   left: 0;
   z-index: 1;
+  padding: 4px;
 }
 #recommend .swiper-button-prev::after,
 .home-products-list .swiper-button-prev::after {
