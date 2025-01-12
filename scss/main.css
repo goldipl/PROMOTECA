@@ -82,16 +82,6 @@ h1.mainpage-title {
 h1.mainpage-title span {
   color: #29A8DA;
 }
-h1.mainpage-title::before {
-  position: absolute;
-  top: calc(50% - 9px);
-  left: 0;
-  content: "";
-  width: 14px;
-  height: 18px;
-  display: block;
-  background-color: #29A8DA;
-}
 
 @media (max-width: 1576px) {
   #main-wrapper {

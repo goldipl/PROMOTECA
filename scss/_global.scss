@@ -68,16 +68,6 @@ h1.mainpage-title {
     span {
         color: $blue_color;
     }
-    &::before {
-        position: absolute;
-        top: calc(50% - 9px);
-        left: 0;
-        content: '';
-        width: 14px;
-        height: 18px;
-        display: block;
-        background-color: $blue_color;
-    }
 }
 
 @media (max-width: 1576px) {
