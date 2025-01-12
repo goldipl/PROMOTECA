@@ -1,6 +1,6 @@
 <section id="welcome">
-  <h1 class="mainpage-title"> Gadżety reklamowe <span>promoteca.pl</span>
-  </h1>
+  <h2 class="mainpage-title"> Gadżety reklamowe <span>promoteca.pl</span>
+  </h2>
   <div class="text_container">
     <p style="text-align:justify">
       <strong>Gadżety reklamowe Warszawa</strong> to jeden z najbardziej skutecznych sposobów na marketing w firmie. Nie ma takiej branży, w której by się nie odnalazły i nie ma takiej marki, która nie mogłaby z nich skorzystać. W odpowiedzi na wysokie zapotrzebowanie na takie <strong>artykuły promocyjne</strong>, z przyjemnością zapraszamy do zapoznania się z naszą ofertą. Znajdują się w niej zarówno najpopularniejsze wersje gadżetów promocyjnych jak długopisy czy breloki, ale nie brakuje również tych bardziej wyszukanych.
