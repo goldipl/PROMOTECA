@@ -89,6 +89,14 @@
             height: 10px;
           }
         }
+        .swiper-slide {
+          height: 400px;
+          a {
+            img {
+              object-fit: cover;
+            }
+          }
+        }
         .swiper-button-next {
           right: 32px;
         }

@@ -1152,6 +1152,13 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
     width: 10px;
     height: 10px;
   }
+  #swiper .swiper.mobile .swiper-slide {
+    height: 400px;
+  }
+  #swiper .swiper.mobile .swiper-slide a img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   #swiper .swiper.mobile .swiper-button-next {
     right: 32px;
   }
