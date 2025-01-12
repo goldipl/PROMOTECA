@@ -451,19 +451,19 @@ div.exito-eu a {
 }
 h1.mainpage-title,
 h2.mainpage-title {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 40px;
+    line-height: 56px;
     font-weight: 700;
     position: relative;
-    text-transform: uppercase;
     margin: 35px 0;
     padding: 0 0 0 30px;
-    background: url('./../assets/img/cube-plus.png') 0 3px no-repeat;
+    background: url('./../assets/img/cube-plus.png') 0 18px no-repeat;
 }
 @media (max-width: 767px) {
     h1.mainpage-title, 
     h2.mainpage-title {
-        font-size: 16px;
+        font-size: 22px;
+        line-height: 36px;
    }
 }
 #recommend .products_container--slot {
@@ -490,6 +490,10 @@ h2.mainpage-title {
     background-color: #fff;
     margin-bottom: 0;
 }
+.home-products-list {
+    margin-top: 0;
+    padding-top: 0;
+}
 #blog::after, .home-products-list::after {
     position: absolute;
     content: "";
@@ -513,6 +517,9 @@ h2.mainpage-title {
     border: 1px solid #333333;
     background-color: #FFFFFF;
     box-sizing: border-box;
+}
+.home-products-list .mainpage-title--btn {
+    top: 10px;
 }
 #blog .mainpage-title--btn a, .home-products-list .mainpage-title--btn a {
     position: relative;
@@ -570,13 +577,10 @@ h2.mainpage-title {
 }
 .home-products-list .products_container--slot {
     position: relative;
-    width: 16%;
-    min-width: 240px;
     background-color: #fff;
-    border: 1px solid #ccc;
     margin-right: 20px;
-    min-height: 392px;
-    max-height: 392px;
+    min-height: 380px;
+    max-height: 380px;
 }
 .home-products-list .products_container--slot:last-of-type {
     margin-right: 0;
@@ -655,7 +659,6 @@ h2.mainpage-title {
     line-height: normal;
     color: #333333;
     text-align: center;
-    height: 80px;
 }
 .home-products-list .products_container--slot .products_wrapper--colors {
     display: inline-flex;

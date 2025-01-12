@@ -1,8 +1,46 @@
-#recommend {
+#recommend,
+.home-products-list {
+    position: relative;
+    overflow: hidden;
     padding: 43px 0;
     position: relative;
     background-color: $grey_background;
     margin-bottom: 0;
+    .new-gadgets-swiper {
+        position: relative;
+    }
+    .swiper-button-next {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background-image: url("./../assets/icons/category_swiper/arrow-right.jpg");
+        background-size: contain;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center center;
+        top: 50%;
+        right: 0;
+        z-index: 1;
+        &::after {
+            display: none;
+        }
+    }
+    .swiper-button-prev {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background-image: url("./../assets/icons/category_swiper/arrow-left.jpg");
+        background-size: contain;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center center;
+        top: 50%;
+        left: 0;
+        z-index: 1;
+        &::after {
+            display: none;
+        }
+    }
     &::after {
         position: absolute;
         content: "";
@@ -72,13 +110,12 @@
         overflow: hidden;
         &--slot {
             position: relative;
-            width: 16%;
-            min-width: 240px;
             background-color: $white;
-            border: 1px solid $white;
+            border: 1px solid $transparent;
             margin-right: 20px;
-            min-height: 392px;
-            max-height: 392px;
+            min-height: 380px;
+            max-height: 380px;
+            margin: 0 16px;
             &:last-of-type {
                 margin-right: 0;
             }
@@ -137,6 +174,7 @@
                     width: 180px;
                     height: 180px;
                     text-align: center;
+                    margin-bottom: 24px;
                     img {
                         object-fit: contain;
                         max-height: 180px;
@@ -154,7 +192,19 @@
                     line-height: normal;
                     color: $light_black;
                     text-align: center;
-                    height: 80px;
+                    height: 56px;
+                    margin-bottom: 8px;
+                    a {
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        color: $light_black;
+                        &:hover {
+                            text-decoration: unset !important;
+                            color: $blue_color;
+                        }
+                    }
                 }
                 &--colors {
                     display: inline-flex;
@@ -261,10 +311,6 @@
 
 @media (max-width: 1576px) {
     #recommend {
-        padding-left: 52px;
-        margin-left: -52px;
-        padding-right: 52px;
-        margin-right: -52px;
         .mainpage-title--btn { 
             margin-right: 52px;
         }
@@ -291,8 +337,6 @@
 
 @media (max-width: 760px) {
     #recommend {
-        margin-left: -16px;
-        margin-right: -16px;
         padding: 43px 16px;
         .mainpage-title--btn {
             margin-right: 0;
