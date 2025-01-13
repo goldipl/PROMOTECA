@@ -2734,6 +2734,7 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
     flex-direction: column;
     height: auto;
     padding: 32px;
+    margin: 24px auto;
   }
   .support-box__text {
     order: 1;
@@ -2834,6 +2835,11 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   height: 64px;
 }
 
+@media (max-width: 760px) {
+  #support {
+    margin: 24px 0;
+  }
+}
 .category_filters .accordion_box_title {
   display: flex;
   justify-content: space-between;
