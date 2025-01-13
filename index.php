@@ -24,6 +24,8 @@
             <?php include "./components/main_page/bestsellers.php"; ?> 
             <?php include "./components/main_page/our_realizations.php"; ?> 
             <?php include "./components/common/support.php"; ?> 
+            <?php include "./components/common/opinions.php"; ?> 
+            <?php include "./components/main_page/trust_us.php"; ?> 
             <?php include "./components/main_page/our_offert.php"; ?> 
             <?php include "./components/main_page/blog.php"; ?> 
             <?php include "./components/main_page/why_us.php"; ?> 

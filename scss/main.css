@@ -2108,6 +2108,115 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
     height: 260px;
   }
 }
+#zaufali-nam {
+  overflow: hidden;
+  margin: 40px auto;
+}
+@media (max-width: 760px) {
+  #zaufali-nam {
+    margin: 16px auto;
+  }
+  #zaufali-nam #trust-us-swiper {
+    margin: 16px 0;
+  }
+}
+#zaufali-nam .trust-us-swiper {
+  position: relative;
+}
+#zaufali-nam .trust-us-swiper .swiper-slide .trust-us-swiper-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 6px;
+}
+#zaufali-nam .trust-us-swiper .swiper-slide .trust-us-swiper-link:hover .trust-us-swiper-text-box span {
+  color: #29A8DA;
+}
+#zaufali-nam .trust-us-swiper .swiper-slide .trust-us-swiper-link .trust-us-swiper-icon-box img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 70px;
+  height: 70px;
+}
+@media (max-width: 760px) {
+  #zaufali-nam .trust-us-swiper .swiper-slide .trust-us-swiper-link .trust-us-swiper-icon-box img {
+    width: 48px;
+    height: 48px;
+  }
+}
+#zaufali-nam .trust-us-swiper .swiper-slide .trust-us-swiper-link .trust-us-swiper-text-box {
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+}
+#zaufali-nam .trust-us-swiper .swiper-slide .trust-us-swiper-link .trust-us-swiper-text-box span {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #171a1f;
+  text-align: center;
+}
+@media (max-width: 760px) {
+  #zaufali-nam .trust-us-swiper .swiper-slide .trust-us-swiper-link .trust-us-swiper-text-box {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  #zaufali-nam .trust-us-swiper .swiper-slide .trust-us-swiper-link .trust-us-swiper-text-box span {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+#zaufali-nam .trust-us-swiper .swiper-button-next {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url("./../assets/icons/category_swiper/arrow-right.jpg");
+  background-size: contain;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: calc(50% + 6px);
+  right: -2px;
+  z-index: 1;
+  padding: 4px;
+}
+@media (max-width: 760px) {
+  #zaufali-nam .trust-us-swiper .swiper-button-next {
+    top: calc(50% + 12px);
+    padding: 0;
+    right: 0;
+  }
+}
+#zaufali-nam .trust-us-swiper .swiper-button-next::after {
+  display: none;
+}
+#zaufali-nam .trust-us-swiper .swiper-button-prev {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url("./../assets/icons/category_swiper/arrow-left.jpg");
+  background-size: contain;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: calc(50% + 6px);
+  left: -2px;
+  z-index: 1;
+  padding: 4px;
+}
+@media (max-width: 760px) {
+  #zaufali-nam .trust-us-swiper .swiper-button-prev {
+    top: calc(50% + 12px);
+    padding: 0;
+    left: 0;
+  }
+}
+#zaufali-nam .trust-us-swiper .swiper-button-prev::after {
+  display: none;
+}
+
 .aside_boxes {
   margin-top: 29px;
   margin-bottom: 47px;

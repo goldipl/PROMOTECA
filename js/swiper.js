@@ -86,3 +86,34 @@ const newGadgetsSwiper = new Swiper('.new-gadgets-swiper', {
     },
   },
 });
+
+const trustUsSwiper = new Swiper('.trust-us-swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  breakpoints: {
+    // when window width is >= 1040px
+    1040: {
+      slidesPerView: 6,
+    },
+    // when window width is >= 840px
+    840: {
+      slidesPerView: 5,
+    },
+    // when window width is >= 740px
+    740: {
+      slidesPerView: 4,
+    },
+    // when window width is >= 200px
+    200: {
+      slidesPerView: 1,
+    },
+  },
+});
