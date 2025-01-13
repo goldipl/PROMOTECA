@@ -3402,30 +3402,43 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   }
 }
 .seo_text_container {
+  position: relative;
   margin-left: 9px;
   margin-bottom: 80px;
+  background: #f8f9fa;
+  padding: 64px 0;
+}
+.seo_text_container::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100%;
+  background: #f8f9fa;
+  top: 0;
+  left: calc((100vw - 1576px) / 2 * -1);
+  z-index: -1;
 }
 .seo_text_container .seo_title {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: normal;
-  text-transform: uppercase;
-  color: #010B32;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #171a1f;
+  margin-bottom: 18px;
 }
 .seo_text_container .seo_title span {
   color: #29A8DA;
 }
 .seo_text_container .seo_desc {
   font-size: 14px;
+  line-height: 22px;
   font-weight: 400;
-  line-height: 160%;
-  color: #8A8A8A;
+  color: #171a1f;
 }
 .seo_text_container .seo_desc a {
   font-size: 14px;
-  font-weight: 400;
-  line-height: 160%;
-  color: #8A8A8A;
+  line-height: 22px;
+  color: #171a1f;
   text-decoration: underline;
 }
 .seo_text_container .seo_desc a:hover {

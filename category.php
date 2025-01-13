@@ -35,15 +35,16 @@
             <div class="row__container">
                 <aside>
                     <?php include "./components/common/aside_menu.php"; ?> 
-                    <?php include "./components/category/category_filters.php"; ?> 
-                    <?php include "./components/common/aside_boxes.php"; ?> 
+                    <?php include "./components/category/category_filters.php"; ?>  
                 </aside>
                 <div class="col_10__container">
                     <?php include "./components/category/category_main.php"; ?> 
-                    <?php include "./components/common/pagination.php"; ?> 
-                    <?php include "./components/category/seo_text.php"; ?> 
+                    <?php include "./components/common/pagination.php"; ?>  
                 </div>
             </div>
+            <?php include "./components/category/seo_text.php"; ?>
+            <?php include "./components/common/support.php"; ?>
+            <?php include "./components/common/opinions.php"; ?>
         </div>
         <footer> 
             <?php include "./components/footer.php"; ?> 
