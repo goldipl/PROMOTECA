@@ -1,0 +1,25 @@
+.images-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 4px;
+    &__slot {
+        width: 33%;
+        height: 320px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .images-section {
+        flex-direction: column;
+        &__slot {
+            width: 100%;
+            height: 260px;
+        }
+    }
+}

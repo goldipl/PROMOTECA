@@ -2082,6 +2082,32 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
     line-height: 160%;
   }
 }
+.images-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 4px;
+}
+.images-section__slot {
+  width: 33%;
+  height: 320px;
+}
+.images-section__slot img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 760px) {
+  .images-section {
+    flex-direction: column;
+  }
+  .images-section__slot {
+    width: 100%;
+    height: 260px;
+  }
+}
 .aside_boxes {
   margin-top: 29px;
   margin-bottom: 47px;
