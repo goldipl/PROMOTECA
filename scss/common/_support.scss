@@ -1,0 +1,108 @@
+.support-box {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 66px auto;
+  background-color: $blue_color;
+  padding: 56px 64px 43px 64px;
+  height: 303px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1176px;
+  overflow: hidden;
+  border-radius: 12px;
+  @media (max-width: 860px) {
+    flex-direction: column;
+    height: auto;
+    padding: 32px;
+    &__text {
+      order: 1;
+    }
+    &__img {
+      order: 0;
+      height: 376px !important;
+    }
+  }
+  &__text {
+    position: relative;
+    z-index: 2;
+    h2 {
+      font-size: 40px;
+      line-height: 56px;
+      font-weight: 700;
+      color: $white;
+      margin: 0;
+      max-width: 520px;
+      @media (max-width: 760px) {
+        font-size: 32px;
+        line-height: 36px;
+      }
+    }
+    p {
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 400;
+      color: #dee1e6ff;
+      margin: 0 0 20px 0;
+      max-width: 480px;
+      @media (max-width: 760px) {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 16px 0;
+      }
+    }
+    .send-msg-btn {
+      height: 44px;
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      color: $blue_color;
+      background: $white;
+      border-radius: 6px;
+      text-decoration: none;
+      border: 1px solid $white;
+      width: max-content;
+      &:hover {
+        color: $white;
+        background-color: $blue_color;
+      }
+    }
+  }
+  &__img {
+    position: relative;
+    .support-woman {
+      position: relative;
+      bottom: -72px;
+      right: 120px;
+      @media (max-width: 860px) {
+        right: 0px;
+        bottom: 0;
+      }
+      img {
+        object-fit: contain;
+      }
+    }
+    .support-bulb {
+      position: relative;
+      top: -270px;
+      right: -130px;
+      width: 64px;
+      height: 64px;
+      z-index: 1;
+      @media (max-width: 860px) {
+        right: -240px;
+        top: -348px;
+      }
+      img {
+        width: 64px;
+        height: 64px;
+      }
+    }
+  }
+}

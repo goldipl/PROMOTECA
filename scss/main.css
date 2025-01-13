@@ -2604,6 +2604,127 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
     margin-bottom: 40px;
   }
 }
+.support-box {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 66px auto;
+  background-color: #29A8DA;
+  padding: 56px 64px 43px 64px;
+  height: 303px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1176px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+@media (max-width: 860px) {
+  .support-box {
+    flex-direction: column;
+    height: auto;
+    padding: 32px;
+  }
+  .support-box__text {
+    order: 1;
+  }
+  .support-box__img {
+    order: 0;
+    height: 376px !important;
+  }
+}
+.support-box__text {
+  position: relative;
+  z-index: 2;
+}
+.support-box__text h2 {
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+  max-width: 520px;
+}
+@media (max-width: 760px) {
+  .support-box__text h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+.support-box__text p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #dee1e6;
+  margin: 0 0 20px 0;
+  max-width: 480px;
+}
+@media (max-width: 760px) {
+  .support-box__text p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 16px 0;
+  }
+}
+.support-box__text .send-msg-btn {
+  height: 44px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #29A8DA;
+  background: #FFFFFF;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid #FFFFFF;
+  width: -moz-max-content;
+  width: max-content;
+}
+.support-box__text .send-msg-btn:hover {
+  color: #FFFFFF;
+  background-color: #29A8DA;
+}
+.support-box__img {
+  position: relative;
+}
+.support-box__img .support-woman {
+  position: relative;
+  bottom: -72px;
+  right: 120px;
+}
+@media (max-width: 860px) {
+  .support-box__img .support-woman {
+    right: 0px;
+    bottom: 0;
+  }
+}
+.support-box__img .support-woman img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.support-box__img .support-bulb {
+  position: relative;
+  top: -270px;
+  right: -130px;
+  width: 64px;
+  height: 64px;
+  z-index: 1;
+}
+@media (max-width: 860px) {
+  .support-box__img .support-bulb {
+    right: -240px;
+    top: -348px;
+  }
+}
+.support-box__img .support-bulb img {
+  width: 64px;
+  height: 64px;
+}
+
 .category_filters .accordion_box_title {
   display: flex;
   justify-content: space-between;
