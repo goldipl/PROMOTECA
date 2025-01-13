@@ -31,17 +31,11 @@
                     </li>
                 </ul>
             </div>
-            <div class="row__container reverse-order">
-                <aside>
-                    <?php include "./components/common/aside_menu.php"; ?> 
-                    <?php include "./components/common/aside_boxes.php"; ?> 
-                </aside>
-                <div class="col_10__container">
-                    <?php include "./components/products_card/products_card_gallery_open.php"; ?>
-                    <?php include "./components/products_card/products_card_description_client.php"; ?>
-                    <?php include "./components/products_card/products_card_recommended.php"; ?>
-                </div>
-            </div>
+         
+            <?php include "./components/products_card/products_card_gallery_open.php"; ?>
+            <?php include "./components/products_card/products_card_description_client.php"; ?>
+            <?php include "./components/products_card/products_card_recommended.php"; ?>
+          
         </div>
         <footer> 
             <?php include "./components/footer.php"; ?> 
