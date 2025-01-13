@@ -8387,6 +8387,25 @@ footer .footer-container .footer-top .footer-right-container .footer-col--link a
   color: #29A8DA;
   text-shadow: 0.4px 0px 0.1px, -0.4px 0px 0.1px;
 }
+footer .footer-container .footer-middle {
+  position: relative;
+}
+footer .footer-container .footer-middle::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100%;
+  background-color: #FFFFFF;
+  top: 0;
+  left: calc((100vw - 1576px) / 2 * -1);
+  z-index: 0;
+  border-top: 1px solid #29A8DA;
+}
+footer .footer-container .footer-middle .exito-eu {
+  position: relative;
+  z-index: 1;
+}
 footer .footer-container .footer-bottom {
   position: relative;
   display: flex;

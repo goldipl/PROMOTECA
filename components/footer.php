@@ -92,6 +92,11 @@
             </div>
         </div>
     </div>
+    <div class="footer-middle">
+        <div class="exito-eu">
+            <a href="/data/exito-ue-react-eu.docx"><img src="./assets/img/eu-small.jpg"></a>
+        </div>
+    </div>
     <div class="footer-bottom">
         <div class="footer-three-cols">
             <div class="footer-col">
