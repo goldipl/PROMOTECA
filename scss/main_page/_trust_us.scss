@@ -1,8 +1,11 @@
 #zaufali-nam {
   overflow: hidden;
-  margin: 40px auto;
+  margin: 40px auto 0;
+  #trust-us-swiper {
+    margin: 52px 0 24px;
+  }
   @media (max-width: 760px) {
-    margin: 16px auto;
+    margin: 16px auto 0;
     #trust-us-swiper {
       margin: 16px 0;
     }
