@@ -1061,13 +1061,13 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
 
 @media (max-width: 760px) {
   #welcome-seo-text .mainpage-seo-title {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 29px;
+    line-height: 38px;
     margin: 0 auto 8px;
   }
   #welcome-seo-text .mainpage-seo-description {
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 13px;
+    line-height: 16px;
     margin: 0 auto 16px;
   }
 }
