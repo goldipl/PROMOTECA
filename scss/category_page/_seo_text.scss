@@ -1,49 +1,77 @@
 .seo_text_container {
-    margin-left: 9px;
-    margin-bottom: 80px;
-    .seo_title {
-        font-size: 18px;
-        font-weight: 600;
-        line-height: normal;
-        text-transform: uppercase;
-        color: $title_black;
-        span {
-            color: $blue_color;
-        }
+  margin-left: 9px;
+  margin-bottom: 80px;
+  .seo_title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    color: $title_black;
+    span {
+      color: $blue_color;
     }
-    .seo_desc {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 160%;
-        color: $grey_middle;
-        a {
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 160%;
-            color: $grey_middle;
-            text-decoration: underline;
-            &:hover {
-                text-decoration: none;
-            }
-        }
+  }
+  .seo_desc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    color: $grey_middle;
+    a {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 160%;
+      color: $grey_middle;
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
     }
+  }
+}
+
+.category-seo-top-text {
+  .title {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    margin-top: 0;
+    @media (max-width: 760px) {
+      font-size: 22px;
+      line-height: 27px;
+      margin-top: 8px;
+    }
+  }
+  .description {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-bottom: 27px;
+    margin-top: 0;
+    @media (max-width: 760px) {
+      font-size: 13px;
+      line-height: 19px;
+      margin-bottom: 16px;
+    }
+  }
 }
 
 @media (max-width: 760px) {
-    .seo_text_container {
-        margin-left: 0;
-        margin-bottom: 24px;
-        .seo_title {
-            font-size: 16px;
-            line-height: 130%;
-        }
-        .seo_desc {
-            font-size: 12px;
-            line-height: 140%;
-            a {
-                font-size: 12px;
-                line-height: 140%;
-            }
-        }
+  .seo_text_container {
+    margin-left: 0;
+    margin-bottom: 24px;
+    .seo_title {
+      font-size: 16px;
+      line-height: 130%;
     }
+    .seo_desc {
+      font-size: 12px;
+      line-height: 140%;
+      a {
+        font-size: 12px;
+        line-height: 140%;
+      }
+    }
+  }
 }

@@ -28,6 +28,10 @@
                     </li>
                 </ul>
             </div>
+            <div class="category-seo-top-text">
+                <h1 class="title">Akcesoria biurowe reklamowe</h1>
+                <p class="description">Menadżer ds. reklamy? Specjalista ds. Marketingu? Właściciel małej firmy? To nie ma znaczenia! Promoteca.pl ma do zaproponowania akcesoria biurowe reklamowe dopasowane do różnych potrzeb.</p>
+            </div>
             <div class="row__container">
                 <aside>
                     <?php include "./components/common/aside_menu.php"; ?> 

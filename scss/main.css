@@ -3432,6 +3432,36 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   text-decoration: none;
 }
 
+.category-seo-top-text .title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+@media (max-width: 760px) {
+  .category-seo-top-text .title {
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 8px;
+  }
+}
+.category-seo-top-text .description {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-bottom: 27px;
+  margin-top: 0;
+}
+@media (max-width: 760px) {
+  .category-seo-top-text .description {
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 16px;
+  }
+}
+
 @media (max-width: 760px) {
   .seo_text_container {
     margin-left: 0;
