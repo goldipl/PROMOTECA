@@ -22,6 +22,9 @@
         right: 0;
         z-index: 1;
         padding: 4px;
+        @media (max-width: 760px) {
+            padding: 0;
+        }
         &::after {
             display: none;
         }
@@ -39,6 +42,9 @@
         left: 0;
         z-index: 1;
         padding: 4px;
+        @media (max-width: 760px) {
+            padding: 0;
+        }
         &::after {
             display: none;
         }
