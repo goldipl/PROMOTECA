@@ -1,13 +1,5 @@
 <div class="category_top_options">
     <div class="category_top_options__left">
-        <div class="category_top_options__left--icons">
-            <div class="category_top--icon-grid">
-                <img src="./assets/icons/category/grid-3x3-gap-blue.svg" alt="grid icon" width="24" height="24">
-            </div>
-            <div class="category_top--icon-list">
-                <img src="./assets/icons/category/list-grey.svg" alt="grid icon" width="35" height="21">
-            </div>
-        </div>
     </div>
     <div class="category_top_options__right">
         <div class="category__right_options_container">
