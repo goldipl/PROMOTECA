@@ -1268,16 +1268,6 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   display: none;
 }
 
-@media (max-width: 760px) {
-  #welcome .text_container p {
-    font-size: 14px;
-    line-height: 160%;
-  }
-  #welcome .text_container p a {
-    font-size: 14px;
-    line-height: 160%;
-  }
-}
 #recommend,
 .home-products-list {
   position: relative;
