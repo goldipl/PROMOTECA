@@ -28,6 +28,7 @@
             <?php include "./components/main_page/trust_us.php"; ?> 
             <?php include "./components/main_page/why_us.php"; ?> 
             <?php include "./components/main_page/order_process.php"; ?> 
+            <?php include "./components/main_page/seo_section.php"; ?> 
             <?php include "./components/main_page/blog.php"; ?> 
         </div>
         <footer> 
