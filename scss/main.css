@@ -2216,6 +2216,15 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   background-color: #29A8DA;
   padding: 45px 0 40px;
 }
+@media (max-width: 760px) {
+  #proces-zamawiania {
+    margin-bottom: 24px;
+  }
+  #proces-zamawiania h2.mainpage-title {
+    line-height: 32px;
+    margin-bottom: 32px;
+  }
+}
 #proces-zamawiania .mainpage-title {
   color: #FFFFFF;
 }
@@ -2271,6 +2280,11 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
 @media (max-width: 1200px) {
   #proces-zamawiania .order-process_container__slot {
     width: 31%;
+  }
+}
+@media (max-width: 760px) {
+  #proces-zamawiania .order-process_container__slot {
+    width: 80%;
   }
 }
 #proces-zamawiania .order-process_container__slot--img {

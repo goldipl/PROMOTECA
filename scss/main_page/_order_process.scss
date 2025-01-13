@@ -3,6 +3,13 @@
   margin-top: 0;
   background-color: $blue_color;
   padding: 45px 0 40px;
+  @media (max-width: 760px) {
+    margin-bottom: 24px;
+    h2.mainpage-title {
+      line-height: 32px;
+      margin-bottom: 32px;
+    }
+  }
   .mainpage-title {
     color: $white;
   }
@@ -51,6 +58,9 @@
       width: calc(18% - 32px);
       @media (max-width: 1200px) {
         width: 31%;
+      }
+      @media (max-width: 760px) {
+        width: 80%;
       }
       &--img {
         display: flex;
@@ -102,7 +112,4 @@
       }
     }
   }
-}
-
-@media (max-width: 760px) {
 }
