@@ -2713,6 +2713,17 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
 .products_blocks_wrapper__slot .products_block_wrapper__slot--title p {
   margin-top: 0;
 }
+.products_blocks_wrapper__slot .products_block_wrapper__slot--title a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  text-decoration: none;
+}
+.products_blocks_wrapper__slot .products_block_wrapper__slot--title a:hover {
+  color: #29A8DA;
+}
 .products_blocks_wrapper__slot .products_block_wrapper__slot--colors {
   display: inline-flex;
   height: 15px;
@@ -2720,7 +2731,7 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
 .products_blocks_wrapper__slot .products_block_wrapper__slot--colors .color_square {
   width: 15px;
   height: 15px;
-  border: 1px solid #D3D3D3;
+  border: 1px solid #d3d3d3;
   box-sizing: border-box;
   margin-right: 3px;
   cursor: pointer;
@@ -2733,28 +2744,28 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
   background-color: #020054;
 }
 .products_blocks_wrapper__slot .products_block_wrapper__slot--colors .color_square.red {
-  border: 1px solid #FF0000;
-  background-color: #FF0000;
+  border: 1px solid #ff0000;
+  background-color: #ff0000;
 }
 .products_blocks_wrapper__slot .products_block_wrapper__slot--colors .color_square.yellow {
-  border: 1px solid #FFC700;
-  background-color: #FFC700;
+  border: 1px solid #ffc700;
+  background-color: #ffc700;
 }
 .products_blocks_wrapper__slot .products_block_wrapper__slot--colors .color_square.green {
-  border: 1px solid #64C14D;
-  background-color: #64C14D;
+  border: 1px solid #64c14d;
+  background-color: #64c14d;
 }
 .products_blocks_wrapper__slot .products_block_wrapper__slot--colors .color_square.purple {
-  border: 1px solid #5945A9;
-  background-color: #5945A9;
+  border: 1px solid #5945a9;
+  background-color: #5945a9;
 }
 .products_blocks_wrapper__slot .products_block_wrapper__slot--colors .color_square.brown {
-  border: 1px solid #674C4C;
-  background-color: #674C4C;
+  border: 1px solid #674c4c;
+  background-color: #674c4c;
 }
 .products_blocks_wrapper__slot .products_block_wrapper__slot--colors .color_square.yellow2 {
-  border: 1px solid #FFDA58;
-  background-color: #FFDA58;
+  border: 1px solid #ffda58;
+  background-color: #ffda58;
 }
 .products_blocks_wrapper__slot .products_block_wrapper__slot--price {
   height: 28px;
