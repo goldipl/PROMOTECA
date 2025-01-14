@@ -4051,8 +4051,8 @@ body:has(.products_card_gallery_open) .support-box .support-box__text p {
   margin-bottom: 8px;
 }
 .products_card_gallery_open--details .colors_container .actual_color .color_square {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   border: 1px solid #d3d3d3;
   box-sizing: border-box;
   margin: 0 10px;
@@ -4106,18 +4106,17 @@ body:has(.products_card_gallery_open) .support-box .support-box__text p {
   margin: 10px 0;
 }
 .products_card_gallery_open--details .colors_options .color_square {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   border: 1px solid #d3d3d3;
   box-sizing: border-box;
-  margin-right: 3px;
+  margin-right: 6px;
   cursor: pointer;
 }
 @media (max-width: 760px) {
   .products_card_gallery_open--details .colors_options .color_square {
     width: 24px;
     height: 24px;
-    margin-right: 6px;
   }
 }
 .products_card_gallery_open--details .colors_options .color_square.white {

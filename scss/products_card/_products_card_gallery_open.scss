@@ -245,8 +245,8 @@
         width: 100%;
         margin-bottom: 8px;
         .color_square {
-          width: 15px;
-          height: 15px;
+          width: 20px;
+          height: 20px;
           border: 1px solid #d3d3d3;
           box-sizing: border-box;
           margin: 0 10px;
@@ -299,16 +299,15 @@
       display: inline-flex;
       margin: 10px 0;
       .color_square {
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
         border: 1px solid #d3d3d3;
         box-sizing: border-box;
-        margin-right: 3px;
+        margin-right: 6px;
         cursor: pointer;
         @media (max-width: 760px) {
           width: 24px;
           height: 24px;
-          margin-right: 6px;
         }
         &.white {
           background-color: $white;
