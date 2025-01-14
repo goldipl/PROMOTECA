@@ -2969,6 +2969,13 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
     margin-bottom: 40px;
   }
 }
+body:has(.products_card_gallery_open) .support-box {
+  max-width: unset;
+}
+body:has(.products_card_gallery_open) .support-box .support-box__text p {
+  max-width: 800px;
+}
+
 .support-box {
   position: relative;
   display: flex;

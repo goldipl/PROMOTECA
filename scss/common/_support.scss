@@ -1,3 +1,10 @@
+body:has(.products_card_gallery_open) .support-box {
+  max-width: unset;
+  .support-box__text p {
+    max-width: 800px;
+  }
+}
+
 .support-box {
   position: relative;
   display: flex;
