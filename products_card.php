@@ -28,7 +28,7 @@
                         <a href="#">Akcesoria biurowe</a>
                     </li>
                     <li class="breadcrumb-item">
-                        <a href="#">Klip do dokumentów V2794-08</a>
+                        <span>Klip do dokumentów V2794-08</span>
                     </li>
                 </ul>
             </div>
