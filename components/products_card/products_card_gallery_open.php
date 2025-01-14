@@ -52,6 +52,23 @@
                     <span>Rozmiar: 157 x 12mm</span>
                 </div>
             </div>
+            <div class="colors_container">
+                <div class="actual_color">
+                    <strong>Kolor:</strong>
+                    <div class="color_square yellow"></div>
+                    <span class="color_name">Żółty</span>
+                </div>
+                <div class="colors_options">
+                    <div class="color_square white"></div>
+                    <div class="color_square darkblue"></div>
+                    <div class="color_square red"></div>
+                    <div class="color_square yellow"></div>
+                    <div class="color_square green"></div>
+                    <div class="color_square purple"></div>
+                    <div class="color_square brown"></div>
+                    <div class="color_square yellow2"></div>
+                </div>
+            </div>
             <div class="desc_text_inputs_boxes">
                 <div class="desc_text_inputs_boxes__slot">
                     <div class="desc_text_inputs_boxes__slot--text">
@@ -120,23 +137,6 @@
             </div>
             <div class="price_cart_btn__container--btn-send">
                 <button>Wyślij zapytanie</button>
-            </div>
-        </div>
-        <div class="colors_container">
-            <div class="actual_color">
-                <strong>Kolor:</strong>
-                <div class="color_square yellow"></div>
-                <span class="color_name">Żółty</span>
-            </div>
-            <div class="colors_options">
-                <div class="color_square white"></div>
-                <div class="color_square darkblue"></div>
-                <div class="color_square red"></div>
-                <div class="color_square yellow"></div>
-                <div class="color_square green"></div>
-                <div class="color_square purple"></div>
-                <div class="color_square brown"></div>
-                <div class="color_square yellow2"></div>
             </div>
         </div>
         <div class="info-light-blue">

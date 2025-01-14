@@ -4113,6 +4113,9 @@ body:has(.products_card_gallery_open) .support-box .support-box__text p {
   margin-right: 6px;
   cursor: pointer;
 }
+.products_card_gallery_open--details .colors_options .color_square:hover {
+  border: 1px solid #29A8DA !important;
+}
 @media (max-width: 760px) {
   .products_card_gallery_open--details .colors_options .color_square {
     width: 24px;

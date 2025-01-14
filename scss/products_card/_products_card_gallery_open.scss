@@ -305,6 +305,9 @@
         box-sizing: border-box;
         margin-right: 6px;
         cursor: pointer;
+        &:hover {
+          border: 1px solid $blue_color !important;
+        }
         @media (max-width: 760px) {
           width: 24px;
           height: 24px;
