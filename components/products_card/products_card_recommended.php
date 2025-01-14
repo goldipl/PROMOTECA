@@ -1,118 +1,299 @@
 <div class="products_card_recommended">
     <div class="desc_title_box">
-        <h2 class="desc_title_box--title">Inne produkty z tej kategorii</h2>
+        <h2 class="desc_title_box--title">Podobne produkty</h2>
     </div>
-    <div class="products_blocks_wrapper">
-
-        <div class="products_blocks_wrapper__slot">
-            <div class="products_block_wrapper__slot--img">
+      <!-- Slider main container -->
+    <div class="new-gadgets-swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+            <div class="products_container--slot new">
+            <div class="products_wrapper">
+                <div class="products_wrapper--img">
+                <a href="">
+                <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
+                </a>
+                </div>
+                <div class="products_wrapper--title">
+                <a href="">Antystres "kostka" V2704-08</a>
+                </div>
+                <div class="products_wrapper--colors">
+                <a href="" class="color_square white"></a>
+                <a href="" class="color_square darkblue"></a>
+                <a href="" class="color_square red"></a>
+                <a href="" class="color_square yellow"></a>
+                </div>
+                <div class="products_wrapper--price">
+                <p class="price">
+                    <span>0,59</span> PLN
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="products_container--slot">
+            <div class="products_wrapper">
+                <div class="products_wrapper--img">
+                <a href="">
+                    <img src="./assets/img/recommend/notepad.jpg" alt="Bambusowy notatnik ok. A6 V2967-16">
+                </a>
+                </div>
+                <div class="products_wrapper--title">
+                <a href="">Bambusowy notatnik ok. A6 V2967-16</a>
+                </div>
+                <div class="products_wrapper--colors"></div>
+                <div class="products_wrapper--price">
+                <p class="price">
+                    <span>0,59</span> PLN
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="products_container--slot">
+            <div class="products_wrapper">
+                <div class="products_wrapper--img">
+                <a href="">
+                    <img src="./assets/img/recommend/document_clip.jpg" alt="Klips do dokumentów V2794-11">
+                </a>
+                </div>
+                <div class="products_wrapper--title">
+                <a href="">Klips do dokumentów V2794-11</a>
+                </div>
+                <div class="products_wrapper--colors">
+                <a href="" class="color_square white"></a>
+                <a href="" class="color_square darkblue"></a>
+                <a href="" class="color_square red"></a>
+                <a href="" class="color_square yellow"></a>
+                <a href="" class="color_square green"></a>
+                <a href="" class="color_square purple"></a>
+                <a href="" class="color_square brown"></a>
+                <a href="" class="color_square yellow2"></a>
+                </div>
+                <div class="products_wrapper--price">
+                <p class="price">
+                    <span>0,59</span> PLN
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="products_container--slot">
+            <div class="products_wrapper">
+                <div class="products_wrapper--img">
+                <a href="">
+                    <img src="./assets/img/recommend/green_pen.jpg" alt="Długopis El Primero Solid EP-SOLID-09">
+                </a>
+                </div>
+                <div class="products_wrapper--title">
+                <a href="">Długopis El Primero Solid EP-SOLID-09</a>
+                </div>
+                <div class="products_wrapper--colors"></div>
+                <div class="products_wrapper--price">
+                <p class="price">
+                    <span>0,59</span> PLN
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="products_container--slot">
+            <div class="products_wrapper">
+                <div class="products_wrapper--img">
+                <a href="">
+                    <img src="./assets/img/recommend/silver_green_pen.jpg" alt="Długopis AP1001-09">
+                </a>
+                </div>
+                <div class="products_wrapper--title">
+                <a href="">Długopis AP1001-09</a>
+                </div>
+                <div class="products_wrapper--colors"></div>
+                <div class="products_wrapper--price">
+                <p class="price">
+                    <span>0,59</span> PLN
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="products_container--slot">
+            <div class="products_wrapper">
+                <div class="products_wrapper--img">
+                <a href="">
+                    <img src="./assets/img/recommend/white_green_pen.jpg" alt="Długopis AP4515W-09">  
+                </a>
+                </div>
+                <div class="products_wrapper--title">
+                <a href="">Długopis AP4515W-09</a>
+                </div>
+                <div class="products_wrapper--colors"></div>
+                <div class="products_wrapper--price">
+                <p class="price">
+                    <span>0,59</span> PLN
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="products_container--slot new">
+            <div class="products_wrapper">
+                <div class="products_wrapper--img">
                 <a href="">
                     <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
                 </a>
-            </div>
-            <div class="products_block_wrapper__slot--title">
+                </div>
+                <div class="products_wrapper--title">
                 <a href="">Antystres "kostka" V2704-08</a>
+                </div>
+                <div class="products_wrapper--colors">
+                <a href="" class="color_square white"></a>
+                <a href="" class="color_square darkblue"></a>
+                <a href="" class="color_square red"></a>
+                <a href="" class="color_square yellow"></a>
+                </div>
+                <div class="products_wrapper--price">
+                <p class="price">
+                    <span>0,59</span> PLN
+                </p>
+                </div>
             </div>
-            <div class="products_block_wrapper__slot--colors">
-                <div class="color_square white"></div>
-                <div class="color_square darkblue"></div>
-                <div class="color_square red"></div>
-                <div class="color_square yellow"></div>
-                <div class="color_square green"></div>
-                <div class="color_square purple"></div>
-            </div>
-            <div class="products_block_wrapper__slot--price">
-                <p class="price"><span>100,90</span> zł</p>
             </div>
         </div>
-
-        <div class="products_blocks_wrapper__slot">
-            <div class="products_block_wrapper__slot--img">
+        <div class="swiper-slide">
+            <div class="products_container--slot">
+            <div class="products_wrapper">
+                <div class="products_wrapper--img">
+                <a href="">
+                    <img src="./assets/img/recommend/notepad.jpg" alt="Bambusowy notatnik ok. A6 V2967-16">
+                </a>
+                </div>
+                <div class="products_wrapper--title">
+                <a href="">Bambusowy notatnik ok. A6 V2967-16</a>
+                </div>
+                <div class="products_wrapper--colors"></div>
+                <div class="products_wrapper--price">
+                <p class="price">
+                    <span>0,59</span> PLN
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="products_container--slot">
+            <div class="products_wrapper">
+                <div class="products_wrapper--img">
+                <a href="">
+                    <img src="./assets/img/recommend/green_pen.jpg" alt="Długopis El Primero Solid EP-SOLID-09">
+                </a>
+                </div>
+                <div class="products_wrapper--title">
+                <a href="">Długopis El Primero Solid EP-SOLID-09</a>
+                </div>
+                <div class="products_wrapper--colors"></div>
+                <div class="products_wrapper--price">
+                <p class="price">
+                    <span>0,59</span> PLN
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="products_container--slot">
+            <div class="products_wrapper">
+                <div class="products_wrapper--img">
+                <a href="">
+                    <img src="./assets/img/recommend/silver_green_pen.jpg" alt="Długopis AP1001-09">
+                </a>
+                </div>
+                <div class="products_wrapper--title">
+                <a href="">Długopis AP1001-09</a>
+                </div>
+                <div class="products_wrapper--colors"></div>
+                <div class="products_wrapper--price">
+                <p class="price">
+                    <span>0,59</span> PLN
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="products_container--slot">
+            <div class="products_wrapper">
+                <div class="products_wrapper--img">
+                <a href="">
+                    <img src="./assets/img/recommend/white_green_pen.jpg" alt="Długopis AP4515W-09">
+                </a>
+                </div>
+                <div class="products_wrapper--title">
+                <a href="">Długopis AP4515W-09</a>
+                </div>
+                <div class="products_wrapper--colors"></div>
+                <div class="products_wrapper--price">
+                <p class="price">
+                    <span>0,59</span> PLN
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="products_container--slot new">
+            <div class="products_wrapper">
+                <div class="products_wrapper--img">
                 <a href="">
                     <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
                 </a>
-            </div>
-            <div class="products_block_wrapper__slot--title">
+                </div>
+                <div class="products_wrapper--title">
                 <a href="">Antystres "kostka" V2704-08</a>
+                </div>
+                <div class="products_wrapper--colors">
+                <a href="" class="color_square white"></a>
+                <a href="" class="color_square darkblue"></a>
+                <a href="" class="color_square red"></a>
+                <a href="" class="color_square yellow"></a>
+                </div>
+                <div class="products_wrapper--price">
+                <p class="price">
+                    <span>0,59</span> PLN
+                </p>
+                </div>
             </div>
-            <div class="products_block_wrapper__slot--colors">
-                <div class="color_square white"></div>
-                <div class="color_square darkblue"></div>
-                <div class="color_square red"></div>
-                <div class="color_square yellow"></div>
-                <div class="color_square green"></div>
-                <div class="color_square purple"></div>
-            </div>
-            <div class="products_block_wrapper__slot--price">
-                <p class="price"><span>100,90</span> zł</p>
             </div>
         </div>
-
-        <div class="products_blocks_wrapper__slot">
-            <div class="products_block_wrapper__slot--img">
+        <div class="swiper-slide">
+            <div class="products_container--slot">
+            <div class="products_wrapper">
+                <div class="products_wrapper--img">
                 <a href="">
-                    <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
+                    <img src="./assets/img/recommend/notepad.jpg" alt="Bambusowy notatnik ok. A6 V2967-16">
                 </a>
+                </div>
+                <div class="products_wrapper--title">
+                <a href="">Bambusowy notatnik ok. A6 V2967-16</a>
+                </div>
+                <div class="products_wrapper--colors"></div>
+                <div class="products_wrapper--price">
+                <p class="price">
+                    <span>0,59</span> PLN
+                </p>
+                </div>
             </div>
-            <div class="products_block_wrapper__slot--title">
-                <a href="">Antystres "kostka" V2704-08</a>
-            </div>
-            <div class="products_block_wrapper__slot--colors">
-                <div class="color_square white"></div>
-                <div class="color_square darkblue"></div>
-                <div class="color_square red"></div>
-                <div class="color_square yellow"></div>
-                <div class="color_square green"></div>
-                <div class="color_square purple"></div>
-            </div>
-            <div class="products_block_wrapper__slot--price">
-                <p class="price"><span>100,90</span> zł</p>
             </div>
         </div>
-
-        <div class="products_blocks_wrapper__slot">
-            <div class="products_block_wrapper__slot--img">
-                <a href="">
-                    <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
-                </a>
-            </div>
-            <div class="products_block_wrapper__slot--title">
-                <a href="">Antystres "kostka" V2704-08</a>
-            </div>
-            <div class="products_block_wrapper__slot--colors">
-                <div class="color_square white"></div>
-                <div class="color_square darkblue"></div>
-                <div class="color_square red"></div>
-                <div class="color_square yellow"></div>
-                <div class="color_square green"></div>
-                <div class="color_square purple"></div>
-            </div>
-            <div class="products_block_wrapper__slot--price">
-                <p class="price"><span>100,90</span> zł</p>
-            </div>
         </div>
-
-        <div class="products_blocks_wrapper__slot">
-            <div class="products_block_wrapper__slot--img">
-                <a href="">
-                    <img src="./assets/img/recommend/yellow_square.jpg" alt="Antystres kostka V2704-08">
-                </a>
-            </div>
-            <div class="products_block_wrapper__slot--title">
-                <a href="">Antystres "kostka" V2704-08</a>
-            </div>
-            <div class="products_block_wrapper__slot--colors">
-                <div class="color_square white"></div>
-                <div class="color_square darkblue"></div>
-                <div class="color_square red"></div>
-                <div class="color_square yellow"></div>
-                <div class="color_square green"></div>
-                <div class="color_square purple"></div>
-            </div>
-            <div class="products_block_wrapper__slot--price">
-                <p class="price"><span>100,90</span> zł</p>
-            </div>
-        </div>
-
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
     </div>
 </div>
