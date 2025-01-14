@@ -3808,10 +3808,9 @@ body:has(.products_card_gallery_open) .support-box .support-box__text p {
   flex-direction: row;
 }
 .products_card_gallery_open--details .title {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 32px;
+  font-weight: 700;
   line-height: normal;
-  text-transform: uppercase;
   color: #010B32;
   margin-top: 0;
 }
