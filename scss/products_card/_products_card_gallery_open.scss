@@ -237,6 +237,8 @@
     }
     .colors_container {
       display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
       flex-direction: column;
       margin-bottom: 8px;
       .actual_color {
@@ -297,13 +299,14 @@
     }
     .colors_options {
       display: inline-flex;
+      flex-wrap: wrap;
+      gap: 6px;
       margin: 10px 0;
       .color_square {
         width: 20px;
         height: 20px;
         border: 1px solid #d3d3d3;
         box-sizing: border-box;
-        margin-right: 6px;
         cursor: pointer;
         &:hover {
           border: 1px solid $blue_color !important;
@@ -668,10 +671,10 @@
         }
       }
       .colors_container {
-        align-items: center;
+        align-items: flex-start;
         margin-bottom: 15px;
         .actual_color {
-          justify-content: center;
+          justify-content: flex-start;
           margin: 15px 0;
         }
       }
