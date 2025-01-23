@@ -23,7 +23,7 @@
                 <p>Krok 2</p>
             </div>
             <div class="order-process_container__slot--text">
-                <p>Aliqua incididunt elit ea deserunt magna anim aute ullamco</p>
+                <p>Aliqua in magna ullamco</p>
             </div>
         </div>
         <div class="order-process_container__arrow">
