@@ -33,8 +33,12 @@ const categoriesSwiper = new Swiper('.categories-swiper', {
   },
 
   breakpoints: {
-    // when window width is >= 1450px
-     1450: {
+    // when window width is >= 1260px
+     1260: {
+      slidesPerView: 10,
+    },
+    // when window width is >= 1160px
+    1160: {
       slidesPerView: 8,
     },
     // when window width is >= 1040px

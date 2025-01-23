@@ -1206,8 +1206,8 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
 #categories-swiper .categories-swiper .swiper-slide .category-swiper-link .category-swiper-icon-box img {
   -o-object-fit: contain;
      object-fit: contain;
-  width: 70px;
-  height: 70px;
+  width: 64px;
+  height: 64px;
 }
 @media (max-width: 760px) {
   #categories-swiper .categories-swiper .swiper-slide .category-swiper-link .category-swiper-icon-box img {
