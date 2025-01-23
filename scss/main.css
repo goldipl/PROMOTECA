@@ -1314,6 +1314,7 @@ header .bottom-nav-sub-sub-sublist ul a li::after {
 .home-products-list .new-gadgets-swiper,
 .products_card_recommended .new-gadgets-swiper {
   position: relative;
+  overflow: hidden;
 }
 #recommend .swiper-button-next,
 .home-products-list .swiper-button-next,

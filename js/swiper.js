@@ -76,13 +76,21 @@ const newGadgetsSwiper = new Swiper('.new-gadgets-swiper', {
     1040: {
       slidesPerView: 6,
     },
-    // when window width is >= 840px
-    840: {
+    // when window width is >= 960px
+    960: {
       slidesPerView: 5,
     },
-    // when window width is >= 740px
-    740: {
+    // when window width is >= 840px
+    840: {
       slidesPerView: 4,
+    },
+    // when window width is >= 740px
+    780: {
+      slidesPerView: 3,
+    },
+    // when window width is >= 740px
+    700: {
+        slidesPerView: 2,
     },
     // when window width is >= 200px
     200: {
