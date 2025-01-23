@@ -195,16 +195,13 @@
       }
     }
     &-small {
-      margin: 0 auto;
-      width: 100%;
-      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
       .gallery-item {
-        width: 32%;
+        width: 100%;
         height: 160px;
-        margin-right: 5px !important;
-        &:nth-of-type(3n) {
-          margin-right: 0 !important;
-        }
+        margin: 0;
       }
     }
   }
@@ -214,7 +211,7 @@
   .gallery-container-big {
     .big {
       position: relative;
-      margin-bottom: 7px;
+      margin-bottom: 5px;
       .left-bottom-size {
         width: 40px !important;
         height: 40px !important;
@@ -233,12 +230,7 @@
     padding: 0;
     &-small {
       .gallery-item {
-        width: 32%;
         height: 70px;
-        margin-right: 7px !important;
-        &:nth-of-type(3n) {
-          margin-right: 0 !important;
-        }
       }
     }
   }
