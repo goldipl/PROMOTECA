@@ -1993,8 +1993,6 @@ h2.mainpage-title {
   margin-bottom: 10px;
 }
 
-@media (max-width: 760px) {
-  .products_card_gallery_open--details .assistant-box__text a {
-    line-height: 1;
-  }
+.products_card_gallery_open--details .assistant-box__text a {
+  line-height: 1;
 }
