@@ -1,91 +1,116 @@
 #topbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: $blue_color;
+  .topbar_container {
+    position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
+    width: 1576px;
+    height: 45px;
     margin: 0 auto;
-    background-color: $blue_color;
-    .topbar_container {
-        position: relative;
+    box-sizing: border-box;
+    &_slot {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &--img {
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-end;
-        width: 1576px;
-        height: 45px;
-        margin: 0 auto;
-        box-sizing: border-box;
-        &_slot {
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            &--img {
-                margin: 0 12px;
-            }
-            &--text {
-                p {
-                    font-size: 18px;
-                    line-height: 18px;
-                    font-weight: 400;
-                    text-decoration: none;
-                    color: $white;
-                }
-                a {
-                    font-size: 18px;
-                    line-height: 18px;
-                    font-weight: 400;
-                    text-decoration: none;
-                    color: $white;
-                    &:hover {
-                        color: $light_black;
-                    }
-                }
-            }
+        margin: 0 12px;
+        width: 15px;
+        height: 15px;
+        a {
+          line-height: 1;
         }
-        &_line {
-            display: block;
-            width: 1px;
-            height: 12px;
-            background-color: $white;
-            margin: 0 0 0 12px;
+        img {
+          height: 15px;
+          width: auto;
+          max-width: 15px;
+          object-fit: contain;
         }
+      }
+      &--text {
+        p {
+          font-size: 18px;
+          line-height: 18px;
+          font-weight: 400;
+          text-decoration: none;
+          color: $white;
+          margin: 0;
+        }
+        a {
+          font-size: 18px;
+          line-height: 1;
+          font-weight: 400;
+          text-decoration: none;
+          color: $white;
+          margin: 0;
+          &:hover {
+            color: $light_black;
+          }
+        }
+      }
     }
+    &_line {
+      display: block;
+      width: 1px;
+      height: 12px;
+      background-color: $white;
+      margin: 0 0 0 12px;
+    }
+  }
 }
 
 @media (max-width: 1576px) {
-    #topbar {
-        .topbar_container {
-            width: 90%;
-        }
+  #topbar {
+    .topbar_container {
+      width: 90%;
     }
+  }
 }
 
 @media (max-width: 1280px) {
-    #topbar {
-        .topbar_container {
-            justify-content: center;
-            width: 100%;
-            &_slot {
-                &--img {
-                    margin: 0 6px;
-                }
-                &--text {
-                    p {
-                        font-size: 10px;
-                        line-height: 10px;
-                    }
-                    a {
-                        font-size: 10px;
-                        line-height: 10px;
-                    }
-                }
-            }
-            &_line {
-                display: block;
-                width: 1px;
-                height: 12px;
-                background-color: $white;
-                margin: 0 0 0 12px;
-            }
+  #topbar {
+    .topbar_container {
+      justify-content: center;
+      width: 100%;
+      gap: 4px;
+      &_slot {
+        height: 15px;
+        &--img {
+          margin: 0 6px;
         }
+        &--text {
+          p {
+            font-size: 10px;
+            line-height: 10px;
+          }
+          a {
+            font-size: 10px;
+            line-height: 10px;
+          }
+        }
+      }
+      &_line {
+        display: none;
+      }
     }
+  }
+}
+
+@media (max-width: 340px) {
+  #topbar {
+    .topbar_container {
+      &_slot {
+        &:nth-of-type(3),
+        &:nth-of-type(4) {
+          display: none;
+        }
+      }
+    }
+  }
 }

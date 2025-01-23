@@ -157,12 +157,25 @@ h1.mainpage-title span {
   box-sizing: border-box;
 }
 #topbar .topbar_container_slot {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 #topbar .topbar_container_slot--img {
+  display: flex;
   margin: 0 12px;
+  width: 15px;
+  height: 15px;
+}
+#topbar .topbar_container_slot--img a {
+  line-height: 1;
+}
+#topbar .topbar_container_slot--img img {
+  height: 15px;
+  width: auto;
+  max-width: 15px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 #topbar .topbar_container_slot--text p {
   font-size: 18px;
@@ -170,13 +183,15 @@ h1.mainpage-title span {
   font-weight: 400;
   text-decoration: none;
   color: #FFFFFF;
+  margin: 0;
 }
 #topbar .topbar_container_slot--text a {
   font-size: 18px;
-  line-height: 18px;
+  line-height: 1;
   font-weight: 400;
   text-decoration: none;
   color: #FFFFFF;
+  margin: 0;
 }
 #topbar .topbar_container_slot--text a:hover {
   color: #333333;
@@ -198,6 +213,10 @@ h1.mainpage-title span {
   #topbar .topbar_container {
     justify-content: center;
     width: 100%;
+    gap: 4px;
+  }
+  #topbar .topbar_container_slot {
+    height: 15px;
   }
   #topbar .topbar_container_slot--img {
     margin: 0 6px;
@@ -211,11 +230,12 @@ h1.mainpage-title span {
     line-height: 10px;
   }
   #topbar .topbar_container_line {
-    display: block;
-    width: 1px;
-    height: 12px;
-    background-color: #FFFFFF;
-    margin: 0 0 0 12px;
+    display: none;
+  }
+}
+@media (max-width: 340px) {
+  #topbar .topbar_container_slot:nth-of-type(3), #topbar .topbar_container_slot:nth-of-type(4) {
+    display: none;
   }
 }
 header {
